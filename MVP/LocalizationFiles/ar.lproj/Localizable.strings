@@ -639,3 +639,6 @@
 "Our Mind" = "رأينا";
 "MSA's MSA" = "أخبار MSA";
 "The News" = "الأخبار";
+
+"maintenance_screen_title" = "في شغل صيانة دلوقتي";
+"maintenance_screen_message" = "الشاشة دي بنشتغل عليها دلوقتي وهترجع تاني قريب.\nمعلش على الإزعاج 🙏";

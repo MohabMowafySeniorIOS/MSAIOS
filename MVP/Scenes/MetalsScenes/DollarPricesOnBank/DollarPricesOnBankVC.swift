@@ -37,8 +37,16 @@ class DollarPricesOnBankVC: BaseControllerVC {
         tableView.dataSource = self
         tableView.delegate = self
         tableView.RegisterNib(cell: DollarCell.self)
-       
-    
+
+        // Dollar-prices-only maintenance switch (`iosdollarMaintain` in the
+        // appVersion doc). Covers just this screen's content; the tab bar keeps
+        // working so the user can head back to Home.
+        bindScreenMaintenance(.dollar)
+    }
+
+    deinit {
+        ScreenMaintenanceService.shared.stopObserving(owner: self)
+        listener?.remove()
     }
     @IBAction func changeCurrencyView(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Home", bundle: nil)

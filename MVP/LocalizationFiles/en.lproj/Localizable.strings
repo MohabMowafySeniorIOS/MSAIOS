@@ -532,3 +532,6 @@
 "zakat_haul_condition" = "A full lunar (Hijri) year must pass before Zakat becomes due.";
 "total_pure_silver" = "Total pure silver: %@ g";
 "zakat_weight" = "Zakat: %@ g";
+
+"maintenance_screen_title" = "We’re doing some maintenance";
+"maintenance_screen_message" = "We’re working on this screen right now and it will be back shortly.\nSorry for the inconvenience 🙏";

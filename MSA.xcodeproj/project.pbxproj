@@ -143,6 +143,8 @@
 		C1A5D0712FD18C8200B57834 /* TechnicalAnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A5D0702FD18C8200B57834 /* TechnicalAnalysisView.swift */; };
 		C1A5D0732FD18CA500B57834 /* ChangeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A5D0722FD18CA500B57834 /* ChangeBadge.swift */; };
 		C1A5D0752FD18CC700B57834 /* TAPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A5D0742FD18CC700B57834 /* TAPeriod.swift */; };
+		C1AA10012F00000100AAF001 /* ScreenMaintenanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA10002F00000100AAF000 /* ScreenMaintenanceService.swift */; };
+		C1AA10032F00000100AAF003 /* ScreenMaintenanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AA10022F00000100AAF002 /* ScreenMaintenanceView.swift */; };
 		C1AB62BF2F92991F00EFFE31 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = C1AB62BE2F92991F00EFFE31 /* SwiftSoup */; };
 		C1AB633B2F92D0C800EFFE31 /* GoldStatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AB633A2F92D0C800EFFE31 /* GoldStatisticsView.swift */; };
 		C1AC709526C1AD2600C6AE12 /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AC709426C1AD2600C6AE12 /* ShimmerView.swift */; };
@@ -342,6 +344,8 @@
 		C1A5D0702FD18C8200B57834 /* TechnicalAnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnicalAnalysisView.swift; sourceTree = "<group>"; };
 		C1A5D0722FD18CA500B57834 /* ChangeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeBadge.swift; sourceTree = "<group>"; };
 		C1A5D0742FD18CC700B57834 /* TAPeriod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAPeriod.swift; sourceTree = "<group>"; };
+		C1AA10002F00000100AAF000 /* ScreenMaintenanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenMaintenanceService.swift; sourceTree = "<group>"; };
+		C1AA10022F00000100AAF002 /* ScreenMaintenanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenMaintenanceView.swift; sourceTree = "<group>"; };
 		C1AB633A2F92D0C800EFFE31 /* GoldStatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldStatisticsView.swift; sourceTree = "<group>"; };
 		C1AC709426C1AD2600C6AE12 /* ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
 		C1AF31A92F9D47890028BEDE /* bullionsScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bullionsScreenView.swift; sourceTree = "<group>"; };
@@ -789,6 +793,7 @@
 		C1CAC3E626A4311100D8DCE2 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				C1AA10002F00000100AAF000 /* ScreenMaintenanceService.swift */,
 				C1CAC3E726A4312E00D8DCE2 /* HelperClass.swift */,
 			);
 			path = Helper;
@@ -980,6 +985,7 @@
 		F2BA385D26203BB800A2D167 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				C1AA10022F00000100AAF002 /* ScreenMaintenanceView.swift */,
 				F2BA396526207B0400A2D167 /* AlertViewHandler */,
 				F2BA39282620733B00A2D167 /* No Data */,
 				F2BA3910262072D700A2D167 /* No Internet View */,
@@ -1346,6 +1352,8 @@
 				C1772DD726CEF15900CA41B7 /* UIImage+Class.swift in Sources */,
 				4E0EA5212BB87660005665A5 /* Extention+Date.swift in Sources */,
 				C1A5D0752FD18CC700B57834 /* TAPeriod.swift in Sources */,
+				C1AA10012F00000100AAF001 /* ScreenMaintenanceService.swift in Sources */,
+				C1AA10032F00000100AAF003 /* ScreenMaintenanceView.swift in Sources */,
 				C1CAC3E826A4312E00D8DCE2 /* HelperClass.swift in Sources */,
 				F2BA38EC2620523200A2D167 /* Optional+.swift in Sources */,
 				C1CAC3CD26A430B900D8DCE2 /* LocalizationFile.swift in Sources */,
@@ -1609,7 +1617,7 @@
 				CODE_SIGN_ENTITLEMENTS = MVP/MVP.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.2;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = XQZM5GHRQ6;
 				ENABLE_BITCODE = NO;
@@ -1621,7 +1629,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1;
+				MARKETING_VERSION = 2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = CurrencyApp.com.CurrencyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1644,7 +1652,7 @@
 				CODE_SIGN_ENTITLEMENTS = MVP/MVP.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.2;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = XQZM5GHRQ6;
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = "";
@@ -1655,7 +1663,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1;
+				MARKETING_VERSION = 2.2;
 				PRODUCT_BUNDLE_IDENTIFIER = CurrencyApp.com.CurrencyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

@@ -71,9 +71,15 @@ class HomeVC: BaseControllerVC {
     @IBOutlet weak var banneView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         getAppVersion()
-        
+
+        // Home-only maintenance switch (`ioshomeMaintain` in the appVersion doc).
+        // Independent of `iosneedMaintain` above, which still blocks the whole
+        // app. This one only covers the Home content — the tab bar stays live so
+        // the user can go to prices, news, etc.
+        bindScreenMaintenance(.home)
+
 //        let swiftUIView = BannerAdView()
 //
 //              let hostingController = UIHostingController(
@@ -190,9 +196,13 @@ class HomeVC: BaseControllerVC {
     override func viewWillAppear(_ animated: Bool) {
         navigationController?.isNavigationBarHidden = true
         tabBarController?.tabBar.isHidden = false
-      
+
     }
-    
+
+    deinit {
+        ScreenMaintenanceService.shared.stopObserving(owner: self)
+    }
+
    
     @IBAction func goldAction(_ sender: Any) {
         metalType = .Gold
