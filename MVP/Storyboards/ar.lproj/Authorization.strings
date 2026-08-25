@@ -1,0 +1,51 @@
+
+/* Class = "UILabel"; text = "مرحباً بك في زود\nحدد أحد الخيارات التالية للمتابعة"; ObjectID = "67a-P0-hyy"; */
+"67a-P0-hyy.text" = "مرحباً بك في زود\nحدد أحد الخيارات التالية للمتابعة";
+
+/* Class = "UITextField"; placeholder = "User Name"; ObjectID = "CI7-I6-8X7"; */
+"CI7-I6-8X7.placeholder" = "User Name";
+
+/* Class = "UILabel"; text = "To register a new account, please enter the following information"; ObjectID = "D4i-t6-6Op"; */
+"D4i-t6-6Op.text" = "To register a new account, please enter the following information";
+
+/* Class = "UITextField"; placeholder = "Phone number"; ObjectID = "GX7-L4-olB"; */
+"GX7-L4-olB.placeholder" = "Phone number";
+
+/* Class = "UIButton"; normalTitle = "تسجيل حساب جديد"; ObjectID = "Hpl-jC-9g4"; */
+"Hpl-jC-9g4.normalTitle" = "تسجيل حساب جديد";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "QGc-Ql-EYr"; */
+"QGc-Ql-EYr.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "التصفح كزائر والتسجيل لاحقاً"; ObjectID = "Qu8-7P-DWt"; */
+"Qu8-7P-DWt.normalTitle" = "التصفح كزائر والتسجيل لاحقاً";
+
+/* Class = "UINavigationItem"; title = "تسجيل حساب جديد"; ObjectID = "R4E-1E-Cyv"; */
+"R4E-1E-Cyv.title" = "تسجيل حساب جديد";
+
+/* Class = "UIButton"; normalTitle = "دخول لحساب مسجل"; ObjectID = "T5M-Tk-Ad8"; */
+"T5M-Tk-Ad8.normalTitle" = "دخول لحساب مسجل";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "WYd-9X-vGL"; */
+"WYd-9X-vGL.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "and"; ObjectID = "XoM-ah-E7z"; */
+"XoM-ah-E7z.text" = "and";
+
+/* Class = "UILabel"; text = "Note: Your real name is only shown to the administration and the username is what\nShows other users"; ObjectID = "egO-7M-OhU"; */
+"egO-7M-OhU.text" = "Note: Your real name is only shown to the administration and the username is what\nShows other users";
+
+/* Class = "UILabel"; text = "Commission Agreement"; ObjectID = "kze-Jc-FkA"; */
+"kze-Jc-FkA.text" = "Commission Agreement";
+
+/* Class = "UIButton"; normalTitle = "sign in"; ObjectID = "lyt-KU-2fO"; */
+"lyt-KU-2fO.normalTitle" = "sign in";
+
+/* Class = "UILabel"; text = "By registering with Zod I agree to"; ObjectID = "oCy-hU-C70"; */
+"oCy-hU-C70.text" = "By registering with Zod I agree to";
+
+/* Class = "UILabel"; text = "Terms and Conditions"; ObjectID = "sax-mm-2Pm"; */
+"sax-mm-2Pm.text" = "Terms and Conditions";
+
+/* Class = "UITextField"; placeholder = "Real Name"; ObjectID = "xLG-EF-cbj"; */
+"xLG-EF-cbj.placeholder" = "Real Name";

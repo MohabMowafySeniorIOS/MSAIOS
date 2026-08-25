@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "No internet "; ObjectID = "CKo-eb-3gb"; */
+"CKo-eb-3gb.attributedText" = "No internet ";
+
+/* Class = "UIButton"; normalTitle = "Retry"; ObjectID = "bqk-Jf-qof"; */
+"bqk-Jf-qof.normalTitle" = "Retry";
+
+/* Class = "UILabel"; text = "Please check you internet connection and try again"; ObjectID = "yuW-lG-jlN"; */
+"yuW-lG-jlN.attributedText" = "Please check you internet connection and try again";

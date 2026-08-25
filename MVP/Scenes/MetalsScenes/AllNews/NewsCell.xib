@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24765" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24743"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="313" id="KGk-i7-Jjw" customClass="NewsCell" customModule="MSA" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="475" height="313"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="475" height="313"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sZQ-FX-KZw">
+                        <rect key="frame" x="16" y="8" width="443" height="297"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HAk-5x-xbc">
+                                <rect key="frame" x="16" y="16" width="411" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="N63-AK-wkS"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="EAZ-7P-5Gh">
+                                <rect key="frame" x="16" y="152" width="411" height="76.333333333333314"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Slq-vA-pTO">
+                                        <rect key="frame" x="0.0" y="0.0" width="411" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" name="WhiteColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="FontBoldSize">
+                                                <real key="value" value="16"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W1S-bR-Es4">
+                                        <rect key="frame" x="0.0" y="28.333333333333343" width="411" height="20"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" name="WhiteColor"/>
+                                        <color key="highlightedColor" name="WhiteColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="FontBoldSize">
+                                                <real key="value" value="14"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3F-ni-ZC5">
+                                        <rect key="frame" x="0.0" y="56.333333333333343" width="411" height="20"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" name="WhiteColor"/>
+                                        <color key="highlightedColor" name="WhiteColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="FontRegularSize">
+                                                <real key="value" value="14"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="EAZ-7P-5Gh" secondAttribute="bottom" constant="16" id="MQ2-9e-Oih"/>
+                            <constraint firstItem="EAZ-7P-5Gh" firstAttribute="top" secondItem="HAk-5x-xbc" secondAttribute="bottom" constant="16" id="Pn3-fl-pnd"/>
+                            <constraint firstItem="EAZ-7P-5Gh" firstAttribute="leading" secondItem="sZQ-FX-KZw" secondAttribute="leading" constant="16" id="Pyo-X4-ToO"/>
+                            <constraint firstItem="HAk-5x-xbc" firstAttribute="leading" secondItem="sZQ-FX-KZw" secondAttribute="leading" constant="16" id="QXb-hS-ZDm"/>
+                            <constraint firstItem="HAk-5x-xbc" firstAttribute="top" secondItem="sZQ-FX-KZw" secondAttribute="top" constant="16" id="YuW-om-FEM"/>
+                            <constraint firstAttribute="trailing" secondItem="EAZ-7P-5Gh" secondAttribute="trailing" constant="16" id="nqw-fQ-eDC"/>
+                            <constraint firstAttribute="trailing" secondItem="HAk-5x-xbc" secondAttribute="trailing" constant="16" id="vHN-0M-o6P"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="16"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" name="MainColor"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="sZQ-FX-KZw" secondAttribute="bottom" constant="8" id="4XG-et-ysR"/>
+                    <constraint firstItem="sZQ-FX-KZw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="AZX-Tj-Z2h"/>
+                    <constraint firstAttribute="trailing" secondItem="sZQ-FX-KZw" secondAttribute="trailing" constant="16" id="k68-Wq-TMg"/>
+                    <constraint firstItem="sZQ-FX-KZw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="xqX-4p-4UY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="dateLabel" destination="e3F-ni-ZC5" id="SHg-hZ-P94"/>
+                <outlet property="desLabel" destination="W1S-bR-Es4" id="zPW-gl-Cgd"/>
+                <outlet property="imgCell" destination="HAk-5x-xbc" id="eLS-Nb-vLO"/>
+                <outlet property="titleLabel" destination="Slq-vA-pTO" id="5cI-Ds-r3D"/>
+            </connections>
+            <point key="canvasLocation" x="257.25190839694653" y="222.18309859154931"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="MainColor">
+            <color red="0.78799998760223389" green="0.67500001192092896" blue="0.45500001311302185" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

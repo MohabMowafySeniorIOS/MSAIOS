@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ProfileICon.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

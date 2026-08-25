@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Bahij_TheSansArabic-Bold.ttf">
+            <string>BahijTheSansArabicBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="232" id="KGk-i7-Jjw" customClass="NotificationCell" customModule="SIN" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="232"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="374" height="232"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6F2-bI-lUu">
+                        <rect key="frame" x="0.0" y="5" width="374" height="222"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aBS-93-BEM">
+                                <rect key="frame" x="10" y="16" width="340" height="48"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="cKE-0E-1Z7">
+                                        <rect key="frame" x="48" y="0.0" width="292" height="48"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="waH-Xs-ev5">
+                                                <rect key="frame" x="0.0" y="0.0" width="292" height="20"/>
+                                                <fontDescription key="fontDescription" name="BahijTheSansArabicBold" family="Bahij TheSansArabic" pointSize="17"/>
+                                                <color key="textColor" red="0.11764705882352941" green="0.11764705882352941" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="FontBoldSize">
+                                                        <real key="value" value="14"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="FontRegularSize">
+                                                        <real key="value" value="14"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hpk-Or-2Yt">
+                                                <rect key="frame" x="0.0" y="28" width="292" height="20"/>
+                                                <fontDescription key="fontDescription" name="BahijTheSansArabicBold" family="Bahij TheSansArabic" pointSize="17"/>
+                                                <color key="textColor" red="0.40000000000000002" green="0.4392156862745098" blue="0.52156862745098043" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="FontPlainSize">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="FontRegularSize">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notificationiconnew" translatesAutoresizingMaskIntoConstraints="NO" id="CUs-Xv-p4d">
+                                        <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="32" id="6YX-Gp-nFZ"/>
+                                            <constraint firstAttribute="height" constant="32" id="QMu-su-5ok"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="cKE-0E-1Z7" secondAttribute="bottom" id="7x5-ue-ltP"/>
+                                    <constraint firstItem="cKE-0E-1Z7" firstAttribute="top" secondItem="aBS-93-BEM" secondAttribute="top" id="CSu-M7-45o"/>
+                                    <constraint firstItem="cKE-0E-1Z7" firstAttribute="leading" secondItem="CUs-Xv-p4d" secondAttribute="trailing" constant="16" id="O15-Ql-AUx"/>
+                                    <constraint firstAttribute="trailing" secondItem="cKE-0E-1Z7" secondAttribute="trailing" id="ZqX-DS-N30"/>
+                                    <constraint firstItem="CUs-Xv-p4d" firstAttribute="leading" secondItem="aBS-93-BEM" secondAttribute="leading" id="fQY-B0-fIe"/>
+                                    <constraint firstItem="cKE-0E-1Z7" firstAttribute="top" secondItem="aBS-93-BEM" secondAttribute="top" id="ipn-kl-6xX"/>
+                                    <constraint firstItem="CUs-Xv-p4d" firstAttribute="top" secondItem="aBS-93-BEM" secondAttribute="top" id="lRz-dl-dvs"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="aBS-93-BEM" firstAttribute="top" secondItem="6F2-bI-lUu" secondAttribute="top" constant="16" id="Py4-y4-hhk"/>
+                            <constraint firstItem="aBS-93-BEM" firstAttribute="leading" secondItem="6F2-bI-lUu" secondAttribute="leading" constant="10" id="Wek-nG-OEF"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="aBS-93-BEM" secondAttribute="bottom" constant="16" id="Zr4-Ix-ftc"/>
+                            <constraint firstAttribute="trailing" secondItem="aBS-93-BEM" secondAttribute="trailing" constant="24" id="mWY-wl-Fzt"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.90980392156862744" green="0.91764705882352937" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="6F2-bI-lUu" secondAttribute="bottom" constant="5" id="1sL-fp-Gi9"/>
+                    <constraint firstItem="6F2-bI-lUu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Drl-Fr-ES1"/>
+                    <constraint firstAttribute="trailing" secondItem="6F2-bI-lUu" secondAttribute="trailing" id="WiF-Cz-GXH"/>
+                    <constraint firstItem="6F2-bI-lUu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="vlV-DS-aec"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="NotificationIcon" destination="CUs-Xv-p4d" id="0To-Gf-WGj"/>
+                <outlet property="messageLbl" destination="waH-Xs-ev5" id="gZO-BQ-vKS"/>
+                <outlet property="timeLbl" destination="Hpk-Or-2Yt" id="cW6-S0-0Ie"/>
+                <outlet property="viewCell" destination="6F2-bI-lUu" id="eA6-i1-brU"/>
+            </connections>
+            <point key="canvasLocation" x="129.7709923664122" y="85.211267605633807"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="notificationiconnew" width="32" height="32"/>
+    </resources>
+</document>

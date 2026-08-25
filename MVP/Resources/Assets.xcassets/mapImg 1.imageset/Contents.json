@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "mapImg.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

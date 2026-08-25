@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24765" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24743"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="IBMPlexSansArabic-Bold.ttf">
+            <string>IBMPlexSansArabic-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeaderView">
+            <connections>
+                <outlet property="titleLabel" destination="3nP-Lr-lhG" id="wqF-tm-p0g"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Gcy-R1-GkH">
+            <rect key="frame" x="0.0" y="0.0" width="509" height="167"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pvl-wg-tBL">
+                    <rect key="frame" x="0.0" y="39" width="509" height="60"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="5nq-cp-9xO">
+                            <rect key="frame" x="179.5" y="0.0" width="150" height="60"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MSALogo" translatesAutoresizingMaskIntoConstraints="NO" id="Zgj-TI-ecP">
+                                    <rect key="frame" x="0.0" y="0.0" width="70" height="60"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="70" id="zx6-z5-8ji"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Screen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3nP-Lr-lhG">
+                                    <rect key="frame" x="78" y="13.5" width="72" height="33"/>
+                                    <fontDescription key="fontDescription" name="IBMPlexSansArabic-Bold" family="IBM Plex Sans Arabic" pointSize="22"/>
+                                    <color key="textColor" name="WhiteColor"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="Screen"/>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="FontBoldSize">
+                                            <real key="value" value="24"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shared" translatesAutoresizingMaskIntoConstraints="NO" id="5LI-pe-6r6">
+                            <rect key="frame" x="461" y="14" width="32" height="32"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="32" id="dlW-kr-PbS"/>
+                                <constraint firstAttribute="width" constant="32" id="tsj-gR-8ih"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Pr-eF-gN4">
+                            <rect key="frame" x="463" y="14" width="28.5" height="32"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title=" "/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value=" "/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="shareAction:" destination="-1" eventType="touchUpInside" id="Xlc-jE-4lW"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="5nq-cp-9xO" secondAttribute="bottom" id="4z0-kS-hHN"/>
+                        <constraint firstItem="0Pr-eF-gN4" firstAttribute="centerX" secondItem="5LI-pe-6r6" secondAttribute="centerX" id="7sx-Db-2Sp"/>
+                        <constraint firstItem="5nq-cp-9xO" firstAttribute="top" secondItem="Pvl-wg-tBL" secondAttribute="top" id="GFs-e9-mlN"/>
+                        <constraint firstItem="5LI-pe-6r6" firstAttribute="centerY" secondItem="Pvl-wg-tBL" secondAttribute="centerY" id="KRe-68-5JM"/>
+                        <constraint firstItem="0Pr-eF-gN4" firstAttribute="centerY" secondItem="5LI-pe-6r6" secondAttribute="centerY" id="M9W-yS-ZSD"/>
+                        <constraint firstAttribute="trailing" secondItem="5LI-pe-6r6" secondAttribute="trailing" constant="16" id="YAD-DX-H0G"/>
+                        <constraint firstItem="0Pr-eF-gN4" firstAttribute="top" secondItem="5LI-pe-6r6" secondAttribute="top" id="aJ4-IU-fjn"/>
+                        <constraint firstAttribute="height" constant="60" id="cL7-uW-7Uf"/>
+                        <constraint firstItem="0Pr-eF-gN4" firstAttribute="bottom" secondItem="5LI-pe-6r6" secondAttribute="bottom" id="kt3-ij-eb8"/>
+                        <constraint firstItem="5nq-cp-9xO" firstAttribute="centerX" secondItem="Pvl-wg-tBL" secondAttribute="centerX" id="yNh-eJ-yrX"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="m1P-Ce-TZT"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="m1P-Ce-TZT" firstAttribute="bottom" secondItem="Pvl-wg-tBL" secondAttribute="bottom" id="42m-22-OyP"/>
+                <constraint firstItem="Pvl-wg-tBL" firstAttribute="leading" secondItem="m1P-Ce-TZT" secondAttribute="leading" id="FWw-EJ-1HA"/>
+                <constraint firstItem="Pvl-wg-tBL" firstAttribute="leading" secondItem="m1P-Ce-TZT" secondAttribute="leading" id="HBW-8W-4PV"/>
+                <constraint firstItem="Pvl-wg-tBL" firstAttribute="top" secondItem="Gcy-R1-GkH" secondAttribute="top" id="S5t-AT-A3t"/>
+                <constraint firstItem="m1P-Ce-TZT" firstAttribute="trailing" secondItem="Pvl-wg-tBL" secondAttribute="trailing" id="Sk5-DK-sbf"/>
+                <constraint firstItem="Pvl-wg-tBL" firstAttribute="trailing" secondItem="m1P-Ce-TZT" secondAttribute="trailing" id="Tlp-Ge-0uu"/>
+                <constraint firstItem="m1P-Ce-TZT" firstAttribute="bottom" secondItem="Pvl-wg-tBL" secondAttribute="bottom" id="rUS-Rm-JGS"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-132.60869565217394" y="-738.28125"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="MSALogo" width="1536" height="1024"/>
+        <image name="shared" width="24" height="24"/>
+        <namedColor name="WhiteColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

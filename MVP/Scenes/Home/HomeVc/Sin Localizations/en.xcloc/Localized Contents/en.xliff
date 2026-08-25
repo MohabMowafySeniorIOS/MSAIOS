@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="MVP/Core/en.lproj/InfoPlist.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.3" build-num="15E204a"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName" xml:space="preserve">
+        <source>SIN</source>
+        <target>SIN</target>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>Sin</source>
+        <target>Sin</target>
+        <note>Bundle name</note>
+      </trans-unit>
+      <trans-unit id="NSCameraUsageDescription" xml:space="preserve">
+        <source>we will use your photo to add media or change profile picture </source>
+        <target>we will use your photo to add media or change profile picture </target>
+        <note>Privacy - Camera Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSLocationAlwaysAndWhenInUseUsageDescription" xml:space="preserve">
+        <source>Use your current location to determine the nearest service providers you</source>
+        <target>Use your current location to determine the nearest service providers you</target>
+        <note>Privacy - Location Always and When In Use Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSLocationAlwaysUsageDescription" xml:space="preserve">
+        <source>Use your current location to determine the nearest service providers you</source>
+        <target>Use your current location to determine the nearest service providers you</target>
+        <note>Privacy - Location Always Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription" xml:space="preserve">
+        <source>Use your current location to determine the nearest service providers you</source>
+        <target>Use your current location to determine the nearest service providers you</target>
+        <note>Privacy - Location When In Use Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSPhotoLibraryAddUsageDescription" xml:space="preserve">
+        <source>we will use your photo to add media or change profile picture </source>
+        <target>we will use your photo to add media or change profile picture </target>
+        <note>Privacy - Photo Library Additions Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSPhotoLibraryUsageDescription" xml:space="preserve">
+        <source>we will use your photo to add media or change profile picture </source>
+        <target>we will use your photo to add media or change profile picture </target>
+        <note>Privacy - Photo Library Usage Description</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="MVP/CustomViews/No Data/Base.lproj/NoDataView.xib" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.3" build-num="15E204a"/>
+    </header>
+    <body>
+      <trans-unit id="3Gh-aO-iEy.normalTitle" xml:space="preserve">
+        <source>Go Home</source>
+        <target>Go Home</target>
+        <note>Class = "UIButton"; normalTitle = "Go Home"; ObjectID = "3Gh-aO-iEy";</note>
+      </trans-unit>
+      <trans-unit id="WIb-r4-wGs.text" xml:space="preserve">
+        <source>Lets order delicious food now</source>
+        <target>Lets order delicious food now</target>
+        <note>Class = "UILabel"; text = "Lets order delicious food now"; ObjectID = "WIb-r4-wGs";</note>
+      </trans-unit>
+      <trans-unit id="pkE-Yd-uCH.text" xml:space="preserve">
+        <source>You Dont Have </source>
+        <target>You Dont Have </target>
+        <note>Class = "UILabel"; text = "You Dont Have "; ObjectID = "pkE-Yd-uCH";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="MVP/CustomViews/No Internet View/Base.lproj/NoInterNet.xib" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.3" build-num="15E204a"/>
+    </header>
+    <body>
+      <trans-unit id="CKo-eb-3gb.text" xml:space="preserve">
+        <source>No internet </source>
+        <target>No internet </target>
+        <note>Class = "UILabel"; text = "No internet "; ObjectID = "CKo-eb-3gb";</note>
+      </trans-unit>
+      <trans-unit id="bqk-Jf-qof.normalTitle" xml:space="preserve">
+        <source>Retry</source>
+        <target>Retry</target>
+        <note>Class = "UIButton"; normalTitle = "Retry"; ObjectID = "bqk-Jf-qof";</note>
+      </trans-unit>
+      <trans-unit id="yuW-lG-jlN.text" xml:space="preserve">
+        <source>Please check you internet connection and try again</source>
+        <target>Please check you internet connection and try again</target>
+        <note>Class = "UILabel"; text = "Please check you internet connection and try again"; ObjectID = "yuW-lG-jlN";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="MVP/LocalizationFiles/en.lproj/Localizable.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.3" build-num="15E204a"/>
+    </header>
+    <body>
+      <trans-unit id="wrongEmailError" xml:space="preserve">
+        <source>Invalid E-Mail</source>
+        <target>Invalid E-Mail</target>
+        <note>Localizable.strings&#13;
+  MaiTenance&#13;
+&#13;
+  Created by Mohab on 8/30/20.&#13;
+  Copyright © 2020 project. All rights reserved.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="MVP/Storyboards/Base.lproj/Authorization.storyboard" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.3" build-num="15E204a"/>
+    </header>
+    <body>
+      <trans-unit id="EDH-la-ykD.configuration.title" xml:space="preserve">
+        <source>Log In</source>
+        <target>Log In</target>
+        <note>Class = "UIButton"; configuration.title = "Log In"; ObjectID = "EDH-la-ykD";</note>
+      </trans-unit>
+      <trans-unit id="EDH-la-ykD.normalTitle" xml:space="preserve">
+        <source>Button</source>
+        <target>Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "EDH-la-ykD";</note>
+      </trans-unit>
+      <trans-unit id="HCo-ch-M3T.text" xml:space="preserve">
+        <source>Log In</source>
+        <target>Log In</target>
+        <note>Class = "UILabel"; text = "Log In"; ObjectID = "HCo-ch-M3T";</note>
+      </trans-unit>
+      <trans-unit id="Nye-yx-U8d.normalTitle" xml:space="preserve">
+        <source>Button</source>
+        <target>Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "Nye-yx-U8d";</note>
+      </trans-unit>
+      <trans-unit id="c72-dV-9o2.normalTitle" xml:space="preserve">
+        <source>Next</source>
+        <target>Next</target>
+        <note>Class = "UIButton"; normalTitle = "Next"; ObjectID = "c72-dV-9o2";</note>
+      </trans-unit>
+      <trans-unit id="fw3-Ka-Dig.text" xml:space="preserve">
+        <source>Log In To The Seen Platform</source>
+        <target>Log In To The Seen Platform</target>
+        <note>Class = "UILabel"; text = "Log In To The Seen Platform"; ObjectID = "fw3-Ka-Dig";</note>
+      </trans-unit>
+      <trans-unit id="u4q-hv-23V.configuration.title" xml:space="preserve">
+        <source> </source>
+        <target> </target>
+        <note>Class = "UIButton"; configuration.title = " "; ObjectID = "u4q-hv-23V";</note>
+      </trans-unit>
+      <trans-unit id="u4q-hv-23V.normalTitle" xml:space="preserve">
+        <source>Button</source>
+        <target>Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "u4q-hv-23V";</note>
+      </trans-unit>
+      <trans-unit id="uLa-Ji-cTd.placeholder" xml:space="preserve">
+        <source>Search For A Product That You Want To Rent</source>
+        <target>Search For A Product That You Want To Rent</target>
+        <note>Class = "UITextField"; placeholder = "Search For A Product That You Want To Rent"; ObjectID = "uLa-Ji-cTd";</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

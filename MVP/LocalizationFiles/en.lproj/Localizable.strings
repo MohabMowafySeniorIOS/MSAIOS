@@ -1,0 +1,534 @@
+/* 
+  Localizable.strings
+  MaiTenance
+
+  Created by Mohab on 8/30/20.
+  Copyright © 2020 project. All rights reserved.
+*/
+
+
+"Dollar_Bank" = "Dollar"; 
+"wrongEmailError"                                                                     = "Invalid E-Mail"               ;
+"individual"                                                                          = "Client"                       ;
+"organization"                                                                        = "Organization"                 ;
+"company"                                                                             = "company"                      ;
+"wait"                                                                                = "Wait"                         ;
+"agree"                                                                               = "Agree"                        ;
+"refuse"                                                                              = "Cancelled"                    ;
+"normal"                                                                              = "Normal"                       ;
+"marketing"                                                                           = "Marketing"                    ;
+
+
+//Global Keys
+"R.S"                                                                                 = "R.S"                           ;
+"Adding"                                                                              = "Adding"                        ;
+"YES"                                                                                 = "YES"                           ;
+"NO"                                                                                  = "NO"                            ;
+"Hour"                                                                                = "Hour"                          ;
+"Day"                                                                                 = "Day"                           ;
+"Total"                                                                               = "Total"                         ;
+"Next"                                                                                = "Next"                          ;
+"Confirm"                                                                             = "Confirm"                       ;
+"Cancel"                                                                              = "Cancel"                        ;
+"Language"                                                                            = "Language"                      ;
+"Save"                                                                                = "Save"                          ;
+"Add"                                                                                 = "Add"                           ;
+"Warning"                                                                             = "Warning"                       ;
+"please login first"                                                                  = "please login first"            ;
+"Ok"                                                                                  = "Ok"                            ;
+
+// Validations KEs
+"Phone Is Not Valid"                                                                  = "Phone Is Not Valid"            ;
+"Is Required"                                                                         = "Is Required"                   ;
+"Choose Country"                                                                      = "Saudi Arabia"                ;
+"First Name Is Required"                                                              = "First Name Is Required"        ;
+"Last Name Is Required"                                                               = "Last Name Is Required"         ;
+"Country Is Required"                                                                 = "Country Is Required"           ;
+"Please Choose Country Firstly"                                                       = "Please Choose Country Firstly" ;
+"please check email format"                                                           = "please check email format"     ;
+
+// Home
+"Welcome"                                                                             = "Welcome"                                ;
+"How can we serve you today at MSA?"                                                = "How can we serve you today at MSA?"   ;
+
+
+// SideMenue
+"Profile"                                                                             = "Profile"                 ;
+"My Wallet"                                                                           = "My Wallet"               ;
+"My Points"                                                                           = "My Points"               ;
+"Help"                                                                                = "Help"                    ;
+"About Us"                                                                            = "About Us"                ;
+"Terms Of Use"                                                                        = "Terms Of Use"            ;
+"Log Out"                                                                             = "Log Out"                 ;
+"My Addresses"                                                                        = "My Addresses"            ;
+"Current Balance"                                                                     = "Current Balance"         ;
+"My Points"                                                                           = "My Points"               ;
+"Home"                                                                                = "Home"                    ;
+"My Services"                                                                         = "My Services"             ;
+"Our Services"                                                                         = "Our Services"             ;
+"My Orders"                                                                           = "My Orders"               ;
+"My Profile"                                                                          = "My Profile"              ;
+"Privacy Policy"                                                                      = "Privacy Policy"          ;
+"New Address"                                                                         = "New Address"             ;
+"Help"                                                                                = "Help"                    ;
+"Show Map"                                                                            = "Show Map"                ;
+"Edit"                                                                                = "Edit"                    ;
+"New Address"                                                                         = "New Address"             ;
+"Type Of Real Estate"                                                                 = "Type Of Real Estate"     ;
+"Enter Address Name"                                                                  = "Enter Address Name"      ;
+"Enter Address"                                                                       = "Enter Address"           ;
+"Building Name"                                                                       = "Building Name"           ;
+"Enter Building Name"                                                                 = "Enter Building Name"     ;
+"Phone Number"                                                                        = "Phone Number"            ;
+"Enter Phone Number"                                                                  = "Enter Phone Number"      ;
+"Set as default address?"                                                             = "Set as default address?" ;
+
+///MARK: Map Screen
+"Select Location"                                                                     = "Select Location";
+
+
+/// MARK: Authontication
+// LAnguage Vc
+"You lightened up our day at Shine 🥳"                                                                                                                                    = "You lightened up our day at Shine 🥳" ;
+
+"Please select the language that suits you within the Shine application and complete the login to the application."                                                     = "Please select the language that suits you within the Shine application and complete the login to the application." ;
+
+
+// Login VC
+"Log in now to continue within the Shine app"                                         = "Log in now to continue within the Shine app"                              ;
+"Country"                                                                             = "Country"                                                                  ;
+//"Choose Country"                                                                      = "Choose Country"                                                           ;
+"Insert Phone Number"                                                                 = "Insert Phone Number"                                                      ;
+"Phone Number Is Required"                                                            = "Phone Number Is Required"                                                 ;
+"Enter"                                                                               = "Enter"                                                                    ;
+"Don’t have an account? "                                                             = "Don’t have an account? "                                                  ;
+"Sign up?"                                                                            = "Sign up?"                                                                 ;
+"Welcome back! 😍"                                                                    = "Welcome back! 😍"                                                         ;
+"Enter your activation code that you just received through"                           = "Enter your activation code that you just received through"                ;
+"Activation code"                                                                     = "Activation code"                                                          ;
+"Didn't receive the code?"                                                            = "Didn't receive the code?"                                                 ;
+"Resend"                                                                              = "Resend"                                                                   ;
+"Number"                                                                              = "Number"                                                                   ;
+"Resend code"                                                                         = "Resend code"                                                              ;
+"Resend code?"                                                                        = "Resend code?"                                                             ;
+"Verification Code"                                                                   = "Verification Code"                                                        ;
+"Send"                                                                                = "Send"                                                                     ;
+"Sign up"                                                                             = "Sign up"                                                                  ;
+"Register"                                                                            = "Register"                                                                 ;
+"Fill in the personal data required from you to complete the registration"            = "Fill in the personal data required from you to complete the registration" ;
+"First Name"                                                                          = "First Name"                                                               ;
+"Last Name"                                                                           = "Last Name"                                                                ;
+"Email"                                                                               = "Email"                                                                    ;
+"Enter Email"                                                                         = "Enter Email"                                                              ;
+"City"                                                                                = "City"                                                                     ;
+"Choose City"                                                                         = "Choose City"                                                              ;
+"City Is Required"                                                                    = "City Is Required"                                                         ;
+"Log In"                                                                              = "Log In"                                                                   ;
+"Please Insert Number 1"                                                              = "Please Insert Number 1"                                                   ;
+"Please Insert Number 2"                                                              = "Please Insert Number 2"                                                   ;
+"Please Insert Number 3"                                                              = "Please Insert Number 3"                                                   ;
+"Please Insert Number 4"                                                              = "Please Insert Number 4"                                                   ;
+"Please Insert Number 5"                                                              = "Please Insert Number 5"                                                   ;
+"At least one field must be changed."                                                 = "At least one field must be changed."                                      ;
+"Login As A Visitor"                                                                  = "Login As A Visitor"                                                       ;
+
+
+// Wallet stry
+"My Wallet"                                                                           = "My Wallet"                                                      ;
+"Deposit"                                                                             = "Deposit"                                                        ;
+"Withdraw"                                                                            = "Withdraw"                                                       ;
+"All Transactions"                                                                    = "All Transactions"                                               ;
+"Transaction History"                                                                 = "Transaction History"                                            ;
+"Add Balance"                                                                         = "Add Balance"                                                    ;
+"Withdraw balance"                                                                    = "Withdraw balance"                                               ;
+"Added Value"                                                                         = "Added Value"                                                    ;
+"Withdrawal Value"                                                                    = "Withdrawal Value"                                               ;
+"Go To The Wallet"                                                                    = "Go To The Wallet"                                               ;
+"Withdrawal Value Is Required"                                                        = "Withdrawal Value Is Required"                                   ;
+"Added Value Is Required"                                                             = "Added Value Is Required"                                        ;
+"Your balance has been successfully withdrawn!"                                       = "Your balance has been successfully withdrawn!"                  ;
+"Report About Problem"                                                                = "Report About Problem"                                           ;
+"Problem Details"                                                                     = "Problem Details"                                                ;
+"Enter Problem Details"                                                               = "Enter Problem Details"                                          ;
+"Problem Details Is Required"                                                         = "Problem Details Is Required"                                    ;
+"Points Packages"                                                                     = "Points Packages"                                                ;
+"Point's Number"                                                                      = "Point's Number"                                                 ;
+"Gift Value"                                                                          = "Gift Value"                                                     ;
+"Procedure"                                                                           = "Procedure"                                                      ;
+"Replacing"                                                                           = "Replacing"                                                      ;
+"Are you sure you want to redeem your points?"                                        = "Are you sure you want to redeem your points?"                   ;
+"Replace Now"                                                                         = "Replace Now"                                                    ;
+
+// CarsVC
+"New Car"                                                                             = "New Car"        ;
+"Car Type"                                                                            = "Car Type"       ;
+"Car Brand"                                                                           = "Car Brand"      ;
+                        
+// HelpVC
+"Name"                                                                                = "Name"                 ;
+"Insert Your Name"                                                                    = "Insert Your Name"     ;
+"Name Is Required"                                                                    = "Name Is Required"     ;
+                        
+"E-Mail"                                                                              = "E-Mail"              ;
+"Insert Your E-Mail"                                                                  = "Insert Your E-Mail"  ;
+"E-Mail Is Required"                                                                  = "E-Mail Is Required"  ;
+                        
+"Phone Number"                                                                        = "Phone Number"                 ;
+"Insert Your Phone Number"                                                            = "Insert Your Phone Number"     ;
+"Phone Number Is Required"                                                            = "Phone Number Is Required"     ;
+                        
+"Subject"                                                                             = "Subject"                         ;
+"Insert Subject"                                                                      = "Insert Subject"                  ;
+"Subject Is Required"                                                                 = "Subject Is Required"             ;
+"Message"                                                                             = "Message"                         ;
+"Insert Message..."                                                                   = "Insert Message..."               ;
+"Message Is Required"                                                                 = "Message Is Required"             ;
+
+//MARK:// Account Details
+"Bank Account Details"                                                                = "Bank Account Details"     ;
+
+"Account Name"                                                                        = "Account Name"             ;
+"Enter Account Name"                                                                  = "Enter Account Name"       ;
+"Account Name Is Required"                                                            = "Account Name Is Required" ;
+
+"Bank Name"                                                                           = "Bank Name"                     ;
+"Enter The Bank Name"                                                                 = "Enter The Bank Name"           ;
+"Bank Name Is Required"                                                               = "Bank Name Is Required"         ;
+
+"IBAN Number"                                                                         = "IBAN Number"                   ;
+"Enter IBAN Number"                                                                   = "Enter IBAN Number"             ;
+"IBAN Number Is Required"                                                             = "IBAN Number Is Required"       ;
+"Withdraw Now"                                                                        = "Withdraw Now"                  ;
+
+//LogOutVC
+"Are You Sure You Want To Log Out?"                                                   = "Are You Sure You Want To Log Out?"          ;
+
+
+// AddAddressVC
+"Address Name"                                                                        = "Address Name"                   ;
+"Address"                                                                             = "Address"                        ;
+"Address Name Is Required"                                                            = "Address Name Is Required"       ;
+"Building Name Is Required"                                                           = "Building Name Is Required"      ;
+"Address Details Is Required"                                                         = "Address Details Is Required"    ;
+"Phone Number Is Required"                                                            = "Phone Number Is Required"       ;
+
+"Address Is Required"                                                                 = "Address Is Required"            ;
+"Enter Building Name"                                                                 = "Enter Building Name"            ;
+"Details"                                                                             = "Details"                        ;
+"Address Details"                                                                     = "Address Details"                ;
+"Enter Details"                                                                       = "Enter Details"                  ;
+"ِEnter Address"                                                                       = "ِEnter Address"                  ;
+
+"Enter the required data and we will contact you as soon as possible."                = "Enter the required data and we will contact you as soon as possible.";
+
+// HelpVC
+"Name"                                                                                = "Name"                      ;
+"En"                                                                                  = "En"                        ;
+"Customer Services"                                                                   = "Customer Services"         ;
+"Contacting Times"                                                                    = "Contacting Times"          ;
+"Company main address"                                                                = "Company main address"      ;
+
+
+//ProfileVC
+"Choose Birth Date"                                                                   = "Choose Birth Date"                 ;
+"Birth Date"                                                                          = "Birth Date"                        ;
+"Delete Account"                                                                      = "Delete Account"                    ;
+"Male"                                                                                = "Male"                              ;
+"Female"                                                                              = "Female"                            ;
+"Profile"                                                                             = "Profile"                           ;
+"My Addresses"                                                                        = "My Addresses"                      ;
+"Birth Date Is Required"                                                              = "Birth Date Is Required"            ;
+
+
+// Countries VC
+//"Choose Country"                                                                                           = "Choose Country"                                     ;
+"Search About"                                                                                             = "Search About"                                       ;
+"Gender"                                                                                                   = "Gender"                                             ;
+"Are you sure you want to delete your account? 😰"                                                         = "Are you sure you want to delete your account? 😰"   ;
+"If you delete your account you will lose all data related to it or log in to it again."                   = "If you delete your account you will lose all data related to it or log in to it again.";
+
+
+"Are you sure you want to delete this item?"                      = "Are you sure you want to delete this item?" ;
+"Back To Home"                                                    = "Back To Home"                               ;
+"My Cars"                                                         = "My Cars"                                    ;
+"Current Ballance"                                                = "Current Ballance"                           ;
+"Your balance has been added successfully!"                       = "Your balance has been added successfully!🤩"  ;
+"Send"                                                            = "Send"                                       ;
+
+// HomeVC
+"My Services"                                                      = "My Services"                                          ;
+"Latest Services"                                                  = "Latest Services"                                      ;
+"Common 🔥"                                                        = "Common 🔥"                                            ;
+"Search About"                                                     = "Search About"                                         ;
+"Shine Service"                                                    = "Shine Service"                                        ;
+"Browse all the services you need on a daily basis"                = "Browse all the services you need on a daily basis"    ;
+
+
+// Notification VC
+"Notifications"                                                     = "Notifications"        ;
+"Mark all as read"                                                  = "Mark all as read"     ;
+
+//Cart VC
+"Cart"                                                              = "Cart"                    ;
+"Complete Order"                                                    = "Complete Order"          ;
+"Order Summary"                                                     = "Order Summary"           ;
+"Services Number"                                                   = "Services Number"         ;
+
+
+"Cost"                                                              = "Cost"               ;
+"VAT"                                                               = "VAT"                ;
+"Discount"                                                          = "Discount"           ;
+"Delivery Cost"                                                     = "Delivery Cost"      ;
+"Total Cost"                                                        = "Total Cost"         ;
+
+
+
+// Cells Localizations
+"The representative"                                                  = "The representative"           ;
+"Management"                                                          = "Management"                   ;
+"Visitor"                                                             = "Visitor"                      ;
+"You Should Login First"                                              = "You Should Login First"       ;
+"Welcom"                                                              = "Welcom"                       ;
+"Log In"                                                              = "Log In"                       ;
+
+
+// Driver Home
+"Work Status : "                                                      = "Work Status : "                           ;
+"Available"                                                           = "Available"                                ;
+"Ready to receive a new request? 💪"                                  = "Ready to receive a new request? 💪"       ;
+"All Orders"                                                          = "All Orders"                               ;
+"Orders"                                                              = "Orders"                                   ;
+"Accept Order"                                                        = "Accept Order"                             ;
+
+// Address
+"Default"                                                             = "Default"                      ;
+"Edit Address"                                                        = "Edit Address"                 ;
+"Save Address"                                                        = "Save Address"                 ;
+"Save Editings"                                                       = "Save Editings"                ;
+"Rate"                                                                = "Rate"                         ;
+"All Rates"                                                           = "All Rates"                    ;
+
+
+"Add To Cart"                                                         = "Add To Cart"                  ;
+"Please Choose Brand Firstly"                                         = "Please Choose Brand Firstly"  ;
+"Added Successfully"                                                  = "Added Successfully"           ;
+
+
+
+/// ServicesDetailsStry
+
+// AddedSuccessfullyVC
+"Go To Cart"                                                          = "Go To Cart"           ;
+"Another Services"                                                    = "Another Services"     ;
+
+// Delete Item From Cart
+"Are you sure you want to delete this item?"                          = "Are you sure you want to delete this item?"       ;
+"Delete"                                                              = "Delete"                                           ;
+"The cart is empty!"                                                  = "The cart is empty!"                               ;
+
+// Add cars VC
+"There are no results! 😟"                                            = "There are no results! 😟"            ;
+"Add Car"                                                             = "Add Car"                              ;
+"The plate number is required."                                       = "The plate number is required."        ;
+
+// Add Address VC
+"Add Address"                                                         = "Add Address"                            ;
+"Type Of Real Estate Is Required"                                     = "Type Of Real Estate Is Required"        ;
+
+//Cart VC
+"Browse now"                                                          = "Browse now"                      ;
+"Do Not Disturb"                                                      = "Do Not Disturb"                  ;
+"Booking without contact?"                                            = "Booking without contact?"        ;
+"Services you have chosen"                                            = "Services you have chosen"        ;
+
+
+// Car Two VC
+"Car"                                                                  = "Car"                     ;
+"Choose Car"                                                           = "Choose Car"              ;
+"Order receipt address"                                                = "Order receipt address"   ;
+"Determine the address"                                                = "Determine the address"   ;
+"Reservation date from"                                                      = "Reservation date from"         ;
+"Set date"                                                             = "Set date"                ;
+"Reservation time from"                                                          = "Reservation time from"             ;
+"Set time"                                                             = "Set time"                ;
+"Reservation time to"                                                        = "Reservation time to"           ;
+
+// Order Details VC
+"Order Details"                                                        = "Order Details"      ;
+
+
+
+// Services Details
+"Service Describtion"                                                   = "Service Describtion"                            ;
+"Photos and Videos"                                                     = "Photos and Videos"                              ;
+"Customer Reviews"                                                      = "Customer Reviews"                               ;
+"Show more"                                                             = "Show more"                                      ;
+"Complete Order"                                                        = "Complete Order"                                 ;
+"No items added"                                                        = "No items added"                                 ;
+"Create a cart"                                                         = "Create a cart"                                  ;
+"Show Cart"                                                             = "Show Cart"                                      ;
+"+ Create a cart"                                                       = "+ Create a cart"                                ;
+"Pleaae Choose Options First"                                           = "Pleaae Choose Options First"                    ;
+"Laundry Cart"                                                          = "Laundry Cart"                                   ;
+
+
+// Cart VC
+"Do you have a discount coupon?"                                         = "Do you have a discount coupon?"      ;
+"Enter the discount code."                                               = "Enter the discount code."            ;
+
+// Order Details
+"Reservation date to"                                                          = "Reservation date to"                                  ;
+"Reservation date from"                                                          = "Reservation date from"                                  ;
+"Do you have any notes?"                                                 = "Do you have any notes?"                         ;
+" Admin"                                                            = " Admin"                                    ;
+"  Delivery"                                                             = "  Delivery"                                     ;
+"  Order Rating"                                                         = "  Order Rating"                                 ;
+"Cancel Order"                                                           = "Cancel Order"                                   ;
+"Order Type"                                                             = "Order Type"                                     ;
+"Service Type"                                                           = "Service Type"                                   ;
+"Order Date"                                                             = "Order Date"                                     ;
+"Please Select Date Firstly"                                             = "Please Select Date Firstly"                     ;
+"Please Select Service Firstly"                                          = "Please Select Service Firstly"                  ;
+"Please Select Order Type Firstly"                                       = "Please Select Order Type Firstly"               ;
+"Latest Order"                                                           = "Latest Order"                                   ;
+"All Orders"                                                             = "All Orders"                                     ;
+"All Services"                                                           = "All Services"                                   ;
+"Track your latest orders."                                              = "Track your latest orders."                      ;
+"My Orders"                                                              = "My Orders"                                      ;
+"Determine"                                                              = "Determine"                                      ;
+"Order Date"                                                             = "Order Date"                                     ;
+"Choose Address"                                                         = "Choose Address"                                 ;
+"Please Select Address Firstly"                                          = "Please Select Address Firstly"                  ;
+"Choose Time"                                                            = "Choose Time"                                    ;
+"Please Select Time"                                                     = "Please Select Time"                             ;
+"Contact Us"                                                             = "Contact Us"                                     ;
+"Choose Car"                                                             = "Choose Car"                                     ;
+"Please Select Car"                                                      = "Please Select Car"                              ;
+
+
+// Wallet And Points VC
+"Transaction type"                                                       = "Transaction type"                            ;
+"There are no transactions for you!"                                     = "There are no transactions for you!"          ;
+"The Wallet is empty!"                                                   = "The Wallet is empty!"                        ;
+"My Wallet"                                                              = "My Wallet"                                   ;
+"My Point"                                                               = "My Point"                                    ;
+"The Points is empty!"                                                   = "The Points is empty!"                        ;
+"Transaction Date"                                                       = "Transaction Date"                            ;
+"Replace Point Success"                                                  = "Replace Point Success"                       ;
+"Go To Points"                                                           = "Go To Points"                                ;
+"To"                                                                     = "To"                                          ;
+
+// Add Order VC
+"Do you have any notes?"                                                 = "Do you have any notes?"                ;
+"Enter your feedback"                                                    = "Enter your feedback"                   ;
+"Please Choose Address"                                                  = "Please Choose Address"                 ;
+"Please Select Reservation date to"                                            = "Please Select Reservation date to"           ;
+"Please Select Reservation time to"                                            = "Please Select Reservation time to"           ;
+"Please Select Recieve Date"                                             = "Please Select Recieve Date"            ;
+"Select"                                                                 = "Select"                                ;
+"There are no addresses available."                                      = "There are no addresses available."     ;
+"Booking successful! 🤩"                                                 = "Booking successful! 🤩"                ;
+
+
+"Please select a recieve date first"                                     =  "Please select a recieve date first"         ;
+"Please select a Reservation date to first"                                    =  "Please select a Reservation date to first"        ;
+
+"There are no cars available."                                           =  "There are no cars available."               ;
+"New Car"                                                                =  "New Car"                                    ;
+            
+"Please Select Car Firstly"                                              = "Please Select Car Firstly"                                       ;
+"Your balance withdrawal request has been successfully submitted!"       = "Your balance withdrawal request has been successfully submitted!";
+"Car Information"                                                        = "Car Information"                                                 ;
+"Car Number"                                                             = "Car Number"                                                      ;
+"Choose Car Brand"                                                       = "Choose Car Brand"                                                ;
+"Car Brand Is Required"                                                  = "Car Brand Is Required"                                           ;
+"Choose Car Type"                                                        = "Choose Car Type"                                                 ;
+"Car Type Is Required"                                                   = "Car Type Is Required"                                            ;
+"Car Color"                                                              = "Car Color"                                                       ;
+"Choose Car Color"                                                       = "Choose Car Color"                                                ;
+"Car Color Is Required"                                                  = "Car Color Is Required"                                           ;
+"Withdraw Now"                                                           = "Withdraw Now"                                                    ;
+"Withdraw Balance"                                                       = "Withdraw Balance"                                                ;
+"You have no notifications."                                             = "You have no notifications."                                      ;
+"Please Select Type Firstly"                                            = "Please Select Type Firstly"                                        ;
+"Are you sure you want to cancel the order?"                             = "Are you sure you want to cancel the order?"                           ;
+
+
+
+// Translate With Key
+"delete_car_confirmation"                                               = "Are you sure you want to delete the car?"                          ;
+"delete_address_confirmation"                                           = "Are you sure you want to delete the address?"                          ;
+"register_agreement"                                                    = "By registering in the Shine app, you agree to"                     ;
+"terms_and_conditions"                                                  =  "Terms and Conditions"                                             ;
+"already_have_account"                                                   = "Do you already have an account?";
+"login"                                                                 = "Login"                                                             ;
+"agree_terms_first"                                                     = "You must agree to the terms and conditions first";
+"Accept And Agreement"                                                                = "Accept And Agreement"                                                              ;
+"key_highlighted_statistics"                                            = "Highlighted Statistics";
+"key_reports_and_statistics"                                            = "Reports and Statistics";
+"key_reports"                                                           = "Reports";
+"get_directions"                                                        = "      Get Directions";
+"Order Type"                                                            = "Order Type";
+"Please Select Type Firstly"                                            = "Please Select Type Firstly";
+"You don't have any addresses!"                                         =  "You don't have any addresses!";
+"The services I chose."                                                 = "The services I chose." ;
+"Accept Order"                                                          = "Accept Order";
+"  Client"                                                                = "  Client";
+"  Management"                                                           = "  Management";
+"The withdrawal amount is higher than your current balance!"                = "The withdrawal amount is higher than your current balance!";
+"Internet connection is down!"                                          = "Internet connection is down!";
+"under delivery"                                                        = "under delivery";
+"  Management"                                                          = "  Management";
+"Confirm Order"                                                         = "Confirm Order";
+"Follow"                                                                = "Follow";
+"Language"                                                              = "Language";
+"Try Again"                                                             = "Try Again";
+"No cars!"                                                              = "No cars!";
+"Car Model"                                                             = "Car Model";
+
+"Choose Car Model"                                                      = "Choose Car Model";
+"Car Model Is Required"                                                 = "Car Model Is Required";
+"Write Your Message..."                                                 = "Write Your Message...";
+"Conversations"                                                         = "Conversations";
+"Search About"                                                                = "Search About";
+"Rate Order"                                                            = " Rate Order";
+"How was your experience with us?"                                      = "How was your experience with us?";
+"Successfully rated 😍"                                                 = "Successfully rated 😍";
+"Apply"                                                                 = "Apply";
+"Please Select Recieve Date Firstly"                                    = "Please Select Recieve Date Firstly";
+"Video"                                                                 = "Video";
+"Choose Bank"                                                           = "Choose Bank";
+"Bank Is Required"                                                      = "Bank Is Required" ;
+"Follow Order"                                                          = "Follow Order";
+"Choosen Services"                                                      = "Choosen Services";
+"Order receipt address"                                                 = "Order receipt address";
+"Delivery Appointment"                                                  = "Delivery Appointment";
+"Receving Appointment"                                                  = "Receving Appointment";
+"Confirm Complete Register"                                             = "Confirm Complete Register";
+"Quick Order"                                                           = "Quick Order";
+"Urgent request service fee"                                            = "Urgent request service fee";
+
+"SAR" = "SAR";
+
+"zakat_input_title" = "Enter your assets to calculate Zakat";
+
+"zakat_info_1" = "Gold Zakat is calculated based on 24 karat only. Other karats are automatically converted to their pure gold equivalent for accurate calculation.";
+
+"zakat_info_2" = "Zakat is only due on saved or trade gold, not on personal jewelry.";
+
+"zakat_info_3" = "A full lunar year must pass for Zakat to become obligatory.";
+
+"zakat_info_4" = "Zakat is due if the gold reaches 85 grams of 24 karat or its equivalent.";
+"gold_price_info" = "The selling price of 21K gold per gram is %d EGP.\nPlease enter the net weight of your gold in grams.";
+"zakat_not_reached_nisab" = "Nisab not reached";
+"zakat_below_nisab_message" = "Gold is less than 85 grams, no Zakat is due";
+"gold_result_format" = "Karat %d: %.2f EGP";
+"silver_price_info" = "The selling price of silver (800 purity) per gram is %.2f EGP";
+"calculate_silver_zakat" = "Calculate Silver Zakat";
+"zakat_amount" = "Zakat: %@ EGP";
+"zakat_assets_input_title" = "Enter your assets to calculate Zakat";
+"silver_nisab_info" = "The nisab for silver is 595 grams of 999 purity or its equivalent.";
+"silver_zakat_condition" = "Zakat is only due on saved silver or silver intended for trade.";
+"zakat_haul_condition" = "A full lunar (Hijri) year must pass before Zakat becomes due.";
+"total_pure_silver" = "Total pure silver: %@ g";
+"zakat_weight" = "Zakat: %@ g";

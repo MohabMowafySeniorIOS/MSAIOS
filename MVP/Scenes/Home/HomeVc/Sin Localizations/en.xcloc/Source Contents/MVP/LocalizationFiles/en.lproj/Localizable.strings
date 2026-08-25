@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  MaiTenance
+
+  Created by Mohab on 8/30/20.
+  Copyright © 2020 project. All rights reserved.
+*/
+
+
+"wrongEmailError" = "Invalid E-Mail";

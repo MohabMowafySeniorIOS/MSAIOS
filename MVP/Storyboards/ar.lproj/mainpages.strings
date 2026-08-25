@@ -1,0 +1,158 @@
+
+
+/* Class = "UILabel"; text = "من فضلك قم بإختيار إحدى طريق الدفع\nلإكمال عملية الشراء"; ObjectID = "1tC-Tn-46B"; */
+"1tC-Tn-46B.text" = "من فضلك قم بإختيار إحدى طريق الدفع\nلإكمال عملية الشراء";
+
+/* Class = "UILabel"; text = "الرئيسية"; ObjectID = "2QK-8x-RAw"; */
+"2QK-8x-RAw.text" = "الرئيسية";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "2W5-qk-g1h"; */
+"2W5-qk-g1h.text" = "Label";
+
+/* Class = "UILabel"; text = "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، "; ObjectID = "35g-O1-BFX"; */
+"35g-O1-BFX.text" = "هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، ";
+
+/* Class = "UILabel"; text = "تحويل بنكى"; ObjectID = "3Sn-jr-75t"; */
+"3Sn-jr-75t.text" = "تحويل بنكى";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "5dG-td-q5n"; */
+"5dG-td-q5n.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "المزيد"; ObjectID = "5vr-gS-y3E"; */
+"5vr-gS-y3E.normalTitle" = "المزيد";
+
+/* Class = "UIButton"; normalTitle = "المزيد"; ObjectID = "6tp-cJ-69s"; */
+"6tp-cJ-69s.normalTitle" = "المزيد";
+
+/* Class = "UITextField"; placeholder = "ابحث هنا"; ObjectID = "7V4-yk-OcO"; */
+"7V4-yk-OcO.placeholder" = "ابحث هنا";
+
+/* Class = "UILabel"; text = "لقد تمت عملية التحويل بنجاح"; ObjectID = "7i6-K2-krf"; */
+"7i6-K2-krf.text" = "لقد تمت عملية التحويل بنجاح";
+
+/* Class = "UILabel"; text = "الاحد ، الثلاثاء، الخميس"; ObjectID = "7ke-hp-g3c"; */
+"7ke-hp-g3c.text" = "الاحد ، الثلاثاء، الخميس";
+
+/* Class = "UILabel"; text = "شكرا لك علي طلبك"; ObjectID = "7sI-Ec-es8"; */
+"7sI-Ec-es8.text" = "شكرا لك علي طلبك";
+
+/* Class = "UITextField"; placeholder = "ادخل اسم البنك"; ObjectID = "BiM-bt-i1B"; */
+"BiM-bt-i1B.placeholder" = "ادخل اسم البنك";
+
+/* Class = "UILabel"; text = "طرق الدفع"; ObjectID = "FHr-Lv-3Dt"; */
+"FHr-Lv-3Dt.text" = "طرق الدفع";
+
+/* Class = "UILabel"; text = "التعليقات السابقة"; ObjectID = "Gm6-1V-7ez"; */
+"Gm6-1V-7ez.text" = "التعليقات السابقة";
+
+/* Class = "UILabel"; text = "البحث عن الدورات"; ObjectID = "IFy-UQ-SqI"; */
+"IFy-UQ-SqI.text" = "البحث عن الدورات";
+
+/* Class = "UILabel"; text = "اضغط هنا لإرفاق إيصال الدفع"; ObjectID = "JMH-iX-wtK"; */
+"JMH-iX-wtK.text" = "اضغط هنا لإرفاق إيصال الدفع";
+
+/* Class = "UILabel"; text = "اسم البنك"; ObjectID = "LXo-vG-Uzf"; */
+"LXo-vG-Uzf.text" = "اسم البنك";
+
+/* Class = "UILabel"; text = "هل تريد الإنضمام المجانى للدورة"; ObjectID = "MYw-7r-0xX"; */
+"MYw-7r-0xX.text" = "هل تريد الإنضمام المجانى للدورة";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "NPD-34-bRb"; */
+"NPD-34-bRb.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "ادخل رقم الايبان"; ObjectID = "Okr-rz-orb"; */
+"Okr-rz-orb.placeholder" = "ادخل رقم الايبان";
+
+/* Class = "UITextField"; placeholder = "ادخل رقم الحساب"; ObjectID = "P0t-wr-FXS"; */
+"P0t-wr-FXS.placeholder" = "ادخل رقم الحساب";
+
+/* Class = "UILabel"; text = "سيتم ارسال رابط المجموعة الخاصة بالدورة بعد التأكد من الإيصال"; ObjectID = "PP8-cE-vfg"; */
+"PP8-cE-vfg.text" = "سيتم ارسال رابط المجموعة الخاصة بالدورة بعد التأكد من الإيصال";
+
+/* Class = "UILabel"; text = "رقم الحساب"; ObjectID = "TwO-8n-290"; */
+"TwO-8n-290.text" = "رقم الحساب";
+
+/* Class = "UIButton"; normalTitle = "التالي"; ObjectID = "UFA-dM-JX1"; */
+"UFA-dM-JX1.normalTitle" = "التالي";
+
+/* Class = "UILabel"; text = "تفاصيل الدوره"; ObjectID = "UJd-H2-N0C"; */
+"UJd-H2-N0C.text" = "تفاصيل الدوره";
+
+/* Class = "UILabel"; text = "قم بإرفاق إيصال الدفع"; ObjectID = "VOx-SP-ZEB"; */
+"VOx-SP-ZEB.text" = "قم بإرفاق إيصال الدفع";
+
+/* Class = "UIButton"; normalTitle = "لا"; ObjectID = "WVz-VL-wYR"; */
+"WVz-VL-wYR.normalTitle" = "لا";
+
+/* Class = "UILabel"; text = "دفع إلكترونى"; ObjectID = "X8j-L5-LSk"; */
+"X8j-L5-LSk.text" = "دفع إلكترونى";
+
+/* Class = "UILabel"; text = "تم الارسال"; ObjectID = "Y4W-B4-S1I"; */
+"Y4W-B4-S1I.text" = "تم الارسال";
+
+/* Class = "UIButton"; normalTitle = "الرئيسيه "; ObjectID = "Z4S-qo-51l"; */
+"Z4S-qo-51l.normalTitle" = "الرئيسيه ";
+
+/* Class = "UILabel"; text = "طالب مقيم"; ObjectID = "Z8j-Rj-eoX"; */
+"Z8j-Rj-eoX.text" = "طالب مقيم";
+
+/* Class = "UILabel"; text = "الأسئلة المشتركة"; ObjectID = "bmf-C6-3ex"; */
+"bmf-C6-3ex.text" = "الأسئلة المشتركة";
+
+/* Class = "UIButton"; normalTitle = "التسجيل بالدوره"; ObjectID = "cK6-np-8SU"; */
+"cK6-np-8SU.normalTitle" = "التسجيل بالدوره";
+
+/* Class = "UILabel"; text = "ايصال التحويل"; ObjectID = "dhx-cR-7Bm"; */
+"dhx-cR-7Bm.text" = "ايصال التحويل";
+
+/* Class = "UILabel"; text = "متجر زبونى"; ObjectID = "e5a-IN-9Oc"; */
+"e5a-IN-9Oc.text" = "متجر زبونى";
+
+/* Class = "UILabel"; text = "تحويل بنكى"; ObjectID = "fZI-yW-U6P"; */
+"fZI-yW-U6P.text" = "تحويل بنكى";
+
+/* Class = "UILabel"; text = "لقد تم إرسال طلبكم للإدارة"; ObjectID = "gzF-Gn-gYv"; */
+"gzF-Gn-gYv.text" = "لقد تم إرسال طلبكم للإدارة";
+
+/* Class = "UIButton"; normalTitle = "التالي"; ObjectID = "hqi-eY-QCL"; */
+"hqi-eY-QCL.normalTitle" = "التالي";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "iLd-YT-LEn"; */
+"iLd-YT-LEn.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "المزيد"; ObjectID = "jIZ-gb-ZVa"; */
+"jIZ-gb-ZVa.normalTitle" = "المزيد";
+
+/* Class = "UILabel"; text = "بايبال"; ObjectID = "lCc-Kg-aMb"; */
+"lCc-Kg-aMb.text" = "بايبال";
+
+/* Class = "UILabel"; text = "تم التحويل"; ObjectID = "ocg-da-l4s"; */
+"ocg-da-l4s.text" = "تم التحويل";
+
+/* Class = "UIButton"; normalTitle = "ارسال"; ObjectID = "psJ-Ii-bgd"; */
+"psJ-Ii-bgd.normalTitle" = "ارسال";
+
+/* Class = "UIButton"; normalTitle = "نعم"; ObjectID = "qlU-zM-d0Y"; */
+"qlU-zM-d0Y.normalTitle" = "نعم";
+
+/* Class = "UILabel"; text = "شكرا لك علي طلبك"; ObjectID = "rx2-2b-NFy"; */
+"rx2-2b-NFy.text" = "شكرا لك علي طلبك";
+
+/* Class = "UILabel"; text = "سعر الدوره :"; ObjectID = "tIw-sW-HOI"; */
+"tIw-sW-HOI.text" = "سعر الدوره :";
+
+/* Class = "UIButton"; normalTitle = "الرئيسيه "; ObjectID = "v7X-0O-9AN"; */
+"v7X-0O-9AN.normalTitle" = "الرئيسيه ";
+
+/* Class = "UILabel"; text = "جراحه عامه"; ObjectID = "xzq-6g-6ty"; */
+"xzq-6g-6ty.text" = "جراحه عامه";
+
+/* Class = "UILabel"; text = "الدورات"; ObjectID = "zKX-oE-itU"; */
+"zKX-oE-itU.text" = "الدورات";
+
+/* Class = "UILabel"; text = "متجر سلة"; ObjectID = "zep-K0-DGa"; */
+"zep-K0-DGa.text" = "متجر سلة";
+
+/* Class = "UILabel"; text = "رقم الايبان"; ObjectID = "zhy-BK-te0"; */
+"zhy-BK-te0.text" = "رقم الايبان";
+

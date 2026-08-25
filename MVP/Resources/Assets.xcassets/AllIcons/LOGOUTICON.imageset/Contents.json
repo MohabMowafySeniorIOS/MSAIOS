@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "LOGOUTICON.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Almarai-Bold.ttf">
+            <string>Almarai-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomAttachImage">
+            <connections>
+                <outlet property="AttachImg" destination="kW3-Dk-v9h" id="2pd-4s-zf3"/>
+                <outlet property="BgImage" destination="Adg-8O-4on" id="r5T-xU-H2C"/>
+                <outlet property="ValidationLabel" destination="gKQ-VK-Vap" id="nNs-3r-l3N"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="7Em-gV-sly">
+            <rect key="frame" x="0.0" y="0.0" width="384" height="207"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="7mE-fv-QHF">
+                    <rect key="frame" x="0.0" y="0.0" width="384" height="173"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="uDi-ui-oSE">
+                            <rect key="frame" x="0.0" y="0.0" width="384" height="173"/>
+                            <subviews>
+                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f6H-4s-XUd">
+                                    <rect key="frame" x="0.0" y="0.0" width="384" height="152"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AddBigPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="Adg-8O-4on">
+                                            <rect key="frame" x="2" y="2" width="380" height="148"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="8"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </imageView>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kW3-Dk-v9h">
+                                            <rect key="frame" x="2" y="2" width="380" height="148"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="8"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JmI-Nn-MA0">
+                                            <rect key="frame" x="2" y="2" width="380" height="148"/>
+                                            <connections>
+                                                <action selector="PressImageAction:" destination="-1" eventType="touchUpInside" id="QLu-kF-kC2"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="kW3-Dk-v9h" firstAttribute="bottom" secondItem="Adg-8O-4on" secondAttribute="bottom" id="2Rz-mi-CgM"/>
+                                        <constraint firstItem="kW3-Dk-v9h" firstAttribute="trailing" secondItem="Adg-8O-4on" secondAttribute="trailing" id="C27-fK-HYk"/>
+                                        <constraint firstAttribute="bottom" secondItem="Adg-8O-4on" secondAttribute="bottom" constant="2" id="Cjj-YQ-Wio"/>
+                                        <constraint firstItem="JmI-Nn-MA0" firstAttribute="top" secondItem="kW3-Dk-v9h" secondAttribute="top" id="N6Y-pq-ALc"/>
+                                        <constraint firstItem="JmI-Nn-MA0" firstAttribute="trailing" secondItem="kW3-Dk-v9h" secondAttribute="trailing" id="QYj-Wp-tjO"/>
+                                        <constraint firstItem="JmI-Nn-MA0" firstAttribute="leading" secondItem="kW3-Dk-v9h" secondAttribute="leading" id="SUW-Gd-rZx"/>
+                                        <constraint firstItem="JmI-Nn-MA0" firstAttribute="bottom" secondItem="kW3-Dk-v9h" secondAttribute="bottom" id="W8z-Sx-AAb"/>
+                                        <constraint firstItem="kW3-Dk-v9h" firstAttribute="top" secondItem="Adg-8O-4on" secondAttribute="top" id="bMf-aV-Hsm"/>
+                                        <constraint firstItem="kW3-Dk-v9h" firstAttribute="leading" secondItem="Adg-8O-4on" secondAttribute="leading" id="cKu-88-JFo"/>
+                                        <constraint firstAttribute="trailing" secondItem="Adg-8O-4on" secondAttribute="trailing" constant="2" id="hQS-tR-LNP"/>
+                                        <constraint firstAttribute="height" constant="170" id="nNv-a3-lVl"/>
+                                        <constraint firstItem="Adg-8O-4on" firstAttribute="leading" secondItem="f6H-4s-XUd" secondAttribute="leading" constant="2" id="oPE-gr-uVU"/>
+                                        <constraint firstItem="Adg-8O-4on" firstAttribute="top" secondItem="f6H-4s-XUd" secondAttribute="top" constant="2" id="uPI-JL-smi"/>
+                                    </constraints>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="8"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The field is required" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gKQ-VK-Vap">
+                                    <rect key="frame" x="0.0" y="152" width="384" height="21"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="21" id="QFZ-Ed-EOW"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Almarai-Bold" family="Almarai" pointSize="8"/>
+                                    <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="SetFonts" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="The field is required"/>
+                                    </userDefinedRuntimeAttributes>
+                                </label>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Vwr-As-tbE"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="7mE-fv-QHF" firstAttribute="leading" secondItem="7Em-gV-sly" secondAttribute="leading" id="ETW-Wb-9Jb"/>
+                <constraint firstItem="7mE-fv-QHF" firstAttribute="top" secondItem="7Em-gV-sly" secondAttribute="top" id="KMB-T7-s24"/>
+                <constraint firstAttribute="trailing" secondItem="7mE-fv-QHF" secondAttribute="trailing" id="qeP-k1-3aL"/>
+                <constraint firstItem="Vwr-As-tbE" firstAttribute="bottom" secondItem="7mE-fv-QHF" secondAttribute="bottom" id="xUr-kb-Vpf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="8"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="-536.231884057971" y="-29.129464285714285"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="AddBigPhoto" width="327" height="188.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
