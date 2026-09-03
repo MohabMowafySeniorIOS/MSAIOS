@@ -74,7 +74,7 @@ class OunceDollarCell: UITableViewCell {
         }
        // "\(trimNumber(number: gapPrice))"
 
-        // MARK: - Price Gap screen data
+        // MARK: - Gap screen data
         // نفس الحسابات اللي في Android (PriceGapDetailsViewModel) بالظبط:
         //   worldPerGramUsd = ounce / 31.1035
         //   gap21 = |gold21Local − (worldPerGramUsd * 21/24 * dollarBank)|

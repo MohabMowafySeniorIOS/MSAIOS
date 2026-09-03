@@ -77,7 +77,7 @@ struct InstrumentCard: View {
     }
 }
 
-// MARK: - Price Gap Card (فجوة السعر)
+// MARK: - Gap Card (فجوة السعر)
 
 struct PriceGapCard: View {
     let snapshot: PriceSnapshot

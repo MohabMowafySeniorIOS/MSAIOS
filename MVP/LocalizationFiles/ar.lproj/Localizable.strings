@@ -10,6 +10,10 @@
 
 
 //Global Keys
+"You must select the manufacturer first."                       = "يجب اختيار الشركة المصنعة أولاً";
+"You must select the karat first."                              = "يجب اختيار العيار أولاً";
+"Alert"                                                         = "تنبيه";
+"Product"                                                       = "المنتج";
 "My Wallet"                                                     = "محفظتي";
 "FAQ"                                                           = "الأسئلة الشائعة";
 "EGP"                                                           = "جنيه مصري";

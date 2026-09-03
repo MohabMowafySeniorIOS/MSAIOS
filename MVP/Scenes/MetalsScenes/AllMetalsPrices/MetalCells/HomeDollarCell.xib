@@ -23,16 +23,16 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jlb-lD-QC7">
-                        <rect key="frame" x="16" y="8" width="457" height="40"/>
+                        <rect key="frame" x="0.0" y="8" width="489" height="40"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="iKU-dg-H7J">
-                                <rect key="frame" x="0.0" y="0.0" width="457" height="40"/>
+                                <rect key="frame" x="0.0" y="0.0" width="489" height="40"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1YG-jk-JLH">
-                                        <rect key="frame" x="0.0" y="0.0" width="457" height="40"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="489" height="40"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="gze-rp-CTT">
-                                                <rect key="frame" x="16" y="7.6666666666666643" width="425" height="25"/>
+                                                <rect key="frame" x="16" y="7.6666666666666643" width="457" height="25"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="CFh-dY-otL">
                                                         <rect key="frame" x="0.0" y="0.0" width="44.333333333333336" height="25"/>
@@ -52,7 +52,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="R9a-kK-91N">
-                                                        <rect key="frame" x="331.33333333333331" y="0.0" width="93.666666666666686" height="25"/>
+                                                        <rect key="frame" x="363.33333333333331" y="0.0" width="93.666666666666686" height="25"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="جاري التحميل" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ga-EI-ahz">
                                                                 <rect key="frame" x="0.0" y="0.0" width="93.666666666666671" height="25"/>
@@ -104,9 +104,9 @@
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
                     <constraint firstItem="jlb-lD-QC7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="68P-ua-uC6"/>
-                    <constraint firstAttribute="trailing" secondItem="jlb-lD-QC7" secondAttribute="trailing" constant="16" id="Pi0-VQ-lrt"/>
+                    <constraint firstAttribute="trailing" secondItem="jlb-lD-QC7" secondAttribute="trailing" id="Pi0-VQ-lrt"/>
                     <constraint firstAttribute="bottom" secondItem="jlb-lD-QC7" secondAttribute="bottom" constant="8" id="g5u-Ym-7yZ"/>
-                    <constraint firstItem="jlb-lD-QC7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="jLf-4o-qQx"/>
+                    <constraint firstItem="jlb-lD-QC7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="jLf-4o-qQx"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>

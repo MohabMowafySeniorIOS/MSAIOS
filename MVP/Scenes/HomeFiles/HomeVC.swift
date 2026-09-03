@@ -68,10 +68,12 @@ class HomeVC: BaseControllerVC {
     
     var dollarPrice = ""
     
-    @IBOutlet weak var banneView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        tableView.showsVerticalScrollIndicator = false
+        tableView.showsHorizontalScrollIndicator = false
         getAppVersion()
 
         // Home-only maintenance switch (`ioshomeMaintain` in the appVersion doc).
@@ -79,35 +81,9 @@ class HomeVC: BaseControllerVC {
         // app. This one only covers the Home content — the tab bar stays live so
         // the user can go to prices, news, etc.
         bindScreenMaintenance(.home)
-
-//        let swiftUIView = BannerAdView()
-//
-//              let hostingController = UIHostingController(
-//
-//                  rootView: swiftUIView
-//
-//              )
-//
-//              addChild(hostingController)
-//
-//        banneView.addSubview(hostingController.view)
-//
-//              hostingController.view.translatesAutoresizingMaskIntoConstraints = false
-//
-//              NSLayoutConstraint.activate([
-//
-//                  hostingController.view.topAnchor.constraint(equalTo: banneView.safeAreaLayoutGuide.topAnchor),
-//
-//                  hostingController.view.leadingAnchor.constraint(equalTo: banneView.leadingAnchor),
-//
-//                  hostingController.view.trailingAnchor.constraint(equalTo: banneView.trailingAnchor),
-//
-//                  hostingController.view.bottomAnchor.constraint(equalTo: banneView.bottomAnchor)
-//
-//              ])
-//
-//              hostingController.didMove(toParent: self)
         
+        setupBannerSlider()
+
         
         headerView.pressShare = { [weak self] in
             guard let self else { return }
@@ -197,6 +173,12 @@ class HomeVC: BaseControllerVC {
         navigationController?.isNavigationBarHidden = true
         tabBarController?.tabBar.isHidden = false
 
+        resumeBannerSlider()
+    }
+
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        pauseBannerSlider()
     }
 
     deinit {

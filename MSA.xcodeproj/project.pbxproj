@@ -59,6 +59,14 @@
 		C111BF832F91B04200F44AAE /* ZakatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C111BF822F91B04200F44AAE /* ZakatViewModel.swift */; };
 		C1189D3A3010AC760047CB7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1189D393010AC760047CB7A /* LaunchScreen.storyboard */; };
 		C1189D3C3010B1540047CB7A /* ApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1189D3B3010B1540047CB7A /* ApiServices.swift */; };
+		C11BD3D1304830DB0047B568 /* BannerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11BD3CD304830DB0047B568 /* BannerService.swift */; };
+		C11BD3D2304830DB0047B568 /* HomeVC+Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11BD3CF304830DB0047B568 /* HomeVC+Banner.swift */; };
+		C11BD3D3304830DB0047B568 /* BannerSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11BD3CE304830DB0047B568 /* BannerSliderView.swift */; };
+		C11BD3D4304830DB0047B568 /* BannerPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11BD3CC304830DB0047B568 /* BannerPopupVC.swift */; };
+		C11BD3D5304830DB0047B568 /* BannerBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11BD3C9304830DB0047B568 /* BannerBrand.swift */; };
+		C11BD3D6304830DB0047B568 /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11BD3CA304830DB0047B568 /* BannerCell.swift */; };
+		C11BD3D7304830DB0047B568 /* BannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11BD3CB304830DB0047B568 /* BannerModel.swift */; };
+		C11BD3D8304830DB0047B568 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C11BD3D0304830DB0047B568 /* README.md */; };
 		C121053F2720D8070075496E /* extention+image.swift in Sources */ = {isa = PBXBuildFile; fileRef = C121053E2720D8070075496E /* extention+image.swift */; };
 		C121B02427753C7F00A71D52 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C121B02227753C7F00A71D52 /* PageCell.swift */; };
 		C121B02527753C7F00A71D52 /* PageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C121B02327753C7F00A71D52 /* PageCell.xib */; };
@@ -257,6 +265,14 @@
 		C111BF822F91B04200F44AAE /* ZakatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZakatViewModel.swift; sourceTree = "<group>"; };
 		C1189D393010AC760047CB7A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1189D3B3010B1540047CB7A /* ApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
+		C11BD3C9304830DB0047B568 /* BannerBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerBrand.swift; sourceTree = "<group>"; };
+		C11BD3CA304830DB0047B568 /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		C11BD3CB304830DB0047B568 /* BannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerModel.swift; sourceTree = "<group>"; };
+		C11BD3CC304830DB0047B568 /* BannerPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerPopupVC.swift; sourceTree = "<group>"; };
+		C11BD3CD304830DB0047B568 /* BannerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerService.swift; sourceTree = "<group>"; };
+		C11BD3CE304830DB0047B568 /* BannerSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerSliderView.swift; sourceTree = "<group>"; };
+		C11BD3CF304830DB0047B568 /* HomeVC+Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeVC+Banner.swift"; sourceTree = "<group>"; };
+		C11BD3D0304830DB0047B568 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C121053E2720D8070075496E /* extention+image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extention+image.swift"; sourceTree = "<group>"; };
 		C121B02227753C7F00A71D52 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
 		C121B02327753C7F00A71D52 /* PageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageCell.xib; sourceTree = "<group>"; };
@@ -657,6 +673,7 @@
 		C17D0F792FB0137D000E5E55 /* HomeFiles */ = {
 			isa = PBXGroup;
 			children = (
+				C19424F63041991500C8FB92 /* Banner */,
 				C1A5674F2FACC9660051F6ED /* HomeVC.swift */,
 				C17D0F7A2FB013AE000E5E55 /* SettingData.swift */,
 				C17D0F7C2FB013E6000E5E55 /* BankRateService.swift */,
@@ -706,6 +723,21 @@
 				C1928C162FE2ED0D00A8FD16 /* AddPortfolioItemScreen.swift */,
 			);
 			path = MyWalletViews;
+			sourceTree = "<group>";
+		};
+		C19424F63041991500C8FB92 /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				C11BD3C9304830DB0047B568 /* BannerBrand.swift */,
+				C11BD3CA304830DB0047B568 /* BannerCell.swift */,
+				C11BD3CB304830DB0047B568 /* BannerModel.swift */,
+				C11BD3CC304830DB0047B568 /* BannerPopupVC.swift */,
+				C11BD3CD304830DB0047B568 /* BannerService.swift */,
+				C11BD3CE304830DB0047B568 /* BannerSliderView.swift */,
+				C11BD3CF304830DB0047B568 /* HomeVC+Banner.swift */,
+				C11BD3D0304830DB0047B568 /* README.md */,
+			);
+			path = Banner;
 			sourceTree = "<group>";
 		};
 		C19ADB2A26CFD73C0019DBE1 /* Animations */ = {
@@ -1223,6 +1255,7 @@
 				4ED3BFF42BA9DCE500857B8D /* Assets.xcassets in Resources */,
 				4E7B69222BB1E53800EB8B68 /* ZoomAbleImage.storyboard in Resources */,
 				C1DD4D7D2F94F59100F7BBFA /* HeaderView.xib in Resources */,
+				C11BD3D8304830DB0047B568 /* README.md in Resources */,
 				4ED3C00A2BA9DEA900857B8D /* CustomTextFieldMobile.xib in Resources */,
 				F2BA391F262072D700A2D167 /* NoInterNet.xib in Resources */,
 			);
@@ -1301,6 +1334,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1928C152FE2ECF100A8FD16 /* PortfolioScreen.swift in Sources */,
+				C11BD3D1304830DB0047B568 /* BannerService.swift in Sources */,
+				C11BD3D2304830DB0047B568 /* HomeVC+Banner.swift in Sources */,
+				C11BD3D3304830DB0047B568 /* BannerSliderView.swift in Sources */,
+				C11BD3D4304830DB0047B568 /* BannerPopupVC.swift in Sources */,
+				C11BD3D5304830DB0047B568 /* BannerBrand.swift in Sources */,
+				C11BD3D6304830DB0047B568 /* BannerCell.swift in Sources */,
+				C11BD3D7304830DB0047B568 /* BannerModel.swift in Sources */,
 				C19CDCF526A0E6BC00BB343D /* Extention+TableView.swift in Sources */,
 				C173FE612F8CBD4600E5D5E3 /* SilverValueView.swift in Sources */,
 				4E1BFDF82C7C76D60072E103 /* CustomButtonView.swift in Sources */,
@@ -1629,7 +1669,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.2;
+				MARKETING_VERSION = 2.3;
 				PRODUCT_BUNDLE_IDENTIFIER = CurrencyApp.com.CurrencyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1663,7 +1703,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.2;
+				MARKETING_VERSION = 2.3;
 				PRODUCT_BUNDLE_IDENTIFIER = CurrencyApp.com.CurrencyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

@@ -41,7 +41,7 @@ struct PriceGapView: View {
 
         VStack(spacing: 0) {
             // Header
-            headerView(title: "Price gap".localized, isBackShow: true,onDismiss: {
+            headerView(title: "Gap".localized, isBackShow: true,onDismiss: {
                 if let onBack {
                     onBack()
                 } else {

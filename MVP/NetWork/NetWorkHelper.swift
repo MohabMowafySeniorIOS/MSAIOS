@@ -29,6 +29,8 @@ public enum HTTPMethodType: String {
 public enum EndPoints: String {
     
     //MARK: AUTH
+    case banners = "banners"
+    
     case register =  "client/auth/register"
     case Login = "client/auth/login"
     case verify_phone = "client/auth/verify"

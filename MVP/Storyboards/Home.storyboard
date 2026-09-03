@@ -2339,157 +2339,155 @@
                                     <constraint firstAttribute="height" constant="60" id="V98-1F-xBe"/>
                                 </constraints>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="R3q-OE-YJV">
-                                <rect key="frame" x="16" y="194" width="361" height="78"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="h1q-iW-HEV">
+                                <rect key="frame" x="16" y="178" width="361" height="541"/>
                                 <subviews>
-                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MQE-EH-TWM">
-                                        <rect key="frame" x="0.0" y="-150" width="361" height="150"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="150" id="Bfj-rk-SM5"/>
-                                        </constraints>
-                                    </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62Q-hB-NBa">
-                                        <rect key="frame" x="0.0" y="0.0" width="361" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="nbi-n9-Tt6"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="IBMPlexSansArabic-Bold" family="IBM Plex Sans Arabic" pointSize="10"/>
-                                        <color key="textColor" name="WhiteColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Kbj-bJ-3NA">
-                                        <rect key="frame" x="0.0" y="34" width="361" height="44"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="R3q-OE-YJV">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="78"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jtc-0c-lzX">
-                                                <rect key="frame" x="0.0" y="0.0" width="172.66666666666666" height="44"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62Q-hB-NBa">
+                                                <rect key="frame" x="0.0" y="0.0" width="361" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="nbi-n9-Tt6"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="IBMPlexSansArabic-Bold" family="IBM Plex Sans Arabic" pointSize="10"/>
+                                                <color key="textColor" name="WhiteColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Kbj-bJ-3NA">
+                                                <rect key="frame" x="0.0" y="34" width="361" height="44"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="bIQ-Kj-nQP">
-                                                        <rect key="frame" x="67.666666666666671" y="9.3333333333333446" width="37.333333333333329" height="25.666666666666671"/>
-                                                        <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gold" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mfb-Bw-Jk2">
-                                                                <rect key="frame" x="0.0" y="0.0" width="37.333333333333336" height="25.666666666666668"/>
-                                                                <fontDescription key="fontDescription" name="IBMPlexSansArabic-Bold" family="IBM Plex Sans Arabic" pointSize="17"/>
-                                                                <color key="textColor" name="WhiteColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                                <userDefinedRuntimeAttributes>
-                                                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="Gold"/>
-                                                                    <userDefinedRuntimeAttribute type="number" keyPath="FontBoldSize">
-                                                                        <real key="value" value="16"/>
-                                                                    </userDefinedRuntimeAttribute>
-                                                                </userDefinedRuntimeAttributes>
-                                                            </label>
-                                                        </subviews>
-                                                    </stackView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOh-p2-RKR">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jtc-0c-lzX">
                                                         <rect key="frame" x="0.0" y="0.0" width="172.66666666666666" height="44"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain"/>
-                                                        <connections>
-                                                            <action selector="goldAction:" destination="2en-wk-jxL" eventType="touchUpInside" id="gv1-HM-WKo"/>
-                                                        </connections>
-                                                    </button>
-                                                </subviews>
-                                                <color key="backgroundColor" name="MainColor"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="bottom" secondItem="BOh-p2-RKR" secondAttribute="bottom" id="20W-Cg-CSr"/>
-                                                    <constraint firstAttribute="trailing" secondItem="BOh-p2-RKR" secondAttribute="trailing" id="5Oz-0q-Dmq"/>
-                                                    <constraint firstItem="bIQ-Kj-nQP" firstAttribute="centerY" secondItem="Jtc-0c-lzX" secondAttribute="centerY" id="HSO-0D-Zst"/>
-                                                    <constraint firstItem="BOh-p2-RKR" firstAttribute="leading" secondItem="Jtc-0c-lzX" secondAttribute="leading" id="IEH-Tl-bhZ"/>
-                                                    <constraint firstAttribute="height" constant="44" id="ODr-P8-DEF"/>
-                                                    <constraint firstItem="bIQ-Kj-nQP" firstAttribute="centerX" secondItem="Jtc-0c-lzX" secondAttribute="centerX" id="YzS-sj-Yj0"/>
-                                                    <constraint firstItem="BOh-p2-RKR" firstAttribute="top" secondItem="Jtc-0c-lzX" secondAttribute="top" id="c7g-jY-9TW"/>
-                                                </constraints>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                        <real key="value" value="22"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K8w-dE-08n">
-                                                <rect key="frame" x="188.66666666666663" y="0.0" width="172.33333333333337" height="44"/>
-                                                <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="TQt-HF-aF3">
-                                                        <rect key="frame" x="63.000000000000028" y="9.3333333333333446" width="46" height="25.666666666666671"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Silver" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mnm-5t-kWb">
-                                                                <rect key="frame" x="0.0" y="0.0" width="46" height="25.666666666666668"/>
-                                                                <fontDescription key="fontDescription" name="IBMPlexSansArabic-Bold" family="IBM Plex Sans Arabic" pointSize="17"/>
-                                                                <color key="textColor" name="WhiteColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                                <userDefinedRuntimeAttributes>
-                                                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="Silver"/>
-                                                                    <userDefinedRuntimeAttribute type="number" keyPath="FontBoldSize">
-                                                                        <real key="value" value="16"/>
-                                                                    </userDefinedRuntimeAttribute>
-                                                                </userDefinedRuntimeAttributes>
-                                                            </label>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="bIQ-Kj-nQP">
+                                                                <rect key="frame" x="67.666666666666671" y="9.3333333333333446" width="37.333333333333329" height="25.666666666666671"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gold" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mfb-Bw-Jk2">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="37.333333333333336" height="25.666666666666668"/>
+                                                                        <fontDescription key="fontDescription" name="IBMPlexSansArabic-Bold" family="IBM Plex Sans Arabic" pointSize="17"/>
+                                                                        <color key="textColor" name="WhiteColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="Gold"/>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="FontBoldSize">
+                                                                                <real key="value" value="16"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </label>
+                                                                </subviews>
+                                                            </stackView>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOh-p2-RKR">
+                                                                <rect key="frame" x="0.0" y="0.0" width="172.66666666666666" height="44"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                                <connections>
+                                                                    <action selector="goldAction:" destination="2en-wk-jxL" eventType="touchUpInside" id="gv1-HM-WKo"/>
+                                                                </connections>
+                                                            </button>
                                                         </subviews>
-                                                    </stackView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bSP-VG-HRj">
-                                                        <rect key="frame" x="0.0" y="0.0" width="172.33333333333334" height="44"/>
-                                                        <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain"/>
-                                                        <connections>
-                                                            <action selector="goldAction:" destination="2en-wk-jxL" eventType="touchUpInside" id="t9G-gN-vvc"/>
-                                                            <action selector="silverAction:" destination="2en-wk-jxL" eventType="touchUpInside" id="XGH-LF-0Lc"/>
-                                                        </connections>
-                                                    </button>
+                                                        <color key="backgroundColor" name="MainColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="bottom" secondItem="BOh-p2-RKR" secondAttribute="bottom" id="20W-Cg-CSr"/>
+                                                            <constraint firstAttribute="trailing" secondItem="BOh-p2-RKR" secondAttribute="trailing" id="5Oz-0q-Dmq"/>
+                                                            <constraint firstItem="bIQ-Kj-nQP" firstAttribute="centerY" secondItem="Jtc-0c-lzX" secondAttribute="centerY" id="HSO-0D-Zst"/>
+                                                            <constraint firstItem="BOh-p2-RKR" firstAttribute="leading" secondItem="Jtc-0c-lzX" secondAttribute="leading" id="IEH-Tl-bhZ"/>
+                                                            <constraint firstAttribute="height" constant="44" id="ODr-P8-DEF"/>
+                                                            <constraint firstItem="bIQ-Kj-nQP" firstAttribute="centerX" secondItem="Jtc-0c-lzX" secondAttribute="centerX" id="YzS-sj-Yj0"/>
+                                                            <constraint firstItem="BOh-p2-RKR" firstAttribute="top" secondItem="Jtc-0c-lzX" secondAttribute="top" id="c7g-jY-9TW"/>
+                                                        </constraints>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="22"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K8w-dE-08n">
+                                                        <rect key="frame" x="188.66666666666663" y="0.0" width="172.33333333333337" height="44"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="TQt-HF-aF3">
+                                                                <rect key="frame" x="63.000000000000028" y="9.3333333333333446" width="46" height="25.666666666666671"/>
+                                                                <subviews>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Silver" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mnm-5t-kWb">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="46" height="25.666666666666668"/>
+                                                                        <fontDescription key="fontDescription" name="IBMPlexSansArabic-Bold" family="IBM Plex Sans Arabic" pointSize="17"/>
+                                                                        <color key="textColor" name="WhiteColor"/>
+                                                                        <nil key="highlightedColor"/>
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="Silver"/>
+                                                                            <userDefinedRuntimeAttribute type="number" keyPath="FontBoldSize">
+                                                                                <real key="value" value="16"/>
+                                                                            </userDefinedRuntimeAttribute>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </label>
+                                                                </subviews>
+                                                            </stackView>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bSP-VG-HRj">
+                                                                <rect key="frame" x="0.0" y="0.0" width="172.33333333333334" height="44"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                                <connections>
+                                                                    <action selector="goldAction:" destination="2en-wk-jxL" eventType="touchUpInside" id="t9G-gN-vvc"/>
+                                                                    <action selector="silverAction:" destination="2en-wk-jxL" eventType="touchUpInside" id="XGH-LF-0Lc"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <color key="backgroundColor" name="BlackColor"/>
+                                                        <constraints>
+                                                            <constraint firstItem="TQt-HF-aF3" firstAttribute="centerX" secondItem="K8w-dE-08n" secondAttribute="centerX" id="Lq6-6x-x9t"/>
+                                                            <constraint firstItem="bSP-VG-HRj" firstAttribute="leading" secondItem="K8w-dE-08n" secondAttribute="leading" id="OCe-4M-iHp"/>
+                                                            <constraint firstItem="bSP-VG-HRj" firstAttribute="top" secondItem="K8w-dE-08n" secondAttribute="top" id="ejQ-si-KGJ"/>
+                                                            <constraint firstAttribute="height" constant="44" id="keB-tO-EWx"/>
+                                                            <constraint firstAttribute="trailing" secondItem="bSP-VG-HRj" secondAttribute="trailing" id="lUg-Vr-2dx"/>
+                                                            <constraint firstItem="TQt-HF-aF3" firstAttribute="centerY" secondItem="K8w-dE-08n" secondAttribute="centerY" id="rz1-hr-yjs"/>
+                                                            <constraint firstAttribute="bottom" secondItem="bSP-VG-HRj" secondAttribute="bottom" id="xau-jy-9P2"/>
+                                                        </constraints>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="22"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </view>
                                                 </subviews>
-                                                <color key="backgroundColor" name="BlackColor"/>
-                                                <constraints>
-                                                    <constraint firstItem="TQt-HF-aF3" firstAttribute="centerX" secondItem="K8w-dE-08n" secondAttribute="centerX" id="Lq6-6x-x9t"/>
-                                                    <constraint firstItem="bSP-VG-HRj" firstAttribute="leading" secondItem="K8w-dE-08n" secondAttribute="leading" id="OCe-4M-iHp"/>
-                                                    <constraint firstItem="bSP-VG-HRj" firstAttribute="top" secondItem="K8w-dE-08n" secondAttribute="top" id="ejQ-si-KGJ"/>
-                                                    <constraint firstAttribute="height" constant="44" id="keB-tO-EWx"/>
-                                                    <constraint firstAttribute="trailing" secondItem="bSP-VG-HRj" secondAttribute="trailing" id="lUg-Vr-2dx"/>
-                                                    <constraint firstItem="TQt-HF-aF3" firstAttribute="centerY" secondItem="K8w-dE-08n" secondAttribute="centerY" id="rz1-hr-yjs"/>
-                                                    <constraint firstAttribute="bottom" secondItem="bSP-VG-HRj" secondAttribute="bottom" id="xau-jy-9P2"/>
-                                                </constraints>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                        <real key="value" value="22"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                            </view>
+                                            </stackView>
                                         </subviews>
                                     </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Uob-d4-LYx">
+                                        <rect key="frame" x="0.0" y="86" width="361" height="43"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Average prices in the Egyptian gold market (indicative price list)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KRM-Re-oWj">
+                                                <rect key="frame" x="0.0" y="0.0" width="361" height="14.333333333333334"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <color key="textColor" name="Color"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="FontBoldSize">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="Average prices in the Egyptian gold market (indicative price list)"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The retailer deducts a commission when purchasing fractional items, starting from 1%." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lyj-5t-6b0">
+                                                <rect key="frame" x="0.0" y="14.333333333333316" width="361" height="28.666666666666671"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <color key="textColor" name="Color"/>
+                                                <nil key="highlightedColor"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="FontRegularSize">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="The retailer deducts a commission when purchasing fractional items, starting from 1%."/>
+                                                </userDefinedRuntimeAttributes>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="mDE-rf-FtH" customClass="ContentSizedTableView" customModule="MSA" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="137" width="361" height="404"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="scrollIndicatorInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="16"/>
+                                    </tableView>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Uob-d4-LYx">
-                                <rect key="frame" x="16" y="280" width="361" height="43"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Average prices in the Egyptian gold market (indicative price list)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KRM-Re-oWj">
-                                        <rect key="frame" x="0.0" y="0.0" width="361" height="14.333333333333334"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <color key="textColor" name="Color"/>
-                                        <nil key="highlightedColor"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="FontBoldSize">
-                                                <real key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="Average prices in the Egyptian gold market (indicative price list)"/>
-                                        </userDefinedRuntimeAttributes>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The retailer deducts a commission when purchasing fractional items, starting from 1%." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lyj-5t-6b0">
-                                        <rect key="frame" x="0.0" y="14.333333333333316" width="361" height="28.666666666666671"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <color key="textColor" name="Color"/>
-                                        <nil key="highlightedColor"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="FontRegularSize">
-                                                <real key="value" value="10"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="The retailer deducts a commission when purchasing fractional items, starting from 1%."/>
-                                        </userDefinedRuntimeAttributes>
-                                    </label>
-                                </subviews>
-                            </stackView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="mDE-rf-FtH" customClass="ContentSizedTableView" customModule="MSA" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="331" width="393" height="404"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <inset key="scrollIndicatorInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="16"/>
-                            </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QeT-f8-izu">
                                 <rect key="frame" x="16" y="649" width="70" height="70"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2524,31 +2522,24 @@
                         <viewLayoutGuide key="safeArea" id="aef-WV-nOF"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="mDE-rf-FtH" firstAttribute="top" secondItem="Uob-d4-LYx" secondAttribute="bottom" constant="8" id="3dK-KG-5gU"/>
+                            <constraint firstAttribute="trailing" secondItem="h1q-iW-HEV" secondAttribute="trailing" constant="16" id="4PF-tg-kOL"/>
                             <constraint firstItem="QeT-f8-izu" firstAttribute="leading" secondItem="aef-WV-nOF" secondAttribute="leading" constant="16" id="A0c-xr-ZdK"/>
                             <constraint firstItem="MHn-kS-NQ9" firstAttribute="leading" secondItem="kYV-2e-Qxu" secondAttribute="leading" id="A2U-zK-fC7"/>
-                            <constraint firstItem="aef-WV-nOF" firstAttribute="bottom" secondItem="mDE-rf-FtH" secondAttribute="bottom" id="D6e-36-5Lc"/>
+                            <constraint firstItem="h1q-iW-HEV" firstAttribute="top" secondItem="kuL-gW-ctV" secondAttribute="bottom" id="AcR-eL-p7K"/>
                             <constraint firstItem="aef-WV-nOF" firstAttribute="trailing" secondItem="kuL-gW-ctV" secondAttribute="trailing" id="EzW-uk-Sxx"/>
                             <constraint firstItem="kuL-gW-ctV" firstAttribute="leading" secondItem="aef-WV-nOF" secondAttribute="leading" id="G4z-rt-bs6"/>
                             <constraint firstItem="MHn-kS-NQ9" firstAttribute="trailing" secondItem="aef-WV-nOF" secondAttribute="trailing" id="GR8-Wq-4zT"/>
+                            <constraint firstItem="aef-WV-nOF" firstAttribute="bottom" secondItem="h1q-iW-HEV" secondAttribute="bottom" constant="16" id="HlA-gY-nxa"/>
                             <constraint firstItem="kuL-gW-ctV" firstAttribute="top" secondItem="aef-WV-nOF" secondAttribute="top" id="IR2-JR-uvJ"/>
                             <constraint firstItem="aef-WV-nOF" firstAttribute="bottom" secondItem="QeT-f8-izu" secondAttribute="bottom" constant="16" id="JI9-Dy-C8u"/>
-                            <constraint firstItem="R3q-OE-YJV" firstAttribute="leading" secondItem="aef-WV-nOF" secondAttribute="leading" constant="16" id="QpL-13-1GY"/>
-                            <constraint firstItem="Uob-d4-LYx" firstAttribute="leading" secondItem="kYV-2e-Qxu" secondAttribute="leading" constant="16" id="V0t-lE-g8T"/>
-                            <constraint firstAttribute="trailing" secondItem="Uob-d4-LYx" secondAttribute="trailing" constant="16" id="VNv-ST-niz"/>
-                            <constraint firstItem="R3q-OE-YJV" firstAttribute="top" secondItem="kuL-gW-ctV" secondAttribute="bottom" constant="16" id="dHo-GP-JLb"/>
-                            <constraint firstItem="mDE-rf-FtH" firstAttribute="leading" secondItem="aef-WV-nOF" secondAttribute="leading" id="eM9-zS-2n6"/>
-                            <constraint firstItem="Uob-d4-LYx" firstAttribute="top" secondItem="R3q-OE-YJV" secondAttribute="bottom" constant="8" id="fbb-9s-ONP"/>
+                            <constraint firstItem="h1q-iW-HEV" firstAttribute="leading" secondItem="aef-WV-nOF" secondAttribute="leading" constant="16" id="Nz8-tf-H9t"/>
                             <constraint firstItem="MHn-kS-NQ9" firstAttribute="top" secondItem="kYV-2e-Qxu" secondAttribute="top" id="kAS-Ky-3gt"/>
-                            <constraint firstItem="aef-WV-nOF" firstAttribute="trailing" secondItem="R3q-OE-YJV" secondAttribute="trailing" constant="16" id="l50-da-fEp"/>
                             <constraint firstAttribute="bottom" secondItem="MHn-kS-NQ9" secondAttribute="bottom" id="pwm-5T-LQH"/>
-                            <constraint firstAttribute="trailing" secondItem="mDE-rf-FtH" secondAttribute="trailing" id="zhI-HT-mLS"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="sWn-rz-bPe"/>
                     <connections>
                         <outlet property="GoldView" destination="Jtc-0c-lzX" id="9xC-iB-ELM"/>
-                        <outlet property="banneView" destination="MQE-EH-TWM" id="v7h-mN-RDx"/>
                         <outlet property="headerView" destination="kuL-gW-ctV" id="Z24-Hd-TCu"/>
                         <outlet property="lastUpdateLabel" destination="62Q-hB-NBa" id="5yr-xH-c0C"/>
                         <outlet property="silverView" destination="K8w-dE-08n" id="Yee-fn-4Os"/>
