@@ -145,7 +145,8 @@ class BaseControllerVC: UIViewController {
             
         ]
         navigationController?.navigationBar.largeTitleTextAttributes = [
-            NSAttributedString.Key.font: AppFont.bold.size(24),
+            // خط العناوين من الهوية
+            NSAttributedString.Key.font: AppDisplayFont.bold.size(24),
         ]
 //        normalRefresh.releaseToRefreshDescription = NSLocalizedString("releaseToRefresh".localized, comment: "")
 //        normalRefresh.loadingDescription = NSLocalizedString("loading".localized, comment: "")

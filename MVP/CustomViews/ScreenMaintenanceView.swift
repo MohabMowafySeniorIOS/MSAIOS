@@ -43,7 +43,7 @@ final class ScreenMaintenanceView: UIView {
     // MARK: - Layout
 
     private func setupUI() {
-        backgroundColor = UIColor(named: "BlackColor") ?? UIColor(white: 0.06, alpha: 1)
+        backgroundColor = UIColor(named: "BlackColor") ?? UIColor(red: 0.137, green: 0.098, blue: 0.094, alpha: 1)
         isUserInteractionEnabled = true   // swallow taps meant for the hidden content
 
         // Same subtle texture the rest of the app uses, if it's in the catalogue.

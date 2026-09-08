@@ -152,6 +152,20 @@ class MoreVC: BaseControllerVC {
         }
     }
     
+    /// الإعدادات — تحكّم منفصل لكل نوع إشعار
+    @IBAction func SettingsAction(_ sender: Any) {
+        var view = SettingsView()
+        let hostingController = UIHostingController(rootView: view)
+        // الرجوع بيتم بالـ pop مباشرة، مش بـ dismiss — لأن الشاشة متدفوعة
+        // على الـ navigation stack مش معروضة كـ sheet.
+        view.onBack = { [weak self] in
+            self?.navigationController?.popViewController(animated: true)
+        }
+        hostingController.rootView = view
+        tabBarController?.tabBar.isHidden = true
+        navigationController?.pushViewController(hostingController, animated: true)
+    }
+
     @IBAction func IndicatorAction(_ sender: Any) {
         
         let swiftUIView = IndicatorsView()

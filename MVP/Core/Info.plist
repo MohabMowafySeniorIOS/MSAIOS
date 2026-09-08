@@ -32,6 +32,8 @@
 	<false/>
 	<key>FirebaseAppDelegateProxyEnabled</key>
 	<false/>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-9708097878518340~8666538634</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>comgooglemaps</string>
@@ -59,15 +61,11 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>IBMPlexSansArabic-Bold.ttf</string>
-		<string>IBMPlexSansArabic-ExtraLight.ttf</string>
-		<string>IBMPlexSansArabic-Light.ttf</string>
-		<string>IBMPlexSansArabic-Light.ttf</string>
 		<string>IBMPlexSansArabic-Medium.ttf</string>
 		<string>IBMPlexSansArabic-Regular.ttf</string>
-		<string>IBMPlexSansArabic-SemiBold.ttf</string>
-		<string>IBMPlexSansArabic-SemiBold.ttf</string>
-		<string>IBMPlexSansArabic-Thin.ttf</string>
 		<string>sar-Regular.ttf</string>
+		<string>Lafet-Regular.otf</string>
+		<string>Lafet-Bold.otf</string>
 	</array>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
@@ -100,7 +98,5 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
-	<key>GADApplicationIdentifier</key>
-	<string>ca-app-pub-9708097878518340~8666538634</string>
 </dict>
 </plist>

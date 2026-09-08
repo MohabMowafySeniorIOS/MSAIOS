@@ -27,17 +27,18 @@ class BGView: UIView {
     }
     
     private func setup() {
-        setupBaseGradient()
-        setupLightEffect()
+//        setupBaseGradient()
+//        setupLightEffect()
         setupTexture()
     }
     
     // MARK: - Base Gradient
     private func setupBaseGradient() {
+        // نفس تدرّج BGSwiftUIView — مشتق من بني الهوية #3F2D2C
         gradientLayer.colors = [
-            UIColor(red: 0.07, green: 0.07, blue: 0.07, alpha: 1).cgColor,
-            UIColor(red: 0.12, green: 0.12, blue: 0.12, alpha: 1).cgColor,
-            UIColor(red: 0.18, green: 0.18, blue: 0.18, alpha: 1).cgColor
+            UIColor(red: 0.094, green: 0.067, blue: 0.067, alpha: 1).cgColor,  // #181111
+            UIColor(red: 0.137, green: 0.098, blue: 0.094, alpha: 1).cgColor,  // #231918
+            UIColor(red: 0.184, green: 0.133, blue: 0.129, alpha: 1).cgColor   // #2F2221
         ]
         
         gradientLayer.startPoint = CGPoint(x: 0, y: 0)
@@ -49,7 +50,7 @@ class BGView: UIView {
     // MARK: - Light Effect
     private func setupLightEffect() {
         lightLayer.colors = [
-            UIColor(red: 0.83, green: 0.69, blue: 0.22, alpha: 0.4).cgColor,
+            UIColor(red: 0.910, green: 0.694, blue: 0.220, alpha: 0.4).cgColor,  // #E8B138
             UIColor.clear.cgColor
         ]
         
@@ -63,7 +64,7 @@ class BGView: UIView {
     private func setupTexture() {
         textureView.image = UIImage(named: "BGImage")
         textureView.contentMode = .scaleAspectFill
-        textureView.alpha = 0.15
+      //  textureView.alpha = 0.15
         
         addSubview(textureView)
     }

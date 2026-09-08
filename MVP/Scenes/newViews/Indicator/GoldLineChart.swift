@@ -14,17 +14,17 @@ struct GoldLineChart: View {
     @State private var touchX: CGFloat? = nil
     @State private var touchPoint: PricePoint? = nil
 
-    private let lineColor   = Color(hex: "E8D5A0")    // cream/gold line
+    private let lineColor   = Color(hex: "F2D28C")    // cream/gold line
     private let gridColor   = Color.white.opacity(0.07)
-    private let labelColor  = Color(hex: "C9A84C")
-    private let bgColor     = Color(hex: "1A1A1A")
+    private let labelColor  = Color(hex: "E8B138")
+    private let bgColor     = Color(hex: "231918")
 
     var body: some View {
         VStack(alignment: .trailing, spacing: 0) {
             // Title
             Text(dataSet.title)
                 .font(.system(size: 14, weight: .semibold))
-                .foregroundColor(Color(hex: "E8D5A0"))
+                .foregroundColor(Color(hex: "F2D28C"))
                 .frame(maxWidth: .infinity, alignment: .center)
                 .padding(.vertical, 10)
 
@@ -68,7 +68,7 @@ struct GoldLineChart: View {
                             // Y label
                             Text(formatLabel(label))
                                 .font(.system(size: 10))
-                                .foregroundColor(Color(hex: "888888"))
+                                .foregroundColor(Color(hex: "9E9898"))
                                 .frame(width: leftPad - 4, alignment: .trailing)
                                 .position(x: (leftPad - 4) / 2, y: y)
                         }
@@ -81,7 +81,7 @@ struct GoldLineChart: View {
                             let x = leftPad + xFrac * chartW
                             Text(formatDate(date, period: guessPeriod(pts)))
                                 .font(.system(size: 9))
-                                .foregroundColor(Color(hex: "888888"))
+                                .foregroundColor(Color(hex: "9E9898"))
                                 .frame(width: 40, alignment: .center)
                                 .position(x: x, y: h - botPad / 2 - 4)
                         }
@@ -113,11 +113,11 @@ struct GoldLineChart: View {
                                 p.move(to: CGPoint(x: x, y: topPad))
                                 p.addLine(to: CGPoint(x: x, y: h - botPad))
                             }
-                            .stroke(Color(hex: "C9A84C").opacity(0.6), style: StrokeStyle(lineWidth: 1, dash: [4, 3]))
+                            .stroke(Color(hex: "E8B138").opacity(0.6), style: StrokeStyle(lineWidth: 1, dash: [4, 3]))
 
                             // Dot
                             Circle()
-                                .fill(Color(hex: "C9A84C"))
+                                .fill(Color(hex: "E8B138"))
                                 .frame(width: 8, height: 8)
                                 .position(x: x, y: y)
 
@@ -127,7 +127,7 @@ struct GoldLineChart: View {
                                 .foregroundColor(.black)
                                 .padding(.horizontal, 8)
                                 .padding(.vertical, 4)
-                                .background(Color(hex: "C9A84C"))
+                                .background(Color(hex: "E8B138"))
                                 .cornerRadius(6)
                                 .position(x: min(max(x, 60), w - 60), y: y - 22)
                         }
@@ -153,7 +153,7 @@ struct GoldLineChart: View {
             }
             .frame(height: 220)
         }
-        .background(Color(hex: "222222"))
+        .background(Color(hex: "231918"))
         .cornerRadius(12)
     }
 

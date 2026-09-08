@@ -40,9 +40,9 @@ class GoldButton: UIButton {
     // MARK: - Gradient
     private func setupGradient() {
         gradientLayer.colors = [
-            UIColor(hex: "#F5E6A5").cgColor,
-            UIColor(hex: "#D4AF37").cgColor,
-            UIColor(hex: "#B8962E").cgColor
+            UIColor(hex: "#F2D28C").cgColor,
+            UIColor(hex: "#E8B138").cgColor,
+            UIColor(hex: "#A77F28").cgColor
         ]
         
         gradientLayer.startPoint = CGPoint(x: 0.5, y: 0)

@@ -26,6 +26,8 @@ let hostName = "https://api.msagold.com/api/v1/" //is_production ? Production_li
 
 
 let FontfamilyName = "IBMPlexSansArabic"
+/// خط العناوين من الهوية — الاسم ده هو الـ PostScript name جوّه ملف الـ otf
+let DisplayFontFamilyName = "Lafet"
 let FontfamilyCurrencyName = "sar"
 let GoogleKey = "AIzaSyDnETus6TKuK1XjPJmmLzIaRs-oHi9jotc"
 let appName = (Bundle.main.infoDictionary!["CFBundleName"] as? String) ?? ""

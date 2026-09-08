@@ -116,13 +116,13 @@ struct GaugeView: View {
                 
                 // Center dot
                 Circle()
-                    .fill(Color(hex: "C9A84C"))
+                    .fill(Color(hex: "E8B138"))
                     .frame(width: 18, height: 18)
                     .position(center)
                 
                 // Needle
                 NeedleShape(angle: needleAngle, length: radius * 0.85)
-                    .stroke(Color(hex: "C9A84C"), style: StrokeStyle(lineWidth: 3, lineCap: .round))
+                    .stroke(Color(hex: "E8B138"), style: StrokeStyle(lineWidth: 3, lineCap: .round))
                     .position(center)
                 
                 // Top indicator triangle
@@ -285,22 +285,22 @@ struct PriceDetailsCard: View {
             // Title
             Text("تفاصيل الأسعار")
                 .font(.system(size: 15, weight: .semibold))
-                .foregroundColor(Color(hex: "C9A84C"))
+                .foregroundColor(Color(hex: "E8B138"))
                 .padding(.vertical, 10)
 
-            Divider().background(Color(hex: "3A3A3A"))
+            Divider().background(Color(hex: "3F2D2C"))
 
             VStack(spacing: 0) {
                 PriceRows(label: "سعر الجرام عيار 24 عالميا:", value: String(format: "%.2f USD", data.worldPerGramUsd), valueColor: .white)
-                Divider().background(Color(hex: "3A3A3A")).padding(.horizontal, 16)
+                Divider().background(Color(hex: "3F2D2C")).padding(.horizontal, 16)
                 PriceRows(label: "سعر الجرام عيار 24 محليا:", value: String(format: "%.0f جنيه", data.gold24LocalEgp), valueColor: .white)
-                Divider().background(Color(hex: "3A3A3A")).padding(.horizontal, 16)
+                Divider().background(Color(hex: "3F2D2C")).padding(.horizontal, 16)
                 PriceRows(label: "الذهب محسوب بسعر الدولار:", value: String(format: "%.2f جنيه", data.dollarSagha), valueColor: .white)
-                Divider().background(Color(hex: "3A3A3A")).padding(.horizontal, 16)
+                Divider().background(Color(hex: "3F2D2C")).padding(.horizontal, 16)
                 PriceRows(label: "سعر الدولار الرسمي:", value: String(format: "%.2f جنيه", data.dollarBank), valueColor: .white)
             }
         }
-        .background(Color(hex: "2A2A2A"))
+        .background(Color(hex: "261B1A"))
         .cornerRadius(12)
     }
 }
@@ -320,7 +320,7 @@ struct PriceRows: View {
             
             Text(label)
                 .font(.system(size: 14))
-                .foregroundColor(Color(hex: "AAAAAA"))
+                .foregroundColor(Color(hex: "B0AAAA"))
                 .multilineTextAlignment(.trailing)
         }
         .padding(.horizontal, 16)
@@ -343,10 +343,10 @@ struct GapDetailsCard: View {
         VStack(spacing: 0) {
             Text("تفاصيل الفجوة السعرية")
                 .font(.system(size: 15, weight: .semibold))
-                .foregroundColor(Color(hex: "C9A84C"))
+                .foregroundColor(Color(hex: "E8B138"))
                 .padding(.vertical, 10)
 
-            Divider().background(Color(hex: "3A3A3A"))
+            Divider().background(Color(hex: "3F2D2C"))
 
             VStack(spacing: 0) {
                 PriceRows(
@@ -354,7 +354,7 @@ struct GapDetailsCard: View {
                     value: String(format: "%.0f جنيه مصري", data.gap24Abs),
                     valueColor: gapColor(isNegative: data.gap24IsNegative)
                 )
-                Divider().background(Color(hex: "3A3A3A")).padding(.horizontal, 16)
+                Divider().background(Color(hex: "3F2D2C")).padding(.horizontal, 16)
                 PriceRows(
                     label: "الفجوة في عيار 21",
                     value: String(format: "%.0f جنيه مصري", data.gap21Abs),
@@ -362,7 +362,7 @@ struct GapDetailsCard: View {
                 )
             }
         }
-        .background(Color(hex: "2A2A2A"))
+        .background(Color(hex: "261B1A"))
         .cornerRadius(12)
     }
 }
@@ -377,12 +377,12 @@ struct InfoTextCard: View {
             
             Text("تشير إلى الفرق بين السعر المحلي (كما يُعلن في محلات الذهب أو الصاغة) والسعر العالمي المحوّل للجنيه المصري...")
                 .font(.system(size: 13))
-                .foregroundColor(Color(hex: "AAAAAA"))
+                .foregroundColor(Color(hex: "B0AAAA"))
                 .lineSpacing(4)
         }
         .padding(16)
         .frame(maxWidth: .infinity, alignment: .trailing)
-        .background(Color(hex: "2A2A2A"))
+        .background(Color(hex: "261B1A"))
         .cornerRadius(12)
         .environment(\.layoutDirection, .rightToLeft)
     }
@@ -395,7 +395,7 @@ struct PriceGaugeView: View {
 
     var body: some View {
         ZStack {
-          //  Color(hex: "1C1C1E").ignoresSafeArea()
+          //  Color(hex: "1C1414").ignoresSafeArea()
 
             VStack(spacing: 0) {
                 GaugeDial(value: value)
@@ -505,13 +505,13 @@ struct GaugeDial: View {
                     p.addLine(to: CGPoint(x: tipX, y: tipY))
                 }
                 .stroke(
-                    Color(hex: "C9A84C"),
+                    Color(hex: "E8B138"),
                     style: StrokeStyle(lineWidth: 3, lineCap: .round)
                 )
 
                 // center pivot
                 Circle()
-                    .fill(Color(hex: "C9A84C"))
+                    .fill(Color(hex: "E8B138"))
                     .frame(width: 16, height: 16)
                     .position(x: cx, y: cy)
 

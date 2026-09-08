@@ -646,3 +646,18 @@
 
 "maintenance_screen_title" = "في شغل صيانة دلوقتي";
 "maintenance_screen_message" = "الشاشة دي بنشتغل عليها دلوقتي وهترجع تاني قريب.\nمعلش على الإزعاج 🙏";
+
+/* الإعدادات وتحكّم الإشعارات */
+"Settings" = "الإعدادات";
+"notifications_section" = "الإشعارات";
+"notif_gold" = "إشعارات الذهب";
+"notif_gold_desc" = "تنبيه عند تغيّر أسعار الذهب";
+"notif_silver" = "إشعارات الفضة";
+"notif_silver_desc" = "تنبيه عند تغيّر أسعار الفضة";
+"notif_dollar" = "أسعار الدولار";
+"notif_dollar_desc" = "تنبيه عند تغيّر سعر الدولار";
+"notif_news" = "الأخبار";
+"notif_news_desc" = "أخبار السوق وأخبار MSA";
+"notif_general" = "الإشعارات العامة";
+"notif_general_desc" = "إعلانات وتحديثات التطبيق";
+"notif_system_hint" = "لو قافل الإشعارات من إعدادات الموبايل، مش هيوصلك حاجة حتى لو مفعّلة هنا.";

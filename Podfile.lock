@@ -1200,6 +1200,9 @@ PODS:
   - DGCharts (5.1.0):
     - DGCharts/Core (= 5.1.0)
   - DGCharts/Core (5.1.0)
+  - Firebase/Auth (12.14.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 12.14.0)
   - Firebase/CoreOnly (12.14.0):
     - FirebaseCore (~> 12.14.0)
   - Firebase/Crashlytics (12.14.0):
@@ -1230,6 +1233,16 @@ PODS:
     - "GoogleUtilities/NSData+zlib (~> 8.1)"
     - nanopb (~> 3.30910.0)
   - FirebaseAppCheckInterop (12.14.0)
+  - FirebaseAuth (12.14.0):
+    - FirebaseAppCheckInterop (~> 12.14.0)
+    - FirebaseAuthInterop (~> 12.14.0)
+    - FirebaseCore (~> 12.14.0)
+    - FirebaseCoreExtension (~> 12.14.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 8.1)
+    - GoogleUtilities/Environment (~> 8.1)
+    - GTMSessionFetcher/Core (< 6.0, >= 3.4)
+    - RecaptchaInterop (~> 101.0)
+  - FirebaseAuthInterop (12.14.0)
   - FirebaseCore (12.14.0):
     - FirebaseCoreInternal (~> 12.14.0)
     - GoogleUtilities/Environment (~> 8.1)
@@ -1441,6 +1454,7 @@ PODS:
     - gRPC-Core/Privacy (= 1.69.0)
   - gRPC-Core/Interface (1.69.0)
   - gRPC-Core/Privacy (1.69.0)
+  - GTMSessionFetcher/Core (5.3.0)
   - ImageSlideshow (1.9.2):
     - ImageSlideshow/Core (= 1.9.2)
   - ImageSlideshow/Core (1.9.2)
@@ -1498,6 +1512,7 @@ PODS:
   - PromisesObjC (2.4.0)
   - PromisesSwift (2.4.0):
     - PromisesObjC (= 2.4.0)
+  - RecaptchaInterop (101.0.0)
   - Socket.IO-Client-Swift (16.1.1):
     - Starscream (~> 4.0.8)
   - Starscream (4.0.8)
@@ -1507,6 +1522,7 @@ DEPENDENCIES:
   - Alamofire (~> 5.10.2)
   - Cosmos (~> 16.0)
   - DGCharts
+  - Firebase/Auth
   - Firebase/Crashlytics
   - Firebase/Firestore
   - Firebase/Messaging
@@ -1529,6 +1545,8 @@ SPEC REPOS:
     - Firebase
     - FirebaseAnalytics
     - FirebaseAppCheckInterop
+    - FirebaseAuth
+    - FirebaseAuthInterop
     - FirebaseCore
     - FirebaseCoreExtension
     - FirebaseCoreInternal
@@ -1546,6 +1564,7 @@ SPEC REPOS:
     - GoogleUtilities
     - "gRPC-C++"
     - gRPC-Core
+    - GTMSessionFetcher
     - ImageSlideshow
     - IQKeyboardCore
     - IQKeyboardManagerSwift
@@ -1562,6 +1581,7 @@ SPEC REPOS:
     - NVActivityIndicatorView
     - PromisesObjC
     - PromisesSwift
+    - RecaptchaInterop
     - Socket.IO-Client-Swift
     - Starscream
 
@@ -1575,6 +1595,8 @@ SPEC CHECKSUMS:
   Firebase: 7cc10425300768ec86292688af5cb228f0604bde
   FirebaseAnalytics: 99364329a3ea4d1ab4a3744b5464371b7351c481
   FirebaseAppCheckInterop: f123c0261a7b46f060e98fc2961651f1ac68f384
+  FirebaseAuth: 01a77d472aec77ec008141e7d859d1b9cb8dc2cf
+  FirebaseAuthInterop: 63056ef7f9602e79a8f8d756d4cb35f38e2927c3
   FirebaseCore: 4939b340b9c598dc1f965d68f8fe57e630b65407
   FirebaseCoreExtension: ee3e3697acea1062288b1900bcdcab4d59ab93b4
   FirebaseCoreInternal: 090369a5fffd7423cf88006ab4d2ccc2173a8db9
@@ -1592,6 +1614,7 @@ SPEC CHECKSUMS:
   GoogleUtilities: 00c88b9a86066ef77f0da2fab05f65d7768ed8e1
   "gRPC-C++": cc207623316fb041a7a3e774c252cf68a058b9e8
   gRPC-Core: 860978b7db482de8b4f5e10677216309b5ff6330
+  GTMSessionFetcher: 127211aeec0b1e904fc49f4f6f895dcc535b0ecf
   ImageSlideshow: be305b54eaf2b2cfc7a7141c7c734605d44dc07d
   IQKeyboardCore: 250a88dfc713b2ecbe1dce250811d054fc016959
   IQKeyboardManagerSwift: 7f6a9a1e2285732d3ff5f485ff921215253ea77e
@@ -1608,9 +1631,10 @@ SPEC CHECKSUMS:
   NVActivityIndicatorView: fe52a6a68664c2df8991d7d9e3d86d8d19453c53
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   PromisesSwift: 9d77319bbe72ebf6d872900551f7eeba9bce2851
+  RecaptchaInterop: 11e0b637842dfb48308d242afc3f448062325aba
   Socket.IO-Client-Swift: 3614bea82ba005df1c2ff01154f4004993e05ad7
   Starscream: 19b5533ddb925208db698f0ac508a100b884a1b9
 
-PODFILE CHECKSUM: 0c21be58e1b9e2a27567e67a527d43333f381de2
+PODFILE CHECKSUM: b3e7eaa0a2805438abbd0dd52f02c38c30756f68
 
 COCOAPODS: 1.16.2

@@ -24,24 +24,25 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IHH-Hu-3h6">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.14999999999999999" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGImage" translatesAutoresizingMaskIntoConstraints="NO" id="Vke-jw-Gc3">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGImage" translatesAutoresizingMaskIntoConstraints="NO" id="Vke-jw-Gc3">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashLogo" translatesAutoresizingMaskIntoConstraints="NO" id="bC0-nG-fiD">
-                                        <rect key="frame" x="40" y="40" width="313" height="772"/>
+                                        <rect key="frame" x="96.666666666666686" y="-86" width="200" height="1024"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="rX1-Cd-VqJ"/>
+                                        </constraints>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.059000000357627869" green="0.059000000357627869" blue="0.059000000357627869" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="bC0-nG-fiD" firstAttribute="top" secondItem="IHH-Hu-3h6" secondAttribute="top" constant="40" id="9Gu-ab-2I4"/>
+                                    <constraint firstItem="bC0-nG-fiD" firstAttribute="centerX" secondItem="IHH-Hu-3h6" secondAttribute="centerX" id="2Gx-6F-7je"/>
                                     <constraint firstAttribute="trailing" secondItem="Vke-jw-Gc3" secondAttribute="trailing" id="BW7-Kg-5al"/>
-                                    <constraint firstItem="bC0-nG-fiD" firstAttribute="leading" secondItem="IHH-Hu-3h6" secondAttribute="leading" constant="40" id="FIe-OH-sZa"/>
+                                    <constraint firstItem="bC0-nG-fiD" firstAttribute="centerY" secondItem="IHH-Hu-3h6" secondAttribute="centerY" id="BjE-wm-bpy"/>
                                     <constraint firstItem="Vke-jw-Gc3" firstAttribute="top" secondItem="IHH-Hu-3h6" secondAttribute="top" id="JWq-TB-vbb"/>
                                     <constraint firstAttribute="bottom" secondItem="Vke-jw-Gc3" secondAttribute="bottom" id="UHn-rh-da3"/>
                                     <constraint firstItem="Vke-jw-Gc3" firstAttribute="leading" secondItem="IHH-Hu-3h6" secondAttribute="leading" id="YPd-ay-2oo"/>
-                                    <constraint firstAttribute="bottom" secondItem="bC0-nG-fiD" secondAttribute="bottom" constant="40" id="ZjX-ca-YYU"/>
-                                    <constraint firstAttribute="trailing" secondItem="bC0-nG-fiD" secondAttribute="trailing" constant="40" id="wxx-tj-7ZG"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -64,7 +65,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="BGImage" width="853" height="1844"/>
+        <image name="BGImage" width="853" height="1843"/>
         <image name="SplashLogo" width="1536" height="1024"/>
     </resources>
 </document>

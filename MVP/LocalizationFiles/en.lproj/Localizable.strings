@@ -535,3 +535,18 @@
 
 "maintenance_screen_title" = "We’re doing some maintenance";
 "maintenance_screen_message" = "We’re working on this screen right now and it will be back shortly.\nSorry for the inconvenience 🙏";
+
+/* Settings & notification controls */
+"Settings" = "Settings";
+"notifications_section" = "Notifications";
+"notif_gold" = "Gold alerts";
+"notif_gold_desc" = "Alert when gold prices change";
+"notif_silver" = "Silver alerts";
+"notif_silver_desc" = "Alert when silver prices change";
+"notif_dollar" = "Dollar prices";
+"notif_dollar_desc" = "Alert when the dollar rate changes";
+"notif_news" = "News";
+"notif_news_desc" = "Market news and MSA news";
+"notif_general" = "General notifications";
+"notif_general_desc" = "Announcements and app updates";
+"notif_system_hint" = "If notifications are off in your phone settings, nothing will arrive even when enabled here.";

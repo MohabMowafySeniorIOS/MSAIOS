@@ -40,7 +40,8 @@ class BaseNavigationController: UINavigationController {
             
         ]
         navigationBar.largeTitleTextAttributes = [
-            NSAttributedString.Key.font: AppFont.bold.size(24),
+            // خط العناوين من الهوية
+            NSAttributedString.Key.font: AppDisplayFont.bold.size(24),
         ]
       
         

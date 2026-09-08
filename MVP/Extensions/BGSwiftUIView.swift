@@ -8,39 +8,29 @@
 import Foundation
 import SwiftUI
 
+/// خلفية كل شاشات التطبيق — نفس `MSABackground` في أندرويد بالظبط.
+///
+/// الخلفية بقت صورة واحدة جاهزة بأشكال الهوية بدل ثلاث طبقات:
+///   • قبل: تدرّج + لمعة ذهب + نقشة بشفافية 15%
+///   • دلوقتي: لون أساس + الصورة كاملة الوضوح
+///
+/// الصورة نفسها فيها التدرّج والأشكال، فاللمعة الذهبية اتشالت — كانت
+/// هتغيّر ألوان التصميم لو فضلت فوقه. اللون الأساس تحتها بلون الصورة
+/// الغالب عشان لو الشاشة أطول من نسبة الصورة، الفراغ يبقى بنفس اللون.
 struct BGSwiftUIView: View {
-    
+
     var body: some View {
         ZStack {
-            
-            // MARK: - Base Gradient
-            LinearGradient(
-                colors: [
-                    Color(red: 0.07, green: 0.07, blue: 0.07),
-                    Color(red: 0.12, green: 0.12, blue: 0.12),
-                    Color(red: 0.18, green: 0.18, blue: 0.18)
-                ],
-                startPoint: .topLeading,
-                endPoint: .bottomTrailing
-            )
-            
-            // MARK: - Light Effect
-            LinearGradient(
-                colors: [
-                    Color(red: 0.83, green: 0.69, blue: 0.22).opacity(0.4),
-                    Color.clear
-                ],
-                startPoint: .topLeading,
-                endPoint: UnitPoint(x: 0.7, y: 0.7)
-            )
-           
-            // MARK: - Texture
+
+            // MARK: - Base Color
+            // #2E2020 — اللون الغالب في صورة الخلفية
+            Color(red: 0.180, green: 0.125, blue: 0.125)
+
+            // MARK: - Brand Background
             Image("BGImage")
                 .resizable()
                 .scaledToFill()
-                .opacity(0.15)
         }
-        .ignoresSafeArea() // لو عايزه يملأ الشاشة كلها
+        .ignoresSafeArea() // يملأ الشاشة كلها
     }
 }
-

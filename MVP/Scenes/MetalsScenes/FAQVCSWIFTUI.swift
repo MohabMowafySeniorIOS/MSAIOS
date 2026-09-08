@@ -85,7 +85,7 @@ struct FAQCard: View {
             HStack {
                 // Question Icon
                 Image(systemName: "questionmark.circle")
-                    .foregroundColor(Color(hex: "#D8BE8A"))
+                    .foregroundColor(Color(hex: "#F2D28C"))
                
 
                 Text(item.question ?? "")
@@ -96,7 +96,7 @@ struct FAQCard: View {
                 
                 // Chevron
                 Image(systemName: isExpanded ? "chevron.up" : "chevron.down")
-                    .foregroundColor(Color(hex: "#D8BE8A"))
+                    .foregroundColor(Color(hex: "#F2D28C"))
                
             }
             .padding()
@@ -121,7 +121,7 @@ struct FAQCard: View {
         .clipped()
         .overlay(
             RoundedRectangle(cornerRadius: 16)
-                .stroke(Color(hex: "#D8BE8A").opacity(0.5), lineWidth: 1)
+                .stroke(Color(hex: "#F2D28C").opacity(0.5), lineWidth: 1)
         )
     }
 }

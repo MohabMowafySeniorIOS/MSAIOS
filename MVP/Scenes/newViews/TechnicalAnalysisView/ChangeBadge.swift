@@ -45,7 +45,7 @@ struct InstrumentCard: View {
                 .foregroundColor(Color.MainColor)
                 .frame(maxWidth: .infinity, alignment: .center)
 
-            Divider().background(Color(hex: "3A3A3A"))
+            Divider().background(Color(hex: "3F2D2C"))
 
             HStack {
                 Text("\(snapshot.open.formatPrice(decimals: decimals)) \(unit)")
@@ -54,7 +54,7 @@ struct InstrumentCard: View {
                 Spacer()
                 Text("افتتاح")
                     .font(.system(size: 11))
-                    .foregroundColor(Color(hex: "888888"))
+                    .foregroundColor(Color(hex: "9E9898"))
             }
 
             HStack {
@@ -64,7 +64,7 @@ struct InstrumentCard: View {
                 Spacer()
                 Text("إغلاق")
                     .font(.system(size: 11))
-                    .foregroundColor(Color(hex: "888888"))
+                    .foregroundColor(Color(hex: "9E9898"))
             }
 
             ChangeBadge(pct: snapshot.changePct, fontSize: 13)
@@ -89,7 +89,7 @@ struct PriceGapCard: View {
                 .foregroundColor(Color.MainColor)
                 .frame(maxWidth: .infinity, alignment: .center)
 
-            Divider().background(Color(hex: "3A3A3A"))
+            Divider().background(Color(hex: "3F2D2C"))
 
             HStack {
                 Text("\(snapshot.open.formatPrice(decimals: 2)) جنيه")
@@ -98,7 +98,7 @@ struct PriceGapCard: View {
                 Spacer()
                 Text("افتتاح")
                     .font(.system(size: 11))
-                    .foregroundColor(Color(hex: "888888"))
+                    .foregroundColor(Color(hex: "9E9898"))
             }
 
             HStack {
@@ -108,7 +108,7 @@ struct PriceGapCard: View {
                 Spacer()
                 Text("إغلاق")
                     .font(.system(size: 11))
-                    .foregroundColor(Color(hex: "888888"))
+                    .foregroundColor(Color(hex: "9E9898"))
             }
 
             ChangeBadge(pct: snapshot.changePct, fontSize: 13)
@@ -132,7 +132,7 @@ struct StatCard: View {
         VStack(spacing: 10) {
             Text(title)
                 .font(.system(size: 13, weight: .medium))
-                .foregroundColor(Color(hex: "AAAAAA"))
+                .foregroundColor(Color(hex: "B0AAAA"))
                 .frame(maxWidth: .infinity, alignment: .center)
 
             Text(value)
@@ -171,7 +171,7 @@ struct MarketStatusButton: View {
             }
             .frame(maxWidth: .infinity)
             .padding(.vertical, 14)
-            .background(Color(hex: "1A1A1A"))
+            .background(Color(hex: "231918"))
             .overlay(
                 RoundedRectangle(cornerRadius: 25)
                     .stroke(borderColor, lineWidth: 1.5)
@@ -230,7 +230,7 @@ struct SimpleCloseCard: View {
                 Spacer()
                 Text("إغلاق")
                     .font(.system(size: 11))
-                    .foregroundColor(Color(hex: "888888"))
+                    .foregroundColor(Color(hex: "9E9898"))
             }
             ChangeBadge(pct: pct, fontSize: 13)
                 .frame(maxWidth: .infinity, alignment: .center)

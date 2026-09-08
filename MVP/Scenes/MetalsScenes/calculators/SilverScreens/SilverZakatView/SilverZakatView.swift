@@ -77,6 +77,14 @@ struct SilverZakatView: View {
                                     String(format: "%.2f", vm.zakatAmount)))
                         .foregroundColor(.white)
                         .bold()
+
+                        // قيمة الزكاة بالجنيه — زي شاشة زكاة الذهب وزي أندرويد
+                        if vm.zakatValue > 0 {
+                            Text(String(format: "zakat_amount".localized,
+                                        String(format: "%.2f", vm.zakatValue)))
+                            .foregroundColor(.white)
+                            .bold()
+                        }
                     }
                 }
                 

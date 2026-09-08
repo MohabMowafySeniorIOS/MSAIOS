@@ -85,7 +85,7 @@ struct AppHeaderView: View {
     var body: some View {
         ZStack {
             LinearGradient(
-                colors: [Color(hex: "B8924A"), Color(hex: "E8C870"), Color(hex: "B8924A")],
+                colors: [Color(hex: "A77F28"), Color(hex: "EFC874"), Color(hex: "A77F28")],
                 startPoint: .leading, endPoint: .trailing
             )
 
@@ -107,7 +107,7 @@ struct AppHeaderView: View {
                     Text("D")
                         .font(.system(size: 20, weight: .bold, design: .serif))
                         .italic()
-                        .foregroundColor(Color(hex: "C9A84C"))
+                        .foregroundColor(Color(hex: "E8B138"))
                 }
                 .padding(.leading, 8)
             }
@@ -139,12 +139,12 @@ struct HintBanner: View {
     var body: some View {
         Text("يمكنك الضغط لمدة ثانيتين على الرسم البياني لعرض القيمة.")
             .font(.system(size: 13))
-            .foregroundColor(Color(hex: "CCCCCC"))
+            .foregroundColor(Color(hex: "C6C6C6"))
             .multilineTextAlignment(.center)
             .padding(.horizontal, 16)
             .padding(.vertical, 12)
             .frame(maxWidth: .infinity)
-            .background(Color(hex: "2A2A2A"))
+            .background(Color(hex: "261B1A"))
             .cornerRadius(10)
     }
 }
@@ -160,13 +160,13 @@ struct MetalSegmentedPicker: View {
                 Button(action: { withAnimation(.easeInOut(duration: 0.2)) { selected = metal } }) {
                     Text(metal.rawValue)
                         .font(.system(size: 15, weight: .semibold))
-                        .foregroundColor(selected == metal ? .black : Color(hex: "C9A84C"))
+                        .foregroundColor(selected == metal ? .black : Color(hex: "E8B138"))
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 10)
                         .background(
                             selected == metal
                                 ? RoundedRectangle(cornerRadius: 22)
-                                    .fill(Color(hex: "E8C870"))
+                                    .fill(Color(hex: "EFC874"))
                                 : RoundedRectangle(cornerRadius: 22)
                                     .fill(Color.clear)
                         )
@@ -174,8 +174,8 @@ struct MetalSegmentedPicker: View {
             }
         }
         .padding(4)
-        .background(Color(hex: "1E1E1E"))
-        .overlay(RoundedRectangle(cornerRadius: 26).stroke(Color(hex: "C9A84C").opacity(0.5), lineWidth: 1))
+        .background(Color(hex: "231918"))
+        .overlay(RoundedRectangle(cornerRadius: 26).stroke(Color(hex: "E8B138").opacity(0.5), lineWidth: 1))
         .cornerRadius(26)
     }
 }
@@ -193,7 +193,7 @@ struct PeriodDropdown: View {
                 HStack {
                     Image(systemName: "chevron.down")
                         .font(.system(size: 13, weight: .semibold))
-                        .foregroundColor(Color(hex: "C9A84C"))
+                        .foregroundColor(Color(hex: "E8B138"))
                         .rotationEffect(.degrees(isExpanded ? 180 : 0))
 
                     Spacer()
@@ -204,7 +204,7 @@ struct PeriodDropdown: View {
                 }
                 .padding(.horizontal, 16)
                 .padding(.vertical, 12)
-                .background(Color(hex: "2A2A2A"))
+                .background(Color(hex: "261B1A"))
                 .cornerRadius(isExpanded ? 0 : 10)
             }
             .cornerRadius(isExpanded ? 0 : 10)
@@ -218,20 +218,20 @@ struct PeriodDropdown: View {
                                 Spacer()
                                 Text(period.rawValue)
                                     .font(.system(size: 15, weight: period == selected ? .semibold : .regular))
-                                    .foregroundColor(period == selected ? Color(hex: "C9A84C") : .white)
+                                    .foregroundColor(period == selected ? Color(hex: "E8B138") : .white)
                                     .padding(.vertical, 12)
                                     .padding(.horizontal, 16)
                             }
                             .frame(maxWidth: .infinity)
                             .background(
                                 period == selected
-                                    ? Color(hex: "3A3A3A")
-                                    : Color(hex: "252525")
+                                    ? Color(hex: "3F2D2C")
+                                    : Color(hex: "261B1A")
                             )
                         }
 
                         if period != TimePeriod.allCases.last {
-                            Divider().background(Color(hex: "3A3A3A"))
+                            Divider().background(Color(hex: "3F2D2C"))
                         }
                     }
                 }
@@ -241,7 +241,7 @@ struct PeriodDropdown: View {
         }
         .overlay(
             RoundedRectangle(cornerRadius: 10)
-                .stroke(Color(hex: "C9A84C").opacity(0.3), lineWidth: 1)
+                .stroke(Color(hex: "E8B138").opacity(0.3), lineWidth: 1)
         )
         .cornerRadius(10)
         .zIndex(10)
@@ -254,11 +254,11 @@ struct LoadingView: View {
     var body: some View {
         VStack(spacing: 16) {
             ProgressView()
-                .progressViewStyle(CircularProgressViewStyle(tint: Color(hex: "C9A84C")))
+                .progressViewStyle(CircularProgressViewStyle(tint: Color(hex: "E8B138")))
                 .scaleEffect(1.4)
             Text("جاري تحميل البيانات...")
                 .font(.system(size: 14))
-                .foregroundColor(Color(hex: "888888"))
+                .foregroundColor(Color(hex: "9E9898"))
         }
         .frame(maxWidth: .infinity)
         .padding(.vertical, 60)

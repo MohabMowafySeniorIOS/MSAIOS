@@ -20,16 +20,24 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="twA-nX-eRo" customClass="BGView" customModule="MSA" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGImage" translatesAutoresizingMaskIntoConstraints="NO" id="lz6-kq-3fX">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                    </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashLogo" translatesAutoresizingMaskIntoConstraints="NO" id="WTl-k7-pg2">
-                                        <rect key="frame" x="40" y="40" width="334" height="816"/>
+                                        <rect key="frame" x="107" y="-64" width="200" height="1024"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="fcH-bn-fLw"/>
+                                        </constraints>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="WTl-k7-pg2" firstAttribute="leading" secondItem="twA-nX-eRo" secondAttribute="leading" constant="40" id="5yd-Px-3sX"/>
-                                    <constraint firstAttribute="bottom" secondItem="WTl-k7-pg2" secondAttribute="bottom" constant="40" id="9Wh-dp-mQ2"/>
-                                    <constraint firstItem="WTl-k7-pg2" firstAttribute="top" secondItem="twA-nX-eRo" secondAttribute="top" constant="40" id="RpG-8d-J1D"/>
-                                    <constraint firstAttribute="trailing" secondItem="WTl-k7-pg2" secondAttribute="trailing" constant="40" id="df2-cZ-JKd"/>
+                                    <constraint firstItem="lz6-kq-3fX" firstAttribute="top" secondItem="twA-nX-eRo" secondAttribute="top" id="8KZ-hJ-f94"/>
+                                    <constraint firstAttribute="trailing" secondItem="lz6-kq-3fX" secondAttribute="trailing" id="TIp-cp-SxL"/>
+                                    <constraint firstItem="WTl-k7-pg2" firstAttribute="centerY" secondItem="twA-nX-eRo" secondAttribute="centerY" id="UUC-gv-8zT"/>
+                                    <constraint firstItem="lz6-kq-3fX" firstAttribute="leading" secondItem="twA-nX-eRo" secondAttribute="leading" id="dxG-Hn-som"/>
+                                    <constraint firstAttribute="bottom" secondItem="lz6-kq-3fX" secondAttribute="bottom" id="nzd-8o-3rO"/>
+                                    <constraint firstItem="WTl-k7-pg2" firstAttribute="centerX" secondItem="twA-nX-eRo" secondAttribute="centerX" id="ovb-mT-HjZ"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -610,6 +618,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="BGImage" width="853" height="1843"/>
         <image name="Egyptflag" width="512" height="512"/>
         <image name="EnglishIcon" width="24" height="24"/>
         <image name="Rectangle 18382" width="375" height="295"/>
@@ -618,7 +627,7 @@
         <image name="arrow-left 1" width="24" height="24"/>
         <image name="search-normal" width="24" height="24"/>
         <namedColor name="MainColor">
-            <color red="0.78799998760223389" green="0.67500001192092896" blue="0.45500001311302185" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.90980392156862744" green="0.69411764705882351" blue="0.2196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="TextBorderColor">
             <color red="0.80000001192092896" green="0.82700002193450928" blue="0.85100001096725464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -627,7 +636,7 @@
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="selectionBackGround">
-            <color red="0.12200000137090683" green="0.12200000137090683" blue="0.12200000137090683" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.10980392156862745" green="0.078431372549019607" blue="0.078431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

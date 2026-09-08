@@ -182,27 +182,27 @@ struct PeriodTabBar: View {
                 }) {
                     Text(period.rawValue)
                         .font(.system(size: 14, weight: .semibold))
-                        .foregroundColor(selected == period ? .black : Color(hex: "AAAAAA"))
+                        .foregroundColor(selected == period ? .black : Color(hex: "B0AAAA"))
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 9)
                         .background(
                             selected == period
-                                ? Capsule().fill(Color(hex: "E8C870"))
+                                ? Capsule().fill(Color(hex: "EFC874"))
                                 : Capsule().fill(Color.clear)
                         )
                 }
             }
         }
         .padding(4)
-        .background(Color(hex: "1A1A1A"))
+        .background(Color(hex: "231918"))
         .overlay(
             RoundedRectangle(cornerRadius: 25)
-                .stroke(Color(hex: "C9A84C").opacity(0.4), lineWidth: 1)
+                .stroke(Color(hex: "E8B138").opacity(0.4), lineWidth: 1)
         )
         .cornerRadius(25)
         .padding(.horizontal, 14)
         .padding(.vertical, 10)
-        .background(Color(hex: "111111"))
+        .background(Color(hex: "181111"))
         .environment(\.layoutDirection, .rightToLeft)
     }
 }

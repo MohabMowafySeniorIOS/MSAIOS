@@ -204,13 +204,13 @@ extension UIColor {
 }
 
 extension Color {
-    static let gold = Color(hex: "#F2C94C")
+    static let gold = Color(hex: "#E8B138")
     static let darkBg = Color(hex: "#000000")
     static let cardGray = Color(hex: "#E5E5E5")
-    static let darkGray = Color(hex: "#2C2C2E")
+    static let darkGray = Color(hex: "#261B1A")
     static let greenUp = Color(hex: "#A5D6A7")
     static let unSelectedColor = Color(hex: "#F5F6F9")
-    static let MainColor = Color(hex: "#B8962E")
+    static let MainColor = Color(hex: "#A77F28")
 }
 
 extension Color {

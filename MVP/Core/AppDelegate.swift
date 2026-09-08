@@ -72,18 +72,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate   {
         Messaging.messaging().apnsToken = deviceToken
         let launchedBefore = UserDefaults.standard.bool(forKey: "launchedBefore")
         
-        let lang = L102Language.currentAppleLanguage().lowercased()
-
-        if lang == "ar" {
-            Messaging.messaging().subscribe(toTopic: "gold_ar")
-            Messaging.messaging().subscribe(toTopic: "silver_ar")
-        } else {
-            Messaging.messaging().subscribe(toTopic: "gold_en")
-            Messaging.messaging().subscribe(toTopic: "silver_en")
-        }
-       Messaging.messaging().subscribe(toTopic: "dollar_prices")
-       // Messaging.messaging()
-       //     .subscribe(toTopic: "news_ar")
+        // بنطبّق اختيارات المستخدم من شاشة الإعدادات بدل الاشتراك الأعمى في
+        // كل التوبيكس. الاشتراك الأعمى كان بيلغي أي إشعار المستخدم قافله كل
+        // مرة يفتح التطبيق. الافتراضي لو مفيش حاجة محفوظة = كل الأنواع مفعّلة،
+        // فسلوك المستخدمين الحاليين زي ما هو.
+        NotificationSettings.applyAll()
         
         Helper.restartApp()
         

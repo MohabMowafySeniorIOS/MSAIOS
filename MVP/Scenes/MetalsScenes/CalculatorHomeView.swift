@@ -169,12 +169,12 @@ struct headerView: View {
                 Spacer()
                 VStack(spacing: 6) {
                     HStack {
-                        if isShowLogo ?? false {
-                            Image("MSALogo")
-                                .resizable()
-                                .frame(width: 70,height: 60)
-                                .scaledToFill()
-                        }
+//                        if isShowLogo ?? false {
+//                            Image("MSALogo")
+//                                .resizable()
+//                                .frame(width: 70,height: 60)
+//                                .scaledToFit()
+//                        }
                         Text(title.localized)
                             .font(.system(size: 24, weight: .bold))
                             .foregroundColor(.white)
@@ -277,11 +277,11 @@ struct PremiumCard: View {
                     .resizable()
                     .frame(width: 36, height: 36)
                     .font(.system(size: 36))
-                    .foregroundColor(Color(hexString: "#D8BE8A"))
+                    .foregroundColor(Color(hexString: "#F2D28C"))
             }else {
                 Image(systemName: icon)
                     .font(.system(size: 36))
-                    .foregroundColor(Color(hexString: "#D8BE8A"))
+                    .foregroundColor(Color(hexString: "#F2D28C"))
             }
            
             
@@ -304,7 +304,7 @@ struct PremiumCard: View {
                 .stroke(
                     LinearGradient(
                         colors: [
-                            Color(hexString: "#D8BE8A"),
+                            Color(hexString: "#F2D28C"),
                             Color.clear
                         ],
                         startPoint: .topLeading,

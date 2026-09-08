@@ -46,6 +46,7 @@ class DollarCell: UITableViewCell {
     }
 
     func ConfigrationCell(Model: CurrencyBankModel){
+        print(Model , Model.bank)
         bankImage.loadImage(Model.logo)
         bankNameLabel.text = Model.bank
         buyPriceLAbel.text = "\(Model.buy)"

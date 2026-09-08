@@ -120,9 +120,9 @@ struct GoldGradientButton: View {
                 .background(
                     LinearGradient(
                         colors: [
-                            Color(hex: "#E5C76B"), // light gold
-                            Color(hex: "#C9A23F"), // main gold
-                            Color(hex: "#B8922F")  // darker gold
+                            Color(hex: "#EFC874"), // light gold
+                            Color(hex: "#E8B138"), // main gold
+                            Color(hex: "#906E23")  // darker gold
                         ],
                         startPoint: .topLeading,
                         endPoint: .bottomTrailing

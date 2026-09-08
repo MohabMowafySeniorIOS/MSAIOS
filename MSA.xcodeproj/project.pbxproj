@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,7 @@
 		09D8F38C2DB1037F00F91A32 /* IBMPlexSansArabic-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09D8F3882DB1037F00F91A32 /* IBMPlexSansArabic-Bold.ttf */; };
 		09D8F38D2DB1037F00F91A32 /* IBMPlexSansArabic-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09D8F3892DB1037F00F91A32 /* IBMPlexSansArabic-Medium.ttf */; };
 		09D8F38E2DB1037F00F91A32 /* sar-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09D8F38A2DB1037F00F91A32 /* sar-Regular.ttf */; };
+		2F6C6B039C8865C06174D127 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BD8E571ADC7C15B0A5BB76 /* SettingsView.swift */; };
 		405A3C66DAAAC113A8955EBC /* BankNotificationSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6144427F60F908015E5C825F /* BankNotificationSettings.swift */; };
 		4E0EA5212BB87660005665A5 /* Extention+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0EA5202BB87660005665A5 /* Extention+Date.swift */; };
 		4E0FEDB02CA9705C0043819B /* EmojiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FEDAF2CA9705C0043819B /* EmojiTextField.swift */; };
@@ -52,6 +53,7 @@
 		4EEF882E2BB43842002E44E3 /* UIFOnt+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEF882D2BB43842002E44E3 /* UIFOnt+Extention.swift */; };
 		57CD26ED2E4A93376C6364D8 /* Pods_MSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB7A98E21B56ED4CDD783F3 /* Pods_MSA.framework */; };
 		7323AC302CE0D9770079041D /* Washer.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7323AC2F2CE0D9770079041D /* Washer.gif */; };
+		7A17B49BF3B2CB2040219EAC /* Lafet-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0A3EA14FD7EA052B87C2EEF5 /* Lafet-Bold.otf */; };
 		C10176732FACFD6100501E30 /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10176722FACFD6100501E30 /* MoreVC.swift */; };
 		C10E0A732F9D0541003AA621 /* CalculatorHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10E0A722F9D0541003AA621 /* CalculatorHomeView.swift */; };
 		C111BF7F2F91AD0300F44AAE /* SilverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C111BF7E2F91AD0300F44AAE /* SilverViewModel.swift */; };
@@ -140,6 +142,7 @@
 		C19ADB3226CFD8670019DBE1 /* throwing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C19ADB3126CFD8670019DBE1 /* throwing.mp3 */; };
 		C19ADBBF26CFF4080019DBE1 /* NavigationController+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19ADBBE26CFF4080019DBE1 /* NavigationController+Gradient.swift */; };
 		C19B815126D544570027665A /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B814F26D544570027665A /* NotificationCell.swift */; };
+		C19CA919304B5EA700CB9967 /* AlamoFilreNetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19CA918304B5EA700CB9967 /* AlamoFilreNetWork.swift */; };
 		C19CDCF526A0E6BC00BB343D /* Extention+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19CDCF426A0E6BC00BB343D /* Extention+TableView.swift */; };
 		C19CDCF926A0E7BE00BB343D /* CollectionView+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19CDCF826A0E7BE00BB343D /* CollectionView+Extentions.swift */; };
 		C1A38B502F89A9700015DCFC /* MetalsPriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A38B4F2F89A9700015DCFC /* MetalsPriceView.swift */; };
@@ -182,6 +185,7 @@
 		C1F49CF92FAD0F2F00BB9FE3 /* HomeDollarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F49CF62FAD0F2F00BB9FE3 /* HomeDollarCell.swift */; };
 		C1F49D172FAD115E00BB9FE3 /* OunceDollarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F49D162FAD115E00BB9FE3 /* OunceDollarCell.swift */; };
 		C1F49D192FAD116900BB9FE3 /* OunceDollarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1F49D182FAD116900BB9FE3 /* OunceDollarCell.xib */; };
+		CD9B82073783736728862F71 /* Lafet-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C47A4D5728AA476611D893F2 /* Lafet-Regular.otf */; };
 		F2BA381D2620390300A2D167 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA381C2620390300A2D167 /* AppDelegate.swift */; };
 		F2BA388826203EA600A2D167 /* Error+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA388726203EA600A2D167 /* Error+.swift */; };
 		F2BA389D262042A200A2D167 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA389C262042A200A2D167 /* Color+.swift */; };
@@ -207,6 +211,7 @@
 		F2BA396A26207B6000A2D167 /* AlertViewThem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA396926207B6000A2D167 /* AlertViewThem.swift */; };
 		F2BA397A26207BDC00A2D167 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA397926207BDC00A2D167 /* AlertView.swift */; };
 		F2BA397D26207D4A00A2D167 /* HandlerErrorViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BA397C26207D4A00A2D167 /* HandlerErrorViewProtocol.swift */; };
+		F42B141B55EBB675B250C217 /* NotificationSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6856B45E19F6201015BB39A8 /* NotificationSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -216,6 +221,7 @@
 		09D8F3892DB1037F00F91A32 /* IBMPlexSansArabic-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSansArabic-Medium.ttf"; sourceTree = "<group>"; };
 		09D8F38A2DB1037F00F91A32 /* sar-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sar-Regular.ttf"; sourceTree = "<group>"; };
 		09DECEA20000F87C1636C825 /* Pods-MSA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSA.release.xcconfig"; path = "Target Support Files/Pods-MSA/Pods-MSA.release.xcconfig"; sourceTree = "<group>"; };
+		0A3EA14FD7EA052B87C2EEF5 /* Lafet-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lafet-Bold.otf"; sourceTree = "<group>"; };
 		3EB7A98E21B56ED4CDD783F3 /* Pods_MSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E0EA5202BB87660005665A5 /* Extention+Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extention+Date.swift"; sourceTree = "<group>"; };
 		4E0FEDAF2CA9705C0043819B /* EmojiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTextField.swift; sourceTree = "<group>"; };
@@ -257,6 +263,8 @@
 		4EEF882D2BB43842002E44E3 /* UIFOnt+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFOnt+Extention.swift"; sourceTree = "<group>"; };
 		6144427F60F908015E5C825F /* BankNotificationSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankNotificationSettings.swift; sourceTree = "<group>"; };
 		64711220A9F37312EA7EAF34 /* Pods-MSA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSA.debug.xcconfig"; path = "Target Support Files/Pods-MSA/Pods-MSA.debug.xcconfig"; sourceTree = "<group>"; };
+		67BD8E571ADC7C15B0A5BB76 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6856B45E19F6201015BB39A8 /* NotificationSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettings.swift; sourceTree = "<group>"; };
 		7323AC2F2CE0D9770079041D /* Washer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Washer.gif; sourceTree = "<group>"; };
 		C10176722FACFD6100501E30 /* MoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
 		C10E0A722F9D0541003AA621 /* CalculatorHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorHomeView.swift; sourceTree = "<group>"; };
@@ -349,6 +357,7 @@
 		C19ADB3126CFD8670019DBE1 /* throwing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = throwing.mp3; sourceTree = "<group>"; };
 		C19ADBBE26CFF4080019DBE1 /* NavigationController+Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationController+Gradient.swift"; sourceTree = "<group>"; };
 		C19B814F26D544570027665A /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		C19CA918304B5EA700CB9967 /* AlamoFilreNetWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamoFilreNetWork.swift; sourceTree = "<group>"; };
 		C19CDCF426A0E6BC00BB343D /* Extention+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extention+TableView.swift"; sourceTree = "<group>"; };
 		C19CDCF826A0E7BE00BB343D /* CollectionView+Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionView+Extentions.swift"; sourceTree = "<group>"; };
 		C1A38B4F2F89A9700015DCFC /* MetalsPriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalsPriceView.swift; sourceTree = "<group>"; };
@@ -391,6 +400,7 @@
 		C1F49CF72FAD0F2F00BB9FE3 /* HomeDollarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeDollarCell.xib; sourceTree = "<group>"; };
 		C1F49D162FAD115E00BB9FE3 /* OunceDollarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OunceDollarCell.swift; sourceTree = "<group>"; };
 		C1F49D182FAD116900BB9FE3 /* OunceDollarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OunceDollarCell.xib; sourceTree = "<group>"; };
+		C47A4D5728AA476611D893F2 /* Lafet-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lafet-Regular.otf"; sourceTree = "<group>"; };
 		F2BA38192620390300A2D167 /* MSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2BA381C2620390300A2D167 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2BA382A2620390600A2D167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -421,14 +431,94 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C111BF7C2F91AB0700F44AAE /* NewsView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = NewsView; sourceTree = "<group>"; };
-		C111C03E2F91D88E00F44AAE /* CurrencyView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = CurrencyView; sourceTree = "<group>"; };
-		C134ECBC2F830AA400A55595 /* getGoldPrice */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = getGoldPrice; sourceTree = "<group>"; };
-		C134ECC12F830AA400A55595 /* KaratGoldPrices */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = KaratGoldPrices; sourceTree = "<group>"; };
-		C134ECC72F830AA400A55595 /* WebView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = WebView; sourceTree = "<group>"; };
-		C134ECC92F830AA400A55595 /* ZakatView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ZakatView; sourceTree = "<group>"; };
-		C192851A2FDCA13600A8FD16 /* NetWork */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = NetWork; sourceTree = "<group>"; };
-		C1928C1B2FE301FC00A8FD16 /* GoogleAds */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = GoogleAds; sourceTree = "<group>"; };
+		C111BF7C2F91AB0700F44AAE /* NewsView */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = NewsView;
+			sourceTree = "<group>";
+		};
+		C111C03E2F91D88E00F44AAE /* CurrencyView */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = CurrencyView;
+			sourceTree = "<group>";
+		};
+		C134ECBC2F830AA400A55595 /* getGoldPrice */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = getGoldPrice;
+			sourceTree = "<group>";
+		};
+		C134ECC12F830AA400A55595 /* KaratGoldPrices */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = KaratGoldPrices;
+			sourceTree = "<group>";
+		};
+		C134ECC72F830AA400A55595 /* WebView */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		C134ECC92F830AA400A55595 /* ZakatView */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = ZakatView;
+			sourceTree = "<group>";
+		};
+		C192851A2FDCA13600A8FD16 /* NetWork */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		C1928C1B2FE301FC00A8FD16 /* GoogleAds */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = GoogleAds;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -452,6 +542,8 @@
 				09D8F3882DB1037F00F91A32 /* IBMPlexSansArabic-Bold.ttf */,
 				09D8F3892DB1037F00F91A32 /* IBMPlexSansArabic-Medium.ttf */,
 				09D8F38A2DB1037F00F91A32 /* sar-Regular.ttf */,
+				C47A4D5728AA476611D893F2 /* Lafet-Regular.otf */,
+				0A3EA14FD7EA052B87C2EEF5 /* Lafet-Bold.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -541,6 +633,8 @@
 				C1AF31A92F9D47890028BEDE /* bullionsScreenView.swift */,
 				4E7E3A212C7C996B00973340 /* HelpVC.swift */,
 				C10176722FACFD6100501E30 /* MoreVC.swift */,
+				6856B45E19F6201015BB39A8 /* NotificationSettings.swift */,
+				67BD8E571ADC7C15B0A5BB76 /* SettingsView.swift */,
 				C14440B7295F947F008FC5F0 /* AboutUsVC.swift */,
 			);
 			path = MetalsScenes;
@@ -974,6 +1068,7 @@
 				C192851E2FDCA18700A8FD16 /* dollarChanged.caf */,
 				C1189D393010AC760047CB7A /* LaunchScreen.storyboard */,
 				C1189D3B3010B1540047CB7A /* ApiServices.swift */,
+				C19CA918304B5EA700CB9967 /* AlamoFilreNetWork.swift */,
 			);
 			path = MVP;
 			sourceTree = "<group>";
@@ -1252,6 +1347,8 @@
 				09D8F38C2DB1037F00F91A32 /* IBMPlexSansArabic-Bold.ttf in Resources */,
 				09D8F38D2DB1037F00F91A32 /* IBMPlexSansArabic-Medium.ttf in Resources */,
 				09D8F38E2DB1037F00F91A32 /* sar-Regular.ttf in Resources */,
+				CD9B82073783736728862F71 /* Lafet-Regular.otf in Resources */,
+				7A17B49BF3B2CB2040219EAC /* Lafet-Bold.otf in Resources */,
 				4ED3BFF42BA9DCE500857B8D /* Assets.xcassets in Resources */,
 				4E7B69222BB1E53800EB8B68 /* ZoomAbleImage.storyboard in Resources */,
 				C1DD4D7D2F94F59100F7BBFA /* HeaderView.xib in Resources */,
@@ -1313,13 +1410,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MSA/Pods-MSA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MSA/Pods-MSA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1359,6 +1452,8 @@
 				C1A38B502F89A9700015DCFC /* MetalsPriceView.swift in Sources */,
 				094B3E9D2D646F0B000F8CFD /* UpdateAppVC.swift in Sources */,
 				C10176732FACFD6100501E30 /* MoreVC.swift in Sources */,
+				F42B141B55EBB675B250C217 /* NotificationSettings.swift in Sources */,
+				2F6C6B039C8865C06174D127 /* SettingsView.swift in Sources */,
 				C1928C132FE2EC7D00A8FD16 /* PortfolioViewModel.swift in Sources */,
 				4ED3C0052BA9DEA800857B8D /* CustomTextFieldMobile.swift in Sources */,
 				C111BF7F2F91AD0300F44AAE /* SilverViewModel.swift in Sources */,
@@ -1383,6 +1478,7 @@
 				C173A1132F8E662E0030B1A5 /* GoldButton.swift in Sources */,
 				F2BA388826203EA600A2D167 /* Error+.swift in Sources */,
 				C1928C0F2FE2EC2900A8FD16 /* PortfolioMetalsService.swift in Sources */,
+				C19CA919304B5EA700CB9967 /* AlamoFilreNetWork.swift in Sources */,
 				C1AC709526C1AD2600C6AE12 /* ShimmerView.swift in Sources */,
 				C1928C112FE2EC3E00A8FD16 /* PortfolioValueCalculator.swift in Sources */,
 				C121B02427753C7F00A71D52 /* PageCell.swift in Sources */,

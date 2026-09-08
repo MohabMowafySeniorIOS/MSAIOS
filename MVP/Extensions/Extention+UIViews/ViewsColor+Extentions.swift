@@ -140,6 +140,26 @@ enum AppFont: String {
     }
 }
 
+/**
+ خط العناوين من هوية العلامة — `Brand Assets/Fonts/lafet-*.otf`.
+ فيه سكربت `arab` بمزايا init/medi/fina/rlig فبيوصّل الحروف العربية صح،
+ بس تغطيته 74 حرف وهو خط عرض (display) — فبيتستخدم في العناوين الكبيرة بس.
+ النصوص العادية بتفضل على IBM Plex Sans Arabic لأنه أقرأ في الأحجام الصغيرة.
+ */
+enum AppDisplayFont: String {
+    case Regular = "Regular"
+    case bold = "Bold"
+
+    func size(_ size: CGFloat) -> UIFont {
+        // لو الخط مش متسجّل لأي سبب، بنرجع لخط النص العادي بدل ما التطبيق يقفل
+        UIFont(name: fullFontName, size: size)
+            ?? AppFont(rawValue: rawValue)?.size(size)
+            ?? .systemFont(ofSize: size)
+    }
+
+    fileprivate var fullFontName: String { DisplayFontFamilyName + "-" + rawValue }
+}
+
 enum AppSARFont: String {
     case Regular = "Regular"
     
