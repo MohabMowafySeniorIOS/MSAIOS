@@ -326,6 +326,11 @@
                                                                                                                     <constraint firstAttribute="height" constant="24" id="c5a-Nh-uJC"/>
                                                                                                                     <constraint firstAttribute="width" constant="24" id="iUj-9C-xt3"/>
                                                                                                                 </constraints>
+                                                                                                                <userDefinedRuntimeAttributes>
+                                                                                                                    <userDefinedRuntimeAttribute type="color" keyPath="imageColor">
+                                                                                                                        <color key="value" name="MainColor"/>
+                                                                                                                    </userDefinedRuntimeAttribute>
+                                                                                                                </userDefinedRuntimeAttributes>
                                                                                                             </imageView>
                                                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Language" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P0T-kg-eR0">
                                                                                                                 <rect key="frame" x="31.999999999999993" y="0.0" width="75.333333333333314" height="24"/>
@@ -945,6 +950,11 @@
                                                                                                                     <constraint firstAttribute="width" constant="24" id="0gU-Dt-nWn"/>
                                                                                                                     <constraint firstAttribute="height" constant="24" id="Jrj-ma-2ab"/>
                                                                                                                 </constraints>
+                                                                                                                <userDefinedRuntimeAttributes>
+                                                                                                                    <userDefinedRuntimeAttribute type="color" keyPath="imageColor">
+                                                                                                                        <color key="value" name="MainColor"/>
+                                                                                                                    </userDefinedRuntimeAttribute>
+                                                                                                                </userDefinedRuntimeAttributes>
                                                                                                             </imageView>
                                                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Common Questions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bCJ-bL-hC9">
                                                                                                                 <rect key="frame" x="32" y="0.0" width="150.66666666666666" height="24"/>
@@ -1435,7 +1445,7 @@
                                                                                         <rect key="frame" x="16" y="0.0" width="345" height="50"/>
                                                                                         <subviews>
                                                                                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TEN-hJ-zog">
-                                                                                                <rect key="frame" x="0.0" y="0.0" width="345" height="0.0"/>
+                                                                                                <rect key="frame" x="0.0" y="0.0" width="345" height="34"/>
                                                                                                 <subviews>
                                                                                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="NJb-2p-Z3c">
                                                                                                         <rect key="frame" x="0.0" y="13" width="97" height="24"/>
@@ -1494,7 +1504,7 @@
                                                                                                 </constraints>
                                                                                             </view>
                                                                                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZmF-Ol-WZ3">
-                                                                                                <rect key="frame" x="0.0" y="16" width="345" height="34"/>
+                                                                                                <rect key="frame" x="0.0" y="50" width="345" height="0.0"/>
                                                                                                 <subviews>
                                                                                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="NG9-BT-9nO">
                                                                                                         <rect key="frame" x="0.0" y="13" width="95.333333333333329" height="24"/>
@@ -2006,13 +2016,13 @@
                                                 <rect key="frame" x="8" y="8" width="377" height="44"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6r9-BT-poq">
-                                                        <rect key="frame" x="0.0" y="0.0" width="377" height="21"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="377" height="16.333333333333332"/>
                                                         <fontDescription key="fontDescription" name="IBMPlexSansArabic-Regular" family="IBM Plex Sans Arabic" pointSize="14"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Developed By Mohab Mowafy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="goM-bU-ihd">
-                                                        <rect key="frame" x="0.0" y="26" width="377" height="18"/>
+                                                        <rect key="frame" x="0.0" y="30" width="377" height="14"/>
                                                         <fontDescription key="fontDescription" name="IBMPlexSansArabic-Regular" family="IBM Plex Sans Arabic" pointSize="12"/>
                                                         <color key="textColor" name="WhiteColor"/>
                                                         <nil key="highlightedColor"/>
@@ -2267,7 +2277,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="176.66666666666666" height="44"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="dux-l5-wLO">
-                                                                <rect key="frame" x="48.999999999999993" y="12" width="78.333333333333314" height="20"/>
+                                                                <rect key="frame" x="50.333333333333329" y="12" width="76.000000000000014" height="20"/>
                                                                 <subviews>
                                                                     <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold-bars" translatesAutoresizingMaskIntoConstraints="NO" id="RHt-hx-hXJ">
                                                                         <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
@@ -2277,7 +2287,7 @@
                                                                         </constraints>
                                                                     </imageView>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The News" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lBc-1b-dDK">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="78.333333333333329" height="20"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="76" height="20"/>
                                                                         <fontDescription key="fontDescription" name="IBMPlexSansArabic-Bold" family="IBM Plex Sans Arabic" pointSize="17"/>
                                                                         <color key="textColor" name="WhiteColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -2325,7 +2335,7 @@
                                                         <rect key="frame" x="184.66666666666663" y="0.0" width="176.33333333333337" height="44"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="2Hl-j9-CYv">
-                                                                <rect key="frame" x="43.666666666666693" y="12" width="88.666666666666686" height="20"/>
+                                                                <rect key="frame" x="42.33333333333335" y="12" width="91.666666666666686" height="20"/>
                                                                 <subviews>
                                                                     <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="silver" translatesAutoresizingMaskIntoConstraints="NO" id="aZY-cZ-7wb">
                                                                         <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
@@ -2335,7 +2345,7 @@
                                                                         </constraints>
                                                                     </imageView>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MSA's MSA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bM9-on-VMl">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="88.666666666666671" height="20"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="91.666666666666671" height="20"/>
                                                                         <fontDescription key="fontDescription" name="IBMPlexSansArabic-Bold" family="IBM Plex Sans Arabic" pointSize="17"/>
                                                                         <color key="textColor" name="WhiteColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -2520,10 +2530,10 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="172.66666666666666" height="44"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="bIQ-Kj-nQP">
-                                                                <rect key="frame" x="67.666666666666671" y="9.3333333333333446" width="37.333333333333329" height="25.666666666666671"/>
+                                                                <rect key="frame" x="68" y="12" width="36.666666666666657" height="20"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gold" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mfb-Bw-Jk2">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="37.333333333333336" height="25.666666666666668"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="36.666666666666664" height="20"/>
                                                                         <fontDescription key="fontDescription" name="IBMPlexSansArabic-Bold" family="IBM Plex Sans Arabic" pointSize="17"/>
                                                                         <color key="textColor" name="WhiteColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -2565,10 +2575,10 @@
                                                         <rect key="frame" x="188.66666666666663" y="0.0" width="172.33333333333337" height="44"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="TQt-HF-aF3">
-                                                                <rect key="frame" x="63.000000000000028" y="9.3333333333333446" width="46" height="25.666666666666671"/>
+                                                                <rect key="frame" x="65.000000000000028" y="12" width="42" height="20"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Silver" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mnm-5t-kWb">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="46" height="25.666666666666668"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="42" height="20"/>
                                                                         <fontDescription key="fontDescription" name="IBMPlexSansArabic-Bold" family="IBM Plex Sans Arabic" pointSize="17"/>
                                                                         <color key="textColor" name="WhiteColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -2914,13 +2924,13 @@
                                                         <rect key="frame" x="8" y="0.0" width="377" height="16"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="BhT-8q-di4">
-                                                                <rect key="frame" x="181" y="-4" width="188" height="24"/>
+                                                                <rect key="frame" x="181" y="-1.3333333333333428" width="188" height="18.666666666666668"/>
                                                                 <subviews>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="kYe-Ut-Irm">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="90" height="24"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="90" height="18.666666666666668"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8hH-o3-gQO">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="90" height="24"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="90" height="18.666666666666668"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="width" constant="90" id="RaR-XL-bUU"/>
                                                                                 </constraints>
@@ -2937,10 +2947,10 @@
                                                                         </subviews>
                                                                     </stackView>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bfK-UZ-Csu">
-                                                                        <rect key="frame" x="98" y="0.0" width="90" height="24"/>
+                                                                        <rect key="frame" x="98" y="0.0" width="90" height="18.666666666666668"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H3F-ZE-Icq">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="90" height="24"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="90" height="18.666666666666668"/>
                                                                                 <constraints>
                                                                                     <constraint firstAttribute="width" constant="90" id="Yer-Vo-j0Z"/>
                                                                                 </constraints>
@@ -2959,7 +2969,7 @@
                                                                 </subviews>
                                                             </stackView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Bank" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y3x-fO-w8W">
-                                                                <rect key="frame" x="8" y="8" width="70.333333333333329" height="0.0"/>
+                                                                <rect key="frame" x="8" y="8" width="68" height="0.0"/>
                                                                 <fontDescription key="fontDescription" name="IBMPlexSansArabic-Bold" family="IBM Plex Sans Arabic" pointSize="16"/>
                                                                 <color key="textColor" name="WhiteColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -2971,14 +2981,14 @@
                                                                 </userDefinedRuntimeAttributes>
                                                             </label>
                                                             <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="refresh" translatesAutoresizingMaskIntoConstraints="NO" id="udV-Ou-c6Q">
-                                                                <rect key="frame" x="86.333333333333329" y="-4" width="24" height="24"/>
+                                                                <rect key="frame" x="84" y="-4" width="24" height="24"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="24" id="4X4-5d-Dja"/>
                                                                     <constraint firstAttribute="width" constant="24" id="yI2-Pp-RIm"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="juJ-n3-TPd">
-                                                                <rect key="frame" x="78.333333333333329" y="-8" width="32" height="32"/>
+                                                                <rect key="frame" x="76" y="-8" width="32" height="32"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="32" id="Ycg-2y-xqL"/>
                                                                     <constraint firstAttribute="width" constant="32" id="yad-Hi-Ts3"/>
@@ -3074,17 +3084,17 @@
                                 <rect key="frame" x="0.0" y="118" width="393" height="60"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="cT0-st-r01">
-                                        <rect key="frame" x="95.666666666666686" y="15" width="202" height="30"/>
+                                        <rect key="frame" x="118.66666666666669" y="18.333333333333343" width="156" height="23.333333333333329"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MSALogo" translatesAutoresizingMaskIntoConstraints="NO" id="cT0-im-r01">
-                                                <rect key="frame" x="0.0" y="0.0" width="35" height="30"/>
+                                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MSALogo" translatesAutoresizingMaskIntoConstraints="NO" id="cT0-im-r01">
+                                                <rect key="frame" x="0.0" y="-3.3333333333333428" width="35" height="30"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="cT0-ih-r01"/>
                                                     <constraint firstAttribute="width" constant="35" id="cT0-iw-r01"/>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Currency" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cT0-lb-r01">
-                                                <rect key="frame" x="42.999999999999986" y="0.0" width="159" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="156" height="23.333333333333332"/>
                                                 <fontDescription key="fontDescription" name="IBMPlexSansArabic-Bold" family="IBM Plex Sans Arabic" pointSize="20"/>
                                                 <color key="textColor" name="WhiteColor"/>
                                                 <nil key="highlightedColor"/>
@@ -3097,33 +3107,28 @@
                                             </label>
                                         </subviews>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dDS-oM-yoG">
-                                        <rect key="frame" x="16" y="8" width="44" height="44"/>
-                                        <color key="backgroundColor" name="WhiteColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="44" id="cT0-bh-r01"/>
-                                            <constraint firstAttribute="width" constant="44" id="cT0-bw-r01"/>
-                                        </constraints>
-                                        <state key="normal" image="arrow-right 1"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="du0-uh-Zlc" customClass="BackButton" customModule="MSA" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="7" width="56" height="46"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="arrow-left 3"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="12"/>
+                                                <real key="value" value="8"/>
                                             </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value=" "/>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="BackAction:" destination="COq-yw-tb0" eventType="touchUpInside" id="hqQ-nl-p9c"/>
-                                            <action selector="dismissAction:" destination="g1b-I8-Hpx" eventType="touchUpInside" id="WFJ-ZT-8iv"/>
+                                            <action selector="dismissAction:" destination="g1b-I8-Hpx" eventType="touchUpInside" id="gWj-tC-DxK"/>
                                         </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="dDS-oM-yoG" firstAttribute="leading" secondItem="cT0-hd-r01" secondAttribute="leading" constant="16" id="cT0-bl-r01"/>
-                                    <constraint firstItem="dDS-oM-yoG" firstAttribute="centerY" secondItem="cT0-hd-r01" secondAttribute="centerY" id="cT0-by-r01"/>
+                                    <constraint firstItem="du0-uh-Zlc" firstAttribute="leading" secondItem="cT0-hd-r01" secondAttribute="leading" id="3kh-bA-T4B"/>
                                     <constraint firstAttribute="height" constant="60" id="cT0-hh-r01"/>
                                     <constraint firstItem="cT0-st-r01" firstAttribute="centerX" secondItem="cT0-hd-r01" secondAttribute="centerX" id="cT0-sx-r01"/>
                                     <constraint firstItem="cT0-st-r01" firstAttribute="centerY" secondItem="cT0-hd-r01" secondAttribute="centerY" id="cT0-sy-r01"/>
+                                    <constraint firstItem="du0-uh-Zlc" firstAttribute="centerY" secondItem="cT0-hd-r01" secondAttribute="centerY" id="hS7-JY-Zz2"/>
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="64" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="y9y-ad-nYm">
@@ -3195,6 +3200,7 @@
         <image name="MSALogo" width="1536" height="1024"/>
         <image name="analysis" width="24" height="24"/>
         <image name="arrow-left 1" width="24" height="24"/>
+        <image name="arrow-left 3" width="32" height="32"/>
         <image name="arrow-right 1" width="24" height="24"/>
         <image name="close-circle" width="20" height="20"/>
         <image name="coin (2)" width="24" height="24"/>

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -431,94 +431,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C111BF7C2F91AB0700F44AAE /* NewsView */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
-			explicitFileTypes = {
-			};
-			explicitFolders = (
-			);
-			path = NewsView;
-			sourceTree = "<group>";
-		};
-		C111C03E2F91D88E00F44AAE /* CurrencyView */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
-			explicitFileTypes = {
-			};
-			explicitFolders = (
-			);
-			path = CurrencyView;
-			sourceTree = "<group>";
-		};
-		C134ECBC2F830AA400A55595 /* getGoldPrice */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
-			explicitFileTypes = {
-			};
-			explicitFolders = (
-			);
-			path = getGoldPrice;
-			sourceTree = "<group>";
-		};
-		C134ECC12F830AA400A55595 /* KaratGoldPrices */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
-			explicitFileTypes = {
-			};
-			explicitFolders = (
-			);
-			path = KaratGoldPrices;
-			sourceTree = "<group>";
-		};
-		C134ECC72F830AA400A55595 /* WebView */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
-			explicitFileTypes = {
-			};
-			explicitFolders = (
-			);
-			path = WebView;
-			sourceTree = "<group>";
-		};
-		C134ECC92F830AA400A55595 /* ZakatView */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
-			explicitFileTypes = {
-			};
-			explicitFolders = (
-			);
-			path = ZakatView;
-			sourceTree = "<group>";
-		};
-		C192851A2FDCA13600A8FD16 /* NetWork */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
-			explicitFileTypes = {
-			};
-			explicitFolders = (
-			);
-			path = NetWork;
-			sourceTree = "<group>";
-		};
-		C1928C1B2FE301FC00A8FD16 /* GoogleAds */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
-			explicitFileTypes = {
-			};
-			explicitFolders = (
-			);
-			path = GoogleAds;
-			sourceTree = "<group>";
-		};
+		C111BF7C2F91AB0700F44AAE /* NewsView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = NewsView; sourceTree = "<group>"; };
+		C111C03E2F91D88E00F44AAE /* CurrencyView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = CurrencyView; sourceTree = "<group>"; };
+		C134ECBC2F830AA400A55595 /* getGoldPrice */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = getGoldPrice; sourceTree = "<group>"; };
+		C134ECC12F830AA400A55595 /* KaratGoldPrices */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = KaratGoldPrices; sourceTree = "<group>"; };
+		C134ECC72F830AA400A55595 /* WebView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = WebView; sourceTree = "<group>"; };
+		C134ECC92F830AA400A55595 /* ZakatView */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ZakatView; sourceTree = "<group>"; };
+		C192851A2FDCA13600A8FD16 /* NetWork */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = NetWork; sourceTree = "<group>"; };
+		C1928C1B2FE301FC00A8FD16 /* GoogleAds */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = GoogleAds; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1410,9 +1330,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MSA/Pods-MSA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MSA/Pods-MSA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1753,7 +1677,7 @@
 				CODE_SIGN_ENTITLEMENTS = MVP/MVP.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = XQZM5GHRQ6;
 				ENABLE_BITCODE = NO;
@@ -1788,7 +1712,7 @@
 				CODE_SIGN_ENTITLEMENTS = MVP/MVP.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.0;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = XQZM5GHRQ6;
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = "";
