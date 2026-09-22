@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "WalletBgView.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

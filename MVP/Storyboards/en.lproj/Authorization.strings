@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "مرحباً بك في زود\nحدد أحد الخيارات التالية للمتابعة"; ObjectID = "67a-P0-hyy"; */
+"67a-P0-hyy.text" = "Welcome to Zod\nSelect one of the following options to continue";
+
+/* Class = "UILabel"; text = "لتسجيل حساب جديد يرجى ادخال البيانات التالية"; ObjectID = "D4i-t6-6Op"; */
+"D4i-t6-6Op.text" = "To register a new account, please enter the following data:";
+
+/* Class = "UIButton"; normalTitle = "تسجيل حساب جديد"; ObjectID = "Hpl-jC-9g4"; */
+"Hpl-jC-9g4.normalTitle" = "Register a new account";
+
+/* Class = "UIButton"; normalTitle = "التصفح كزائر والتسجيل لاحقاً"; ObjectID = "Qu8-7P-DWt"; */
+"Qu8-7P-DWt.normalTitle" = "Browse as a visitor and register later";
+
+/* Class = "UINavigationItem"; title = "تسجيل حساب جديد"; ObjectID = "R4E-1E-Cyv"; */
+"R4E-1E-Cyv.title" = "Register a new account";
+
+/* Class = "UIButton"; normalTitle = "دخول لحساب مسجل"; ObjectID = "T5M-Tk-Ad8"; */
+"T5M-Tk-Ad8.normalTitle" = "Login to a registered account";
+
+/* Class = "UILabel"; text = "ملاحظة: اسمك الحقيقي يظهر فقط للإدارة واسم المستخدم هو ما\nيظهر للمستخدمين الأخرى"; ObjectID = "egO-7M-OhU"; */
+"egO-7M-OhU.text" = "Note: Your real name is only visible to the administration and the username is\nwhat other users can see.";
+
+/* Class = "UIButton"; normalTitle = "تسجيل الدخول"; ObjectID = "lyt-KU-2fO"; */
+"lyt-KU-2fO.normalTitle" = "Login";
+
+/* Class = "UITextField"; placeholder = "الإسم الحقيقي"; ObjectID = "xLG-EF-cbj"; */
+"xLG-EF-cbj.placeholder" = "Real Name";

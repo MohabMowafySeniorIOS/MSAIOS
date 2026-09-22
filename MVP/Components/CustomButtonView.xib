@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24765" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24743"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomButtonView" customModule="SIN">
+            <connections>
+                <outlet property="ConfirmBtn" destination="3dc-Qa-vVg" id="4R7-By-tZO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="v2o-P0-jmC">
+            <rect key="frame" x="0.0" y="0.0" width="438" height="119"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qgf-dW-MDm">
+                    <rect key="frame" x="0.0" y="0.0" width="438" height="48"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="9b2-ka-nVc">
+                            <rect key="frame" x="0.0" y="0.0" width="438" height="48"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3dc-Qa-vVg" customClass="GoldButton" customModule="MSA" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="438" height="48"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="48" id="p9w-MW-GEp"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                                    <color key="tintColor" name="WhiteColor"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Apply">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="8"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="Apply"/>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="FontBoldSize">
+                                            <real key="value" value="16"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="NextAction:" destination="-1" eventType="touchUpInside" id="Ab8-Xn-WEi"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="9b2-ka-nVc" secondAttribute="trailing" id="9Ve-Bi-s5X"/>
+                        <constraint firstItem="9b2-ka-nVc" firstAttribute="leading" secondItem="qgf-dW-MDm" secondAttribute="leading" id="LHh-3m-O2Z"/>
+                        <constraint firstAttribute="bottom" secondItem="9b2-ka-nVc" secondAttribute="bottom" id="aa3-Ba-M4d"/>
+                        <constraint firstItem="9b2-ka-nVc" firstAttribute="top" secondItem="qgf-dW-MDm" secondAttribute="top" id="vqa-o1-2XB"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="La2-G9-bpR"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="La2-G9-bpR" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="qgf-dW-MDm" secondAttribute="bottom" id="DL0-QX-vRq"/>
+                <constraint firstItem="qgf-dW-MDm" firstAttribute="leading" secondItem="v2o-P0-jmC" secondAttribute="leading" id="E49-KD-cYX"/>
+                <constraint firstItem="La2-G9-bpR" firstAttribute="trailing" secondItem="qgf-dW-MDm" secondAttribute="trailing" id="Rvo-eN-DO2"/>
+                <constraint firstItem="qgf-dW-MDm" firstAttribute="top" secondItem="v2o-P0-jmC" secondAttribute="top" id="YnT-JX-1VT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-175" y="-728"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="WhiteColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

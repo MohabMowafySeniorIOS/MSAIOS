@@ -1,0 +1,16 @@
+/* Bundle display name */
+"CFBundleDisplayName" = "SIN";
+/* Bundle name */
+"CFBundleName" = "Sin";
+/* Privacy - Camera Usage Description */
+"NSCameraUsageDescription" = "we will use your photo to add media or change profile picture ";
+/* Privacy - Location Always and When In Use Usage Description */
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Use your current location to determine the nearest service providers you";
+/* Privacy - Location Always Usage Description */
+"NSLocationAlwaysUsageDescription" = "Use your current location to determine the nearest service providers you";
+/* Privacy - Location When In Use Usage Description */
+"NSLocationWhenInUseUsageDescription" = "Use your current location to determine the nearest service providers you";
+/* Privacy - Photo Library Additions Usage Description */
+"NSPhotoLibraryAddUsageDescription" = "we will use your photo to add media or change profile picture ";
+/* Privacy - Photo Library Usage Description */
+"NSPhotoLibraryUsageDescription" = "we will use your photo to add media or change profile picture ";

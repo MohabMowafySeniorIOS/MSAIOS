@@ -1,0 +1,570 @@
+/* 
+  Localizable.strings
+  MaiTenance
+
+  Created by Mohab on 8/30/20.
+  Copyright © 2020 project. All rights reserved.
+*/
+
+"Views" = "الآراء";
+"Not Now" = "ابھی نہیں";
+"Error" = "خرابی";
+"No Connection" = "لا يوجد إتصال";
+"An Error" = "کوئی رابطہ نہیں";
+"An internet Connection Error occured Please try again" = "انٹرنیٹ کنکشن کی خرابی پیش آگئی براہ کرم دوبارہ کوشش کریں۔";
+"Common Questions" = "عام سوالات";
+"please login first" = "مہربانی فرما کر پہلے لاگ ان کریں";
+"Warning" = "وارننگ";
+"Ok" = "ٹھیک ہے";
+"Cancel" = "منسوخ کریں۔";
+"There is no Data" = "کوئی ڈیٹا نہیں ہے۔";
+"There is no data currently available to display" = "ظاہر کرنے کے لیے فی الحال کوئی ڈیٹا دستیاب نہیں ہے۔";
+"Please choose Country" = "براہ کرم ملک کا انتخاب کریں۔";
+"Please insert search key" = "براہ کرم تلاش کی کلید داخل کریں۔";
+"Updated Successfully" = "کامیابی کے ساتھ اپ ڈیٹ ہو گیا۔";
+"Please choose delivery time" = "براہ کرم ترسیل کے وقت کا انتخاب کریں۔";
+"Please choose Document file" = "براہ کرم دستاویز فائل کا انتخاب کریں۔";
+"Please insert" = "براہ کرم داخل کریں۔";
+"Order text" = "آرڈر کا متن";
+"Question" = "سوال";
+"message" = "پیغام";
+"Required" = "درکار ہے۔";
+"you should Accept Terms&Conditions" = "آپ کو شرائط و ضوابط کو قبول کرنا چاہیے۔";
+"Send" = "بھیجیں";
+"R.S" = "آر ایس";
+"Sorry, an unexpected error occurred, please try again later" = "معذرت، ایک غیر متوقع خرابی پیش آگئی، براہ کرم بعد میں دوبارہ کوشش کریں۔";
+"Resend code in" = "کوڈ دوبارہ بھیجیں۔";
+"There is no content" = "کوئی مواد نہیں ہے۔";
+"Sorry, there is no content available to display" = "معذرت، ڈسپلے کے لیے کوئی مواد دستیاب نہیں ہے۔";
+"Copied" = "کاپی";
+"Camera" = "کیمرہ";
+"Gallery" = "گیلری";
+"Files" = "فائلوں";
+"Choose Image" = "تصویر کا انتخاب کریں۔";
+"Choose" = "منتخب کریں۔";
+
+/// Variables Key
+
+"Register a new account" =  "ایک نیا اکاؤنٹ رجسٹر کریں۔";
+"Login to a registered account" =  "رجسٹرڈ اکاؤنٹ میں لاگ ان کریں۔";
+"User" = "صارف";
+
+
+"Please select the Visit time" = "براہ کرم وزٹ کا وقت منتخب کریں۔";
+"Conversations" = "بات چیت";
+"Order Date" = "آرڈر کی تاریخ";
+"Main Service" = "مین سروس";
+"Sub Services" = "ذیلی خدمات";
+"Visit Time" =  "وزٹ ٹائم";
+"Order Describtion" = "آرڈر کی تفصیل";
+"Submit a quote" = "ایک اقتباس جمع کروائیں۔";
+
+"Order Status" = "آرڈر کی حیثیت";
+"Price" = "قیمت";
+"Duration" = "دورانیہ";
+"Notes" = "نوٹس";
+"Attachments" = "منسلکات";
+"Please insert your comments" = "برجاء إدخال ملاحظاتك";
+
+"Your phone number" = "براہ کرم اپنے تبصرے داخل کریں۔";
+
+"Order Price" = "آرڈر کی قیمت";
+"Please Insert Order Price" = "براہ کرم آرڈر کی قیمت داخل کریں۔";
+
+"Phone number" = "فون نمبر";
+"Please enter the phone number" = "براہ کرم فون نمبر درج کریں۔";
+"Please enter the mobile number you want to register with" = "براہ کرم وہ موبائل نمبر درج کریں جس کے ساتھ آپ رجسٹر کرنا چاہتے ہیں۔";
+
+"Password" = "پاس ورڈ";
+"Please enter the Password" = "براہ کرم پاس ورڈ درج کریں۔";
+"Forget password" = "پاس ورڈ بھول جانا";
+"Login" = "لاگ ان کریں";
+"Enter your details registered with Us to access your account" = "اپنے اکاؤنٹ تک رسائی کے لیے ہمارے ساتھ رجسٹرڈ اپنی تفصیلات درج کریں۔";
+"To register a new account, please enter the following information" = "نیا اکاؤنٹ رجسٹر کرنے کے لیے، براہ کرم درج ذیل معلومات درج کریں۔";
+"Your User Name is only shown to the administration  and the username is what Shows other users" = "آپ کا صارف نام صرف انتظامیہ کو دکھایا جاتا ہے اور صارف نام وہی ہوتا ہے جو دوسرے صارفین کو دکھاتا ہے۔";
+
+"By registering with Dar Driving I agree to" = "ڈار ڈرائیونگ کے ساتھ رجسٹر کر کے میں اس سے اتفاق کرتا ہوں۔";
+"Terms And Conditions" = "شرائط و ضوابط";
+"and" = "اور";
+"Commission" = "کمیشن";
+"Verification code" = "تصدیقی کوڈ";
+"Subscribe" = "سبسکرائب";
+"A code to verify the phone number has been sent in an SMS
+Enter the code to continue" = "فون نمبر کی تصدیق کے لیے ایک کوڈ ایس ایم ایس میں بھیجا گیا ہے۔
+جاری رکھنے کے لیے کوڈ درج کریں۔";
+"Confirm" = "تصدیق کریں۔";
+"Enter the phone number registered with us to restore password" = "پاس ورڈ بحال کرنے کے لیے ہمارے پاس رجسٹرڈ فون نمبر درج کریں۔";
+"Next" = "اگلے";
+"Send Again" = "دوبارہ بھیجو";
+"The phone number has been confirmed successfully, you can reset a new password" = "فون نمبر کی کامیابی سے تصدیق ہو گئی ہے، آپ نیا پاس ورڈ دوبارہ ترتیب دے سکتے ہیں۔";
+"Confirm password" = "پاس ورڈ کی تصدیق کریں۔";
+"Save Password" = "پاس ورڈ محفوظ کریں۔";
+
+"About Us" = "ہمارے بارے میں";
+"Usage Policy" = "استعمال کی پالیسی";
+"insurance mechanism" = "انشورنس میکانزم";
+
+"The mechanism of insurance for auctions and the method of collection from users and redemption" = "نیلامی کے لیے انشورنس کا طریقہ کار اور صارفین سے وصولی کا طریقہ اور چھٹکارا";
+
+"Edit data" = "ڈیٹا میں ترمیم کریں۔";
+"Membership No" = "رکنیت نمبر";
+
+"Edit password" = "پاس ورڈ میں ترمیم کریں۔";
+
+"Save Editing" = "ترمیم کو محفوظ کریں۔";
+"Editing Password" = "پاس ورڈ میں ترمیم کرنا";
+"Enter the ad details as you want to show them to buyers" = "اشتہار کی تفصیلات درج کریں جیسا کہ آپ خریداروں کو دکھانا چاہتے ہیں۔";
+"Main deatils" = "اہم تفصیلات";
+"Additional details" = "اضافی تفصیلات";
+
+
+
+
+"Account Confirmation" = "اکاؤنٹ کی تصدیق";
+"Second" = "دوسرا";
+"Minute" = "منٹ";
+"hour" = "گھنٹہ";
+"day" = "دن";
+
+"Select Cateory" = "زمرہ منتخب کریں۔";
+
+
+"Log In" = "لاگ ان کریں";
+"Confirm Account" = "اکاؤنٹ کی تصدیق کریں۔";
+"Restore password" = "پاس ورڈ بحال کریں۔";
+
+
+
+
+"Skip" = "چھوڑ دو";
+
+"User" = "صارف";
+"Provider" = "فراہم کرنے والا";
+
+
+"Field Requires *" = "فیلڈ کی ضرورت ہے *";
+// teck-en
+"Registeration Type" = "رجسٹریشن کی قسم";
+"Name / Trade Name / Company Name" = "نام / تجارتی نام / کمپنی کا نام";
+"Please enter the registration number / ID number" = "براہ کرم رجسٹریشن نمبر/آئی ڈی نمبر درج کریں۔";
+"the registration number / ID number" =  "رجسٹریشن نمبر / شناختی نمبر";
+"Visitor" = "وزیٹر";
+"Please select the type of register you want" = "براہ کرم رجسٹر کی قسم منتخب کریں جو آپ چاہتے ہیں۔";
+"Offer details :" = "پیشکش کی تفصیلات:";
+"Attached images :" = "منسلک تصاویر:";
+"Offer details" = "پیشکش کی تفصیلات";
+"With us, do not take away the time" = "ہمارے ساتھ، وقت نہیں چھیننا";
+"As we try hard to do our best to save your time, we have provided all sections of the services you want" = "جیسا کہ ہم آپ کا وقت بچانے کے لیے اپنی پوری کوشش کرنے کی پوری کوشش کرتے ہیں، ہم نے آپ کی مطلوبہ خدمات کے تمام حصے فراہم کیے ہیں۔";
+"Forgot your password?" = "اپنا پاس ورڈ بھول گئے؟";
+"Password" = "پاس ورڈ";
+
+
+// Register Auth
+"Create an account" = "کھاتا کھولیں";
+"Value" = "قدر";
+"Allowed Offer's number" = "اجازت یافتہ پیشکش کا نمبر";
+"Charge Wallet" = "پرس چارج کریں۔";
+
+
+// Wallet
+"Value required for charge" = "قیمت چارج کے لیے درکار ہے۔";
+"Please enter Value required for charge" = "براہ کرم چارج کے لیے درکار قدر درج کریں۔";
+"Start Now" = "اب شروع کریں";
+
+
+// Resgister Screen
+"Location on the map" = "نقشے پر مقام";
+"Please enter the location on the map" = "براہ کرم نقشے پر مقام درج کریں۔";
+"Please Insert User Name" = "براہ کرم صارف کا نام داخل کریں۔";
+"User name" = "صارف کا نام";
+"E-mail" = "ای میل";
+"Please Insert E-mail" = "براہ کرم ای میل داخل کریں۔";
+"City" = "شہر";
+"Please Choose City" = "براہ کرم شہر کا انتخاب کریں۔";
+"Confirm Password" =  "پاس ورڈ کی تصدیق کریں۔";
+"Please Insert Confirm Password" = "براہ کرم تصدیقی پاس ورڈ داخل کریں۔";
+"Please Choose Area" = "براہ کرم علاقہ کا انتخاب کریں۔";
+"Area" = "رقبہ";
+"Mobile Number is not vaild" = "موبائل نمبر درست نہیں ہے۔";
+"Account details" = "اکاؤنٹ کی تفصیلات";
+"Please complete your account information" = "براہ کرم اپنے اکاؤنٹ کی معلومات مکمل کریں۔";
+
+
+// Log In
+"Welcome" = "خوش آمدید";
+"Please enter your login information" = "براہ کرم اپنی لاگ ان معلومات درج کریں۔";
+
+// Active code
+"OTP Code" = "OTP کوڈ";
+"Please enter the verification code sent to you via the mobile number" = "براہ کرم موبائل نمبر کے ذریعے آپ کو بھیجا گیا توثیقی کوڈ درج کریں۔";
+"Password Recovery" = "پاس ورڈ کی بازیافت";
+"New password" = "نیا پاس ورڈ";
+"Please type and confirm the new password" = "براہ کرم نیا پاس ورڈ ٹائپ کریں اور تصدیق کریں۔";
+"Please Insert New Password" = "براہ کرم نیا پاس ورڈ داخل کریں۔";
+"Confirm New password" = "نئے پاس ورڈ کی توثیق کریں";
+"Insert Confirm New password" = "نئے پاس ورڈ کی تصدیق داخل کریں۔";
+"Resend code" = "کوڈ پھر سے بھیجو";
+"Country Code" = "ملک کا کوڈ";
+
+// side Menue
+"My personal" = "میرا ذاتی";
+"Change mobile number" = "موبائل نمبر تبدیل کریں۔";
+"Change Password" = "پاس ورڈ تبدیل کریں";
+"My Works" = "میرے کام";
+"My services/skills" = "میری خدمات/مہارتیں۔";
+"Wallet Charging" = "والیٹ چارجنگ";
+"Contact Us" = "ہم سے رابطہ کریں۔";
+"Sections that interest you" = "وہ حصے جو آپ کی دلچسپی رکھتے ہیں۔";
+"FAQ" = "عمومی سوالات";
+"App Language" = "ایپ کی زبان";
+"About Teck En" = "ٹیک این کے بارے میں";
+"Log Out" = "لاگ آوٹ";
+
+
+// Order Screen
+"There are no orders to display" = "ڈسپلے کرنے کے لیے کوئی آرڈر نہیں ہیں۔";
+"Sorry, there are no orders to display at this time" = "معذرت، اس وقت ڈسپلے کرنے کے لیے کوئی آرڈر نہیں ہیں۔";
+"New orders" = "نئے احکامات";
+
+"Finished Orders" = "مکمل احکامات";
+"My Balance" = "میرا بیلنس";
+
+
+// Services Screen
+"Service Selection" = "";
+"Notifications" = "اطلاعات";
+"Featured Services" = "نمایاں خدمات";
+"All Services" = "All Services";
+
+"order data : " = "آرڈر ڈیٹا:";
+"Order Number :" = "آرڈر نمبر:";
+"Order Number" = "آرڈر نمبر";
+"Service Provider Information : " = "سروس فراہم کنندہ کی معلومات:";
+"My Offers" = "میری پیشکشیں";
+"News Orders" = "نیوز آرڈرز";
+"Order Details" = "آرڈر کی تفصیلات";
+"Order Details : " = "آرڈر کی تفصیلات :";
+"Delete Offer" = "پیشکش کو حذف کریں۔";
+"Add a new offer" = "ایک نئی پیشکش شامل کریں۔";
+"Edit Offer" = "پیشکش میں ترمیم کریں۔";
+"Delete Offer" = "پیشکش کو حذف کریں۔";
+"Edit Work" = "کام میں ترمیم کریں۔";
+"Delete Work" = "کام کو حذف کریں۔";
+"Current Orders" = "موجودہ احکامات";
+"Confirm Language" = "زبان کی تصدیق کریں۔";
+
+// tabbar
+"Home" = "گھر";
+"My Orders" = "میرے احکام";
+"Messages" = "پیغامات";
+"My Profile" = "میری پروفائل";
+"Offers" = "پیشکش کرتا ہے۔";
+"Duration : " = "دورانیہ:";
+"Order" = "ترتیب";
+
+// Contact Us
+"Message text" = "پیغام کا متن";
+"Please enter the text of the message" = "براہ کرم پیغام کا متن درج کریں۔";
+"Order Description" = "آرڈر کی تفصیل";
+"Please enter order description" = "براہ کرم آرڈر کی تفصیل درج کریں۔";
+"Suitable time to visit" = "دورہ کرنے کے لیے موزوں وقت";
+"Please select the appropriate time" = "براہ کرم مناسب وقت کا انتخاب کریں۔";
+"Offer Data : " = "پیشکش کا ڈیٹا:";
+"Please Insert Offer Name" = "برائے مہربانی پیشکش کا نام داخل کریں۔";
+"Offer Name" = "پیشکش کا نام";
+"Please Choose Category" = "براہ کرم زمرہ منتخب کریں۔";
+"Category" = "قسم";
+"Offer Description" = "پیشکش کی تفصیل";
+"Please enter offer description" = "براہ کرم پیشکش کی تفصیل درج کریں۔";
+"Work Description" = "کام کی تفصیل";
+"Work Details : " = "کام کی تفصیلات:";
+"Please enter Work description" = "براہ کرم کام کی تفصیل درج کریں۔";
+"Show More" = "مزید دکھائیں";
+"Another Informations" = "ایک اور معلومات";
+"Please Insert Current Password" = "براہ کرم موجودہ پاس ورڈ داخل کریں۔";
+"Current Password" = "موجودہ خفیہ لفظ";
+"New Password" = "نیا پاس ورڈ";
+"Please Insert New Password" = "براہ کرم نیا پاس ورڈ داخل کریں۔";
+"Confirm New password" = "نئے پاس ورڈ کی توثیق کریں";
+"Please Insert Confirm New password" = "براہ کرم نئے پاس ورڈ کی تصدیق کریں داخل کریں۔";
+"Common Questions" = "عام سوالات";
+"Privacy policy" = "رازداری کی پالیسی";
+"   Add New Offer" = "  نئی پیشکش شامل کریں۔";
+"   Add New Work" = "   نیا کام شامل کریں۔";
+"Category : " = "قسم :";
+"Additional Date : " = "اضافی تاریخ:";
+"Views : " = "ملاحظات:";
+"Add Offer" = "پیشکش شامل کریں۔";
+"Add a new work" = "ایک نیا کام شامل کریں۔";
+"Work Name" = "کام کا نام";
+"Please Insert Work Name" = "براہ کرم کام کا نام داخل کریں۔";
+"Client Name" = "کلائنٹ کا نام";
+"Client Name : " = "کلائنٹ کا نام:";
+"Work Details" = "کام کی تفصیلات";
+"Please Insert Client Name" = "براہ کرم کلائنٹ کا نام داخل کریں۔";
+"Project start date" = "پروجیکٹ شروع ہونے کی تاریخ";
+"Please Select Project start date" = "براہ کرم پروجیکٹ شروع ہونے کی تاریخ منتخب کریں۔";
+"Project duration (in days)" = "پروجیکٹ کی مدت (دنوں میں)";
+"Please Insert Project duration (in days)" = "براہ کرم پروجیکٹ کی مدت داخل کریں (دنوں میں)";
+"Work description" = "کام کی تفصیل";
+"Add Work" = "کام شامل کریں۔";
+"Send Message" = "پیغام بھیجیں";
+"App Language : " = "پیغام بھیجیں";
+"Your current balance" = "آپ کا موجودہ بیلنس";
+"Offer available" = "پیشکش دستیاب ہے۔";
+"Previous shipments : " = "پچھلی ترسیل:";
+
+
+"Please enter the old and new password" = "براہ کرم پرانا اور نیا پاس ورڈ درج کریں۔";
+"Via WatsApp" = "واٹس ایپ کے ذریعے";
+"Make Conversation" = "بات چیت کریں۔";
+"Add your review" = "اپنا جائزہ شامل کریں۔";
+"Edit Offer Price" = "پیشکش کی قیمت میں ترمیم کریں۔";
+"Price : " = "قیمت:";
+"Works" = "کام کرتا ہے۔";
+"Status : " = "حالت : ";
+"Edit Order" = "آرڈر میں ترمیم کریں۔";
+"Delete Order" = "آرڈر کو حذف کریں۔";
+"Finish Order" = "آرڈر ختم کریں۔";
+"Refuse Order" = "حکم سے انکار";
+"Accept Offer" = "پیشکش قبول کرو";
+"Offer Price" = "پیشکش کی قیمت";
+"Duration By Days" = "دورانیہ بہ دن";
+"Please Insert Duration By Days" = "براہ کرم دورانیہ بذریعہ دنوں داخل کریں۔";
+"Message sent successfully" = "پیغام کامیابی سے چلا گیا";
+"Message sent successfully to adminstrator, and your message will be answered as soon as possible" = "ایڈمنسٹریٹر کو کامیابی کے ساتھ پیغام بھیجا گیا، اور آپ کے پیغام کا جلد از جلد جواب دیا جائے گا۔";
+"Back To Home" = "واپس گھر";
+"Are you sure to delete the order" = "کیا آپ آرڈر کو حذف کرنے کا یقین رکھتے ہیں؟";
+"Your request has been successfully deleted" = "آپ کی درخواست کامیابی کے ساتھ حذف کر دی گئی ہے۔";
+"Add Your Rate" = "اپنا ریٹ شامل کریں۔";
+"Congratulations! Your review has been submitted successfully" = "مبارک ہو! آپ کا جائزہ کامیابی کے ساتھ جمع کرایا گیا ہے۔";
+"Offer Price Sent Successfully" = "پیشکش کی قیمت کامیابی کے ساتھ بھیج دی گئی۔";
+"Please choose Services" = "براہ کرم خدمات کا انتخاب کریں۔";
+"Terms and conditions" = "شرائط و ضوابط";
+"I Agree " = "میں راضی ہوں";
+"Sorted By" = "ترتیب دیا گیا";
+"Sorted By Region" = "علاقہ کے لحاظ سے ترتیب دیا گیا۔";
+"Sorted By Services" = "خدمات کے لحاظ سے ترتیب دیا گیا۔";
+"Change Phone Number" = "فون نمبر تبدیل کریں۔";
+
+"in_progress" = "کام جاری ہے";
+"new" = "نئی";
+"finished" = "ختم";
+"Order Updated Successfully" = "آرڈر کو کامیابی کے ساتھ اپ ڈیٹ کر دیا گیا۔";
+"App Language" = "ایپ کی زبان";
+"Sections that interest you" = "وہ حصے جو آپ کی دلچسپی رکھتے ہیں۔";
+"Register your interest in the departments you want to receive notification from when an offer is added by the service provider" = "ان محکموں میں اپنی دلچسپی رجسٹر کریں جن سے آپ اطلاع موصول کرنا چاہتے ہیں جب سروس فراہم کنندہ کی طرف سے پیشکش شامل کی جاتی ہے۔";
+"Please choose Country code" = "براہ کرم ملک کا کوڈ منتخب کریں۔";
+"Edit Offer's Price" = "پیشکش کی قیمت میں ترمیم کریں۔";
+"Sorted By Date" = "تاریخ کے لحاظ سے ترتیب دیا گیا۔";
+"Reset" = "دوبارہ ترتیب دیں۔";
+"Show results" = "نتائج دکھاو";
+"Done" = "ہو گیا";
+"My Account" = "میرا اکاونٹ";
+"There are no content to display" = "ظاہر کرنے کے لیے کوئی مواد نہیں ہے۔";
+"Detect location" = "مقام کا پتہ لگائیں۔";
+"Select Payment Method :" =  "ادائیگی کا طریقہ منتخب کریں:";
+"Payment" = "ادائیگی";
+"have a conversation" = "بات چیت کرو";
+"Register" = "رجسٹر کریں۔";
+"Rate Order" = "ریٹ آرڈر";
+
+
+
+// Pages Translateions
+"With us, do not take away the time" = "ہمارے ساتھ، وقت نہیں چھیننا";
+"As we try hard to do our best to save your time, we have provided all sections of the services you want" = "جیسا کہ ہم آپ کا وقت بچانے کے لیے اپنی پوری کوشش کرنے کی پوری کوشش کرتے ہیں، ہم نے آپ کی مطلوبہ خدمات کے تمام حصے فراہم کیے ہیں۔";
+"Easily select your service" = "آسانی سے اپنی سروس منتخب کریں۔";
+"As we try hard to do our best to save your time, we have provided all sections of the services you want" = "جیسا کہ ہم آپ کا وقت بچانے کے لیے اپنی پوری کوشش کرنے کی پوری کوشش کرتے ہیں، ہم نے آپ کی مطلوبہ خدمات کے تمام حصے فراہم کیے ہیں۔";
+"Complete the information and submit the request." = "معلومات مکمل کریں اور درخواست جمع کروائیں۔";
+
+"Day" = "دن";
+"Hour" = "گھنٹہ";
+"Minute" = "منٹ";
+"Second" = "دوسرا";
+"You Should Select City First" = "آپ کو پہلے شہر کا انتخاب کرنا چاہیے۔";
+"Refuse Offer" = "پیشکش سے انکار";
+"Attach Files" = "فائلیں منسلک کریں۔";
+
+"Registration completed successfully" = "رجسٹریشن کامیابی سے مکمل ہو گئی۔";
+"Your registration data will be reviewed and after completion the account will be activated" = "آپ کے رجسٹریشن ڈیٹا کا جائزہ لیا جائے گا اور مکمل ہونے کے بعد اکاؤنٹ ایکٹیویٹ ہو جائے گا۔";
+"Password and password confirmation not identical" = "پاس ورڈ اور پاس ورڈ کی تصدیق ایک جیسی نہیں ہے۔";
+"Congratulations! Your Order has been finished successfully" = "مبارک ہو! آپ کا آرڈر کامیابی کے ساتھ ختم ہو گیا ہے۔";
+"Please rate your experience with the service provider through the completed request in my orders" = "براہ کرم میرے آرڈرز میں مکمل شدہ درخواست کے ذریعے سروس فراہم کرنے والے کے ساتھ اپنے تجربے کی درجہ بندی کریں۔";
+"Are you sure to delete the order
+the offer ?" = "کیا آپ آرڈر کو حذف کرنے کا یقین رکھتے ہیں؟
+پیشکش ؟";
+"Work deleted successfully" = "کام کامیابی سے حذف ہو گیا۔";
+"Offer deleted successfully" = "پیشکش کامیابی سے حذف ہو گئی۔";
+"Are you sure to delete
+the work ?" = "کیا آپ کو یقینی طور پر حذف کرنا ہے۔
+کام ؟";
+"Are you sure to decline the offer?" = "کیا آپ یقینی طور پر پیشکش کو مسترد کر رہے ہیں؟";
+"Are you sure to delete the offer?" = "کیا آپ واقعی پیشکش کو حذف کرنا چاہتے ہیں؟";
+"Are you sure to delete the work?" = "کیا آپ کام کو حذف کرنے کا یقین رکھتے ہیں؟";
+"Please Select Files" = "براہ کرم فائلیں منتخب کریں۔";
+"Are you sure to reject the order?" = "کیا آپ یقینی طور پر آرڈر کو مسترد کرنا چاہتے ہیں؟";
+"Order Rejected Successfully" = "آرڈر کامیابی سے مسترد کر دیا گیا۔";
+"All Offers" = "تمام پیشکشیں";
+"Offers Offered : " = "پیش کردہ پیشکشیں:";
+"The service is not available in this city" = "اس شہر میں سروس دستیاب نہیں ہے۔";
+"You Do not have an account?" = "کیا آپ کا اکاؤنٹ نہیں ہے؟";
+"Press Here" = "یہاں دبائیں";
+"Order" = "ترتیب";
+"rejected" = "مسترد";
+"accepted" = "قبول کر لیا";
+"Please comment on the experience" = "براہ کرم تجربے پر تبصرہ کریں۔";
+"How was the experience with" = "کے ساتھ تجربہ کیسا رہا؟";
+"Work Photos : " = "کام کی تصاویر:";
+"Congratulations! Your request has been sent successfully" = "مبارک ہو! آپ کی درخواست کامیابی کے ساتھ بھیج دی گئی ہے۔";
+"You will receive prposals from service providers and you can choose the right one" = "آپ کو سروس فراہم کرنے والوں سے تجاویز موصول ہوں گی اور آپ صحیح انتخاب کر سکتے ہیں۔";
+"Start Date : " = "شروع کرنے کی تاریخ :";
+"Day" = "دن";
+"Bank Accounts" = "بینک اکاؤنٹ";
+"Insert Account Owner Name" = "اکاؤنٹ کے مالک کا نام داخل کریں۔";
+"Account Owner Name" = "اکاؤنٹ کے مالک کا نام";
+"Write your message" = "اپنا پیغام لکھیں۔";
+"Please Insert Value" = "براہ کرم قدر داخل کریں۔";
+"An internet Connection Error occured Please try again" = "انٹرنیٹ کنکشن کی خرابی پیش آگئی براہ کرم دوبارہ کوشش کریں۔";
+"No Connection" = "کوئی رابطہ نہیں";
+"An internet Connection Error occured Please try again" = "انٹرنیٹ کنکشن کی خرابی پیش آگئی براہ کرم دوبارہ کوشش کریں۔";
+"Time For Visit" = "وزٹ کا وقت";
+"Visit Date" = "وزٹ کی تاریخ";
+"Please note that if you confirm the account deletion, all your data will be permanently deleted and cannot be recovered again.
+" = "براہ کرم نوٹ کریں کہ اگر آپ اکاؤنٹ حذف کرنے کی تصدیق کرتے ہیں، تو آپ کا تمام ڈیٹا مستقل طور پر حذف ہو جائے گا اور دوبارہ بازیافت نہیں کیا جا سکتا۔";
+"Delete Account" = "کھاتہ مٹا دو";
+"There are no conversations to display" = "دکھانے کے لیے کوئی بات چیت نہیں ہے";
+"Please select the appropriate date" = "براہ کرم مناسب تاریخ منتخب کریں";
+"Suitable date to visit" = "وزٹ کرنے کے لیے موزوں تاریخ";
+
+
+
+
+"maintenance_screen_title" = "ہم اس وقت دیکھ بھال کر رہے ہیں";
+"maintenance_screen_message" = "ہم ابھی اس اسکرین پر کام کر رہے ہیں، یہ جلد ہی واپس آ جائے گی۔\nتکلیف کے لیے معذرت 🙏";
+
+/* Settings & notification controls */
+"Settings" = "Settings";
+"notifications_section" = "Notifications";
+"notif_gold" = "Gold alerts";
+"notif_gold_desc" = "Alert when gold prices change";
+"notif_silver" = "Silver alerts";
+"notif_silver_desc" = "Alert when silver prices change";
+"notif_dollar" = "Dollar prices";
+"notif_dollar_desc" = "Alert when the dollar rate changes";
+"notif_news" = "News";
+"notif_news_desc" = "Market news and MSA news";
+"notif_general" = "General notifications";
+"notif_general_desc" = "Announcements and app updates";
+"notif_system_hint" = "If notifications are off in your phone settings, nothing will arrive even when enabled here.";
+
+/* الحساب */
+"auth_login_title" = "Sign in";
+"auth_login_hint" = "Sign in with your mobile number and password";
+"auth_login_action" = "Sign in";
+"auth_register_title" = "New account";
+"auth_register_hint" = "Fill in your details and we'll send a verification code";
+"auth_register_action" = "Create account";
+"auth_go_register" = "No account? Create one";
+"auth_go_login" = "I already have an account";
+"auth_name" = "Full name";
+"auth_email" = "Email";
+"auth_phone" = "Mobile number";
+"auth_password" = "Password";
+"auth_confirm_password" = "Confirm password";
+"auth_verify_title" = "Verify number";
+"auth_verify_hint" = "We sent a code to %@";
+"auth_verify_action" = "Verify";
+"auth_resend" = "Resend code";
+"auth_resend_in" = "Resend in %d seconds";
+"auth_err_name" = "Enter your full name";
+"auth_err_email" = "Invalid email address";
+"auth_err_phone" = "Invalid mobile number (e.g. 01012345678)";
+"auth_err_password" = "Password must be at least 6 characters";
+"auth_err_confirm" = "Passwords do not match";
+"auth_account" = "My account";
+"auth_logout" = "Sign out";
+"auth_login_prompt" = "Sign in";
+"auth_logged_in_as" = "Signed in as %@";
+
+/* المحفظة والبروفايل */
+"wallet_title" = "My Portfolio";
+"wallet_current_value" = "Current value";
+"wallet_total_paid" = "Total paid";
+"wallet_total_weight" = "Total weight";
+"wallet_shop_price" = "Shop sell price";
+"wallet_cashback" = "Cash back collected";
+"wallet_items" = "Items (%d)";
+"wallet_pieces" = "%d pieces";
+"wallet_no_items" = "No items";
+"wallet_avg_buy" = "Avg. buy %@ /gram";
+"wallet_empty_title" = "Your portfolio is empty";
+"wallet_empty_hint" = "Add your first bullion or gold pound and we'll value it at today's price";
+"wallet_login_title" = "Sign in first";
+"wallet_login_hint" = "Your portfolio is saved to your account, so you can reach it from any device";
+"wallet_add" = "Add item";
+"wallet_edit" = "Edit item";
+"wallet_save" = "Save item";
+"wallet_metal" = "Metal";
+"wallet_karat" = "Karat";
+"wallet_karat_chip" = "Karat %@";
+"wallet_type" = "Type";
+"wallet_type_bullion" = "Bullion";
+"wallet_type_coin" = "Coins";
+"wallet_type_jewellery" = "Jewellery";
+"wallet_type_scrap" = "Scrap";
+"wallet_weight" = "Weight (grams)";
+"wallet_gram_price" = "Price per gram";
+"wallet_manufacturing" = "Manufacturing per gram";
+"wallet_cashback_per_gram" = "Cash back per gram";
+"wallet_total_hint" = "Calculated from weight × gram price + manufacturing — you can edit it";
+"wallet_note" = "Note";
+"wallet_bought_at" = "bought at %@";
+"wallet_zakat_title" = "Calculate gold zakat";
+"wallet_zakat_hint" = "On the items in your portfolio";
+"wallet_zakat_of" = "%@ zakat";
+"wallet_zakat_pure" = "Pure in your portfolio";
+"wallet_zakat_nisab" = "Nisab";
+"wallet_zakat_grams" = "Zakat amount";
+"wallet_zakat_due" = "Zakat is due";
+"wallet_zakat_not_due" = "Below the nisab, so zakat is not due";
+"wallet_zakat_remaining" = "%@ grams left to reach the nisab";
+"gram" = "g";
+"egp" = "EGP";
+"cancel" = "Cancel";
+"profile_title" = "My account";
+"profile_save" = "Save changes";
+"profile_saved" = "Changes saved";
+"profile_phone_locked" = "Your mobile number is tied to account verification, so changing it needs a code";
+"profile_change_password" = "Change password";
+"profile_current_password" = "Current password";
+"profile_new_password" = "New password";
+"profile_logout_confirm" = "Are you sure you want to sign out?";
+"profile_delete_account" = "Delete account";
+"profile_delete_hint" = "Deleting removes your account and every item in your portfolio. This cannot be undone.";
+"profile_delete_confirm" = "This is permanent — your account and all portfolio items will be deleted. Continue?";
+
+/* المؤشرات والتحليل */
+"market_global_note" = "The chart shows the global ounce in USD (XAU/USD) — the market reference local prices track.";
+"ta_disclaimer" = "This is an automated technical reading of the global market, not investment advice.";
+"gold" = "Gold";
+"silver" = "Silver";
+"indicators" = "Indicators";
+"technical_analysis" = "Technical Analysis";
+
+
+/* ── التحقّق من سبيكة بكود QR ───────────────────── */
+"bullion_scan_title" = "Verify bullion";
+"bullion_scan_hint" = "Point the camera at the QR code on the bullion. We will tell you straight away whether it is registered with us.";
+"bullion_scan_checking" = "Checking…";
+"bullion_scan_again" = "Scan another bullion";
+"bullion_scan_code" = "Code";
+"bullion_scan_karat" = "Karat";
+"bullion_scan_weight" = "Weight";
+"bullion_scan_grams" = "g";
+"bullion_scan_serial" = "Serial";
+"bullion_scan_offline_title" = "Could not check right now";
+"bullion_scan_offline_message" = "We could not reach our servers. This says nothing about the bullion — check your connection and try again.";
+"bullion_scan_camera_denied" = "The app needs camera access to read the code.";
+"bullion_scan_open_settings" = "Open settings";
+"bullion_scan_camera_unavailable" = "The camera is not available right now. Close any other app using it and try again.";

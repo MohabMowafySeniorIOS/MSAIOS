@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24765" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24743"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="IBMPlexSansArabic-Bold.ttf">
+            <string>IBMPlexSansArabic-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="158" id="KGk-i7-Jjw" customClass="HomeDollarCell" customModule="MSA" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="489" height="158"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="489" height="158"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jlb-lD-QC7">
+                        <rect key="frame" x="0.0" y="8" width="489" height="40"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="iKU-dg-H7J">
+                                <rect key="frame" x="0.0" y="0.0" width="489" height="40"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1YG-jk-JLH">
+                                        <rect key="frame" x="0.0" y="0.0" width="489" height="40"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="gze-rp-CTT">
+                                                <rect key="frame" x="16" y="7.6666666666666643" width="457" height="25"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="CFh-dY-otL">
+                                                        <rect key="frame" x="0.0" y="0.0" width="44.333333333333336" height="25"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Karat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgv-2K-AWg">
+                                                                <rect key="frame" x="0.0" y="0.0" width="44.333333333333336" height="25"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="25" id="2Bi-He-9GF"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" name="IBMPlexSansArabic-Bold" family="IBM Plex Sans Arabic" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="Karat"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="R9a-kK-91N">
+                                                        <rect key="frame" x="363.33333333333331" y="0.0" width="93.666666666666686" height="25"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="جاري التحميل" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ga-EI-ahz">
+                                                                <rect key="frame" x="0.0" y="0.0" width="93.666666666666671" height="25"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="25" id="Lbm-ii-4ep"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" name="IBMPlexSansArabic-Bold" family="IBM Plex Sans Arabic" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="جاري التحميل"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="gze-rp-CTT" secondAttribute="trailing" constant="16" id="FFd-3Z-0K8"/>
+                                            <constraint firstItem="gze-rp-CTT" firstAttribute="centerY" secondItem="1YG-jk-JLH" secondAttribute="centerY" id="qJ0-bM-4d3"/>
+                                            <constraint firstItem="gze-rp-CTT" firstAttribute="leading" secondItem="1YG-jk-JLH" secondAttribute="leading" constant="16" id="rGt-jq-Lgg"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="1YG-jk-JLH" firstAttribute="top" secondItem="iKU-dg-H7J" secondAttribute="top" id="F8x-hv-4tc"/>
+                                    <constraint firstAttribute="bottom" secondItem="1YG-jk-JLH" secondAttribute="bottom" id="lVi-K6-LFl"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iKU-dg-H7J" firstAttribute="leading" secondItem="jlb-lD-QC7" secondAttribute="leading" id="Gzb-lr-ryW"/>
+                            <constraint firstAttribute="bottom" secondItem="iKU-dg-H7J" secondAttribute="bottom" id="Kof-yx-H19"/>
+                            <constraint firstAttribute="trailing" secondItem="iKU-dg-H7J" secondAttribute="trailing" id="LHx-4w-SBG"/>
+                            <constraint firstAttribute="height" constant="40" id="N4J-9W-UWA"/>
+                            <constraint firstItem="iKU-dg-H7J" firstAttribute="top" secondItem="jlb-lD-QC7" secondAttribute="top" multiplier="4" id="qnn-ZL-37u"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="jlb-lD-QC7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="68P-ua-uC6"/>
+                    <constraint firstAttribute="trailing" secondItem="jlb-lD-QC7" secondAttribute="trailing" id="Pi0-VQ-lrt"/>
+                    <constraint firstAttribute="bottom" secondItem="jlb-lD-QC7" secondAttribute="bottom" constant="8" id="g5u-Ym-7yZ"/>
+                    <constraint firstItem="jlb-lD-QC7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="jLf-4o-qQx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="bgView" destination="1YG-jk-JLH" id="aJB-vk-yaU"/>
+                <outlet property="keyLabel" destination="tgv-2K-AWg" id="UBf-d4-kYz"/>
+                <outlet property="valueLabel" destination="2Ga-EI-ahz" id="Cl9-lU-TRR"/>
+            </connections>
+            <point key="canvasLocation" x="3.8167938931297707" y="97.887323943661983"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

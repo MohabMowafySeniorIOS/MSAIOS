@@ -1,0 +1,955 @@
+/*
+  Localizable.strings
+  MaiTenance
+
+  Created by Mohab on 8/30/20.
+  Copyright © 2020 project. All rights reserved.
+*/
+
+
+
+
+//Global Keys
+"You must select the manufacturer first."                       = "يجب اختيار الشركة المصنعة أولاً";
+"You must select the karat first."                              = "يجب اختيار العيار أولاً";
+"Alert"                                                         = "تنبيه";
+"Product"                                                       = "المنتج";
+"My Wallet"                                                     = "محفظتي";
+"FAQ"                                                           = "الأسئلة الشائعة";
+"EGP"                                                           = "جنيه مصري";
+"Gold and silver calculator"                                     = "حاسبة الذهب والفضة";
+"Price gap"                                                 = "الفجوة السعرية";
+"R.S"                                                       = "ر.س";
+"Adding"                                                    = "إضافة";
+"YES"                                                       = "نعم";
+"NO"                                                        = "لا";
+"Hour"                                                      = "ساعة";
+"Day"                                                       = "يوم";
+"Total"                                                     = "الاجمالي";
+"Next"                                                      = "التالي";
+"Confirm"                                                   = "تأكيد";
+"Cancel"                                                    = "الغاء";
+"Language"                                                  = "اللغة";
+"Save"                                                      = "حفظ";
+"Add"                                                       = "إضافة";
+"Warning"                                                   = "تنبيه";
+"please login first"                                        = "من فضلك سجل أولاً";
+"Ok"                                                        = "حسناً";
+
+
+"Cancelation Reason"                                        = "سبب الإلغاء";
+"State the reason for cancellation here"                    = "اذكر سبب الالغاء هنا ..";
+
+"What do you think?"                                        = "ما رأيك ؟";
+"State your opinion here"                                   = "اذكر رأيك هنا";
+// Validations KEs
+"Phone Is Not Valid"                                        = "رقم الجوال غير صحيح";
+"Is Required"                                               = "مطلوب";
+//"Choose Country"                                            = "اختر الدولة";
+"First Name Is Required"                                    = "الاسم الأول مطلوب";
+"Last Name Is Required"                                     = "الاسم الأخير مطلوب";
+"Country Is Required"                                       = "الدولة مطلوبة";
+"Please Choose Country Firstly"                             = "من فضلك إختر المدينة أولاً";
+"please check email format"                                 = "يرجى التحقق من صيغة البريد الالكتروني";
+
+// Home
+"Welcome" = "حياك الله";
+"How can we serve you today at Shine?"                      = "كيف نقدر نخدمك اليوم في شاين ؟";
+
+
+// SideMenue
+"Profile"                                                   = "حسابي";
+"My Wallet"                                                 = "محفظتي";
+"My Points"                                                 = "نقاطي";
+"Help"                                                      = "المساعدة";
+"About Us"                                                  = "من نحن";
+"Terms Of Use"                                              = "سياسة الاستخدام";
+"Log Out"                                                   = "تسجيل الخروج";
+"My Addresses"                                              = "عناويني";
+"Current Balance"                                           = "الرصيد الحالي";
+"My Points"                                                 = "نقاطي";
+"Home"                                                      = "الرئيسية";
+"My Services"                                               = "خدماتي";
+"My Orders"                                                 = "طلباتي";
+"My Profile"                                                = "الملف الشخصي";
+"Privacy Policy"                                            = "سياسة الخصوصية";
+"New Address"                                               = "عنوان جديد";
+"Help"                                                      = "المساعدة";
+"Show Map"                                                  = "عرض الخريطة";
+"Edit"                                                      = "تعديل";
+"New Address"                                               = "عنوان جديد";
+"Type Of Real Estate"                                       = "نوع العقار";
+"Enter Address Name"                                        = "ادخل اسم العنوان";
+"Enter Address"                                             = "ادخل العنوان";
+"Building Name"                                             = "اسم المبني";
+"Enter Building Name"                                       = "ادخل اسم المبني";
+"Phone Number"                                              = "رقم الجوال";
+"Enter Phone Number"                                        = "ادخل رقم الجوال";
+"Set as default address?"                                   = "تعيين كعنوان افتراضي ؟";
+
+///MARK: Map Screen
+"Select Location"                                           = "اختر الموقع";
+
+
+/// MARK: Authontication
+// LAnguage Vc
+"You lightened up our day at MSA 🥳"                        = "نورتنا في MSA 🥳";
+"Please select the language that suits you within the Shine application and complete the login to the application."                                                               = "يرجي تحديد اللغة التي تناسبك داخل تطبيق شاين واستكمال
+الدخول للتطبيق";
+
+// Login VC
+"Log in now to continue within the Shine app"                = "قم بتسجيل الدخول الآن للمتابعة داخل تطبيق شاين";
+"Country"                                                    =  "الدولة";
+"Choose Country"                                             = "المملكة العربية السعودية";
+"Insert Phone Number"                                        = "ادخل رقم الجوال";
+"Phone Number Is Required"                                   = "رقم الجوال مطلوب";
+"Enter"                                                      = "ادخل";
+"Don’t have an account? "                                    = "لديك حساب بالفعل؟ ";
+"Sign up?"                                                   = "تسجيل حساب؟";
+"Welcome back! 😍"                                           = "يا هلا بالعوده! 😍";
+"Enter your activation code that you just received through"  = "قم بإدخال رمز التفعيل الخاص بك الذي وصلك للتو من خلال";
+"Activation code"                                            = "رمز التفعيل";
+"Didn't receive the code?"                                   = "لم يصلك الرمز ؟";
+"Resend"                                                     = " إعادة ارسال";
+"Number"                                                     = "رقم";
+"Resend code"                                                = "إعادة إرسال";
+"Resend code?"                                               = "إعادة إرسال؟";
+"Verification Code"                                          = "رمز التفعيل";
+"Send"                                                       = "إرسال";
+"Sign up"                                                    = "حساب جديد";
+"Register"                                                   = "تسجيل جديد";
+"Fill in the personal data required from you to complete the registration" = "قم بملئ البيانات الشخصية المطلوبه منك لإستكمال التسجيل";
+"First Name"                                                 = "الاسم الأول";
+"Last Name"                                                  = "الاسم الاخير";
+"Email"                                                      = "البريد الالكتروني";
+"Enter Email"                                                = "ادخل البريد الالكتروني";
+"City"                                                       = "المدينة";
+"Choose City"                                                = "اختر المدينة";
+"City Is Required"                                           = "المدينة مطلوبة";
+"Log In"                                                     = "تسجيل الدخول";
+"Please Insert Number 1"                                     = "من فضلك أدخل رقم 1";
+"Please Insert Number 2"                                     = "من فضلك أدخل رقم 2";
+"Please Insert Number 3"                                     = "من فضلك أدخل رقم3";
+"Please Insert Number 4"                                     = "من فضلك أدخل رقم4";
+"Please Insert Number 5"                                     = "من فضلك أدخل رقم 5";
+"At least one field must be changed."                        = "يجب تغيير حقل علي الأقل";
+"Login As A Visitor"                                         = "الدخول كزائر";
+
+
+// Wallet stry
+"My Wallet"                                                  = "محفظتي";
+"Deposit"                                                    = "ايداع";
+"Withdraw"                                                   = "سحب";
+"All Transactions"                                           = "كل المعاملات";
+"Transaction History"                                        = "سجل المعاملات";
+"Add Balance"                                                = "إضافة رصيد";
+"Withdraw balance"                                           = "سحب رصيد";
+"Added Value"                                                = "قيمة الاضافة";
+"Withdrawal Value"                                           = "قيمة السحب";
+"Go To The Wallet"                                           = "الذهاب للمحظفة";
+"Withdrawal Value Is Required"                               = "قيمة السحب مطلوبة";
+"Added Value Is Required"                                    = "قيمة الاضافة مطلوبة";
+"Your balance has been successfully withdrawn!"              = "تم سحب رصيدك بنجاح!";
+"Report About Problem"                                       = "تقرير عن المشكلة";
+"Problem Details"                                            = "تفاصيل المشكلة";
+"Enter Problem Details"                                      = "أدخل تفاصيل المشكلة";
+"Problem Details Is Required"                                = "تفاصيل المشكلة مطلوبة";
+"Points Packages"                                            = "باقات النقاط";
+"Point's Number"                                             = "عدد النقاط";
+"Gift Value"                                                 = "قيمة الهدية";
+"Procedure"                                                  = "الاجراء";
+"Replacing"                                                  = "استبدال";
+"Are you sure you want to redeem your points?"               = "هل انت متأكد من استبدال نقاطك";
+"Replace Now"                                                = "استبدال الآن";
+
+// CarsVC
+"New Car"                                                    = "سيارة جديدة";
+"Car Type"                                                   = "نوع السيارة";
+"Car Brand"                                                  = "ماركة السيارة";
+
+// HelpVC
+"Name"                                                       = "الاسم";
+"Insert Your Name"                                           = "ادخل اسمك الشخصي";
+"Name Is Required"                                           = "الاسم مطلوب";
+
+"E-Mail"                                                     = "البريد الالكتروني";
+"Insert Your E-Mail"                                         = "ادخل بريدك الالكتروني";
+"E-Mail Is Required"                                         = "البريد الالكتروني مطلوب";
+
+"Phone Number"                                               = "رقم الجوال";
+"Insert Your Phone Number"                                   = "ادخل رقم الجوال";
+"Phone Number Is Required"                                   = "رقم الجوال مطلوب";
+
+"Subject"                                                    = "الموضوع";
+"Insert Subject"                                             = "ادخل الموضوع";
+"Subject Is Required"                                        = "الموضوع مطلوب";
+"Message"                                                    = "نص الرسالة";
+"Insert Message..."                                          = "ادخل نص الرسالة ..";
+"Message Is Required"                                        = "الرسالة مطلوبة";
+
+//MARK:// Account Details
+"Bank Account Details"                                       = "بيانات الحساب البنكي";
+
+"Account Name"                                               = "اسم الحساب";
+"Enter Account Name"                                         = "ادخل اسم الحساب";
+"Account Name Is Required"                                   = "اسم الحساب مطلوب";
+
+"Bank Name"                                                     = "اسم البنك";
+"Enter The Bank Name"                                           = "ادخل اسم البنك";
+"Bank Name Is Required"                                         = "اسم البنك مطلوب";
+
+"IBAN Number"                                                   = "رقم الآيبان";
+"Enter IBAN Number"                                             = "ادخل رقم الآيبان";
+"IBAN Number Is Required"                                       = "رقم الايبان مطلوب";
+"Withdraw Now"                                                  = "سحب الآن";
+
+//LogOutVC
+"Are You Sure You Want To Log Out?"                             = "هل انت متأكد من تسجيل الخروج؟";
+
+
+// AddAddressVC
+"Address Name"                                                  = "اسم العنوان";
+"Address"                                                       = "العنوان";
+"Address Name Is Required"                                      = "اسم العنوان مطلوب";
+"Building Name Is Required"                                     = "اسم المبني مطلوب";
+"Address Details Is Required"                                   = "تفاصيل العنوان مطلوبة";
+"Phone Number Is Required"                                      = "رقم الجوال مطلوب";
+
+"Address Is Required"                                           = "العنوان مطلوب";
+"Enter Building Name"                                           = "ادخل اسم المبني";
+"Details"                                                       = "التفاصيل";
+"Address Details"                                               = "تفاصيل العنوان";
+"Enter Details"                                                 = "ادخل التفاصيل";
+"ِEnter Address"                                                 = "ادخل العنوان";
+"Enter the required data and we will contact you as soon as possible." = "قم بإدخال البيانات المطلوبة منك وسيتم التواصل معك في أقرب وقت ممكن.";
+
+
+// HelpVC
+"Name"                                                            = "الاسم";
+"En"                                                              = "الاسم";
+"Customer Services"                                               = "خدمة العملاء";
+"Contacting Times"                                                = "موعيد الاتصال";
+"Company main address"                                            = "العنوان الرئيسي للشركة";
+
+
+//ProfileVC
+"Choose Birth Date"                                               = "اختر تاريخ الميلاد";
+"Birth Date"                                                      = "تاريخ الميلاد";
+"Delete Account"                                                  = "حذف الحساب";
+"Male"                                                            = "ذكر";
+"Female"                                                          = "أنثي";
+"Profile"                                                         = "حسابي";
+"My Addresses"                                                    = "عناويني";
+"Birth Date Is Required"                                          = "تاريخ الميلاد مطلوب";
+
+
+// Countries VC
+//"Choose Country"                                                  = "اختر الدولة";
+"Search About"                                                    = "ابحث عن";
+"Gender"                                                          = "النوع";
+"Are you sure you want to delete your account? 😰"                = "هل انت متأكد من حذف حسابك؟ 😰";
+"If you delete your account you will lose all data related to it or log in to it again." = "إذا قمت بحذف حسابك فسوف تفقد كل البيانات المتعلقة به او تسجيل الدخول
+به مره آخري";
+"Are you sure you want to delete this item?"                      = "هل أنت متأكد من حذف هذا العنصر ؟";
+"Back To Home"                                                    = "العودة للرئيسية";
+"My Cars"                                                         = "سياراتي";
+"Current Ballance"                                                = "الرصيد الحالي";
+"Your balance has been added successfully!"                       = "تم اضافة رصيدك بنجاح!🤩";
+"Send"                                                            = "إرسال";
+
+// HomeVC
+"My Services"                                                      = "خدماتنا";
+"Our Services"                                                     = "خدماتنا"             ;
+"Latest Services"                                                  = "احدث الخدمات";
+"Common 🔥"                                                        = "شائع 🔥";
+"Search About"                                                     = "ابحث عن";
+"Shine Service"                                                    = "خدمات شاين";
+"Browse all the services you need on a daily basis"                = "تصفح جميع الخدمات التي تحتاجها بشكل يومي";
+
+
+// Notification VC
+"Notifications"                                                     = "الإشعارات";
+"Mark all as read"                                                  = "تمييز الكل كمقروء";
+
+//Cart VC
+"Cart"                                                              = "عربة التسوق";
+"Complete Order"                                                    = "اكمال الطلب";
+"Order Summary"                                                     = "ملخص الطلب";
+"Services Number"                                                   = "عدد الخدمات";
+
+
+"Cost"                                                              = "التكلفة";
+"VAT"                                                               = "ضريبة القيمة المضافة";
+"Discount"                                                          = "خصم";
+"Delivery Cost"                                                     = "تكلفة التوصيل";
+"Total Cost"                                                        = "إجمالي التكلفة";
+
+
+
+// Cells Localizations
+"The representative"                                                  = "المندوب";
+"Management"                                                          = "الإدارة";
+"Visitor"                                                             = "زائر";
+"You Should Login First"                                              = "يجب تسجيل الدخول أولاً";
+"Welcom"                                                              = "مرحباً";
+"Log In"                                                              = "تسجيل دخول";
+
+
+// Driver Home
+"Work Status : "                                                      = "حالة العمل : ";
+"Available"                                                           = "متاح";
+"Ready to receive a new request? 💪"                                  = "جاهز تستقبل طلب جديد ؟ 💪";
+"All Orders"                                                          = "كل الطلبات";
+"Orders"                                                              = "الطلبات";
+"Accept Order"                                                        = "قبول الطلب";
+
+// Address
+"Default"                                                             = "افتراضي";
+"Edit Address"                                                        = "تعديل العنوان";
+"Save Address"                                                        = "حفظ العنوان";
+"Save Editings"                                                       = "حفظ التعديلات";
+"Rate"                                                                = "تقييم";
+"All Rates"                                                           = "كل التقييمات";
+
+
+"Add To Cart"                                                         = "إضافة الي السلة";
+"Please Choose Brand Firstly"                                         = "من فضلك اختر الماركه اولا";
+"Added Successfully"                                                  = "تمت الاضافة بنجاح";
+
+
+
+/// ServicesDetailsStry
+
+// AddedSuccessfullyVC
+"Go To Cart"                                                          = "الذهاب للسلة";
+"Another Services"                                                    = "خدمات آخري";
+
+// Delete Item From Cart
+"Are you sure you want to delete this item?"                          = "هل أنت متأكد من حذف هذا العنصر ؟";
+"Delete"                                                              = "حذف";
+"The cart is empty!"                                                  = "العربة فارغة !";
+
+// Add cars VC
+"There are no results! 😟"                                            = "لا يوجد نتائج! 😟";
+"Add Car"                                                             = "أضف سيارة";
+"The plate number is required."                                       = "رقم اللوحة مطلوب";
+
+// Add Address VC
+"Add Address"                                                         = "أضف عنوان";
+"Type Of Real Estate Is Required"                                     = "نوع العقار مطلوب";
+
+//Cart VC
+"Browse now"                                                          = "تصفح الآن";
+"Do Not Disturb"                                                      = "عدم الإزعاج";
+"Booking without contact?"                                            = "الحجز بدون تواصل؟";
+"Services you have chosen"                                            = "الخدمات التي اخترتها";
+
+
+// Car Two VC
+"Car"                                                                    = "سيارة";
+"Choose Car"                                                             = "اختر السيارة";
+"Order receipt address"                                                  = "عنوان استلام الطلب";
+"Determine the address"                                                  = "تحديد العنوان";
+"Reservation date from"                                                        = "تاريخ الحجز من";
+"Set date"                                                               = "تحديد التاريخ";
+"Reservation time from"                                                            = "وقت الحجز من";
+"Set time"                                                               = "تحديد الوقت";
+"Reservation time to"                                                          = "وقت الحجز الى";
+
+// Order Details VC
+"Order Details"                                                          = "تفاصيل الطلب";
+
+
+
+// Services Details
+"Service Describtion"                                                    = "وصف الخدمة";
+"Photos and Videos"                                                      = "صور وفيديوهات";
+"Customer Reviews"                                                       = "آراء العملاء";
+"Show more"                                                              = "عرض المزيد";
+"Complete Order"                                                         = "اكمال الطلب";
+"No items added"                                                         = "لا يوجد عناصر مضافة";
+"Create a cart"                                                          = "انشئ سلة";
+"Show Cart"                                                              = "عرض السلة";
+"+ Create a cart" = "انشئ سلة +";
+"Pleaae Choose Options First"                                            = "من فضلك اختر أولاً";
+"Laundry Cart"                                                           = "سلة الغسيل";
+
+
+// Cart VC
+"Do you have a discount coupon?"                                         = "هل لديك كوبون خصم؟";
+"Enter the discount code."                                               = "ادخل كود الخصم";
+
+// Order Details
+"Reservation date to"                                                          = "تاريخ الحجز الى";
+"Reservation date from"                                                          = "تاريخ الحجز من ";
+"Do you have any notes?"                                                 = "هل لديك ملاحظات ؟";
+" Admin"                                                            = " الإدارة";
+"  Delivery"                                                             = "  المندوب";
+"  Order Rating"                                                         = "  تقييم الطلب";
+"Cancel Order"                                                           = "الغاء الطلب";
+"Order Type"                                                             = "نوع الطلب";
+"Service Type"                                                           = "نوع الخدمة";
+"Order Date"                                                             = "تاريخ الطلب";
+"Please Select Date Firstly"                                             = "من فضلك اختر التاريخ أولاً";
+"Please Select Service Firstly"                                          = "من فضلك اختر الخدمة أولاَ";
+"Please Select Order Type Firstly"                                       = "من فضلك اختر نوع الطلب أولاً";
+"Latest Order"                                                           = "آخر الطلبات";
+"All Orders"                                                             = "كل الطلبات";
+"All Services"                                                           = "كل الخدمات";
+"Track your latest orders."                                              = "قم بمتابعة آخر الطلبات الخاصة بك";
+"My Orders"                                                              = "طلباتي";
+"Determine"                                                              = "تحديد";
+"Order Date"                                                             = "تاريخ الطلب";
+"Choose Address"                                                         = "اختر العنوان";
+"Please Select Address Firstly"                                          = "من فضلك اختر العنوان أولاً";
+"Choose Time"                                                            = "وقت الحجز من";
+"Please Select Time"                                                     = "من فضلك اختر الوقت";
+"Contact Us"                                                             = "تواصل معنا";
+"Choose Car"                                                             = "اختر السيارة";
+"Please Select Car"                                                      = "اختر السيارة";
+
+
+// Wallet And Points VC
+"Transaction type"                                                       = "نوع المعاملة";
+"There are no transactions for you!"                                     = "لا يوجد لديك معاملات! ";
+"The Wallet is empty!"                                                   = "المحفظة فارغة";
+"My Wallet"                                                              = "محفظتي";
+"My Point"                                                               = "نقاطتي";
+"The Points is empty!"                                                   = "النقاط فارغة";
+"Transaction Date"                                                       = "تاريخ المعاملة";
+"Replace Point Success"                                                  = "تم الاستبدال بنجاح";
+"Go To Points"                                                           = "الذهاب للنقاط";
+"To" = "الي";
+
+// Add Order VC
+"Do you have any notes?"                                                 = "هل لديك ملاحظات ؟";
+"Enter your feedback"                                                    = "ادخل ملاحظاتك";
+"Please Choose Address"                                                  = "يرجى اختيار العنوان";
+"Please Select Reservation date to"                                            = "يرجى اختيار تاريخ الحجز الي";
+"Please Select Reservation time to"                                            = "يرجى اختيار وقت الحجز الي";
+"Please Select Reservation time from"                                            = "يرجى اختيار وقت الحجز من";
+"Please Select Recieve Date"                                             = "يرجى اختيار تاريخ الحجز من";
+"Select"                                                                 = "اختر";
+"There are no addresses available."                                      = "لا يوجد عناوين متاحة";
+"Booking successful! 🤩"                                                 = "تم الحجز بنجاح! 🤩";
+
+
+"Please select a recieve date first"                                     = "يرجى اختيار تاريخ الحجز من أولاً";
+"Please select a Reservation date to first"                                    = "يرجى اختيار تاريخ الحجز من أولاً";
+
+"There are no cars available."                                           = "لا يوجد سيارات متاحة";
+"New Car"                                                                = "سيارة جديدة";
+            
+"Please Select Car Firstly"                                              = "من فضلك اختر السياره اولاً";
+"Your balance withdrawal request has been successfully submitted!"       = "تم إرسال طلب سحب رصيدك بنجاح!";
+"Car Information"                                                        = "معلومات السيارة";
+"Car Number"                                                             = "رقم السيارة";
+"Choose Car Brand"                                                       = "اختر ماركة السيارة";
+"Car Brand Is Required"                                                  = "ماركة السيارة مطلوبة";
+"Choose Car Type"                                                        = "اختر نوع السيارة";
+"Car Type Is Required"                                                   = "نوع السيارة مطلوب";
+"Car Color"                                                              = "لون السيارة";
+"Choose Car Color"                                                       = "اختر لون السيارة";
+"Car Color Is Required"                                                  = "لون السيارة مطلوب";
+"Withdraw Now"                                                           = "سحب الان";
+"Withdraw Balance"                                                       = "سحب رصيد";
+"You have no notifications."                                             = "لا يوجد لديك إشعارات";
+
+
+
+
+"Please Select Type Firstly"                                            = "من فضلك اختر النوع اولاً"                                            ;
+"Are you sure you want to cancel the order?"                            = "هل أنت متأكد أنك تريد إلغاء الطلب؟"                                ;
+
+
+
+// Translate With Key
+"delete_car_confirmation"                                               = "هل أنت متأكد من حذف السيارة؟"                                       ;
+"delete_address_confirmation"                                           = "هل أنت متأكد من حذف العنوان؟"                     ;
+"register_agreement"                                                    =  "بالتسجيل داخل تطبيق شاين فأنت توافق على"                           ;
+"terms_and_conditions"                                                  =  "الشروط والأحكام"                                                    ;
+"already_have_account"                                                  = "لديك حساب بالفعل؟"                                                  ;
+"login"                                                                 = "تسجيل الدخول"                                                       ;
+"agree_terms_first"                                                     = "يجب الموافقة على الشروط والأحكام أولاً";
+"Accept"                                                                = "القبول والموافقة"                                                              ;
+"key_highlighted_statistics"                                            = "أبرز الإحصائيات";
+"key_reports_and_statistics"                                            = "تقارير واحصائيات";
+"key_reports"                                                           = "تقارير";
+"get_directions"                                                        = "      الحصول على الاتجاهات";
+"Order Type"                                                            = "نوع الطلب";
+"Please Select Type Firstly"                                            = "من فضلك اختر النوع اولاً";
+"Mins"                                                                  = "د";
+"You don't have any addresses!"                                         =  "لا يوجد لديك عناوين!";
+"The services I chose."                                                 = "الخدمات التي اخترتها";
+"Accept Order"                                                          = "قبول الطلب";
+"  Client"                                                                = "  العميل";
+"The withdrawal amount is higher than your current balance!"            = "قيمة السحب اعلي من رصيدك الحالي !";
+"Internet connection is down!"                                          = "انقطع الاتصال بالأنترنت !";
+"under delivery"                                                        = "قيد التوصيل";
+"  Management"                                                          = "  الإدارة";
+"Confirm Order"                                                         = "تأكيد الطلب";
+"Follow"                                                                = "المتابعة";
+"Language"                                                              = "اللغة";
+"Try Again"                                                             = "حاول مره أخري";
+"No cars!"                                                              = "لا يوجد سيارات! ";
+"Car Model"                                                             = "موديل السياره";
+"Choose Car Model"                                                      = "اختر موديل السياره";
+"Car Model Is Required"                                                 = "موديل السياره مطلوب";
+"Write Your Message..."                                                 = "اكتب رسالتك٫٫٫";
+"Conversations"                                                         = "المحادثات";
+"Search About"                                                          = "البحث";
+"Rate Order"                                                            = "تقييم الطلب";
+"How was your experience with us?"                                      = "كيف كانت تجربتك معنا ؟";
+"Successfully rated 😍"                                                 = "😍 تم التقييم بنجاح";
+"Apply"                                                                 = "تطبيق";
+"Please Select Recieve Date Firstly"                                    = "من فضلك اختر تاريخ الحجز من اولاً";
+"Video"                                                                 = "فيديو";
+"Choose Bank"                                                           = "اختر البنك";
+"Bank Is Required"                                                      = "البنك مطلوب";
+"Follow Order"                                                          = "متابعة طلبك";
+"Choosen Services"                                                      = "الخدمات التي اخترتها";
+"Order receipt address"                                                 = "عنوان استلام الطلب";
+"Delivery Appointment"                                                  = "موعد الحجز الي";
+"Receving Appointment"                                                  = "موعد الحجز من";
+"Confirm Complete Register"                                             = "تأكيد اكمال التسجيل";
+"Quick Order"                                                           = "طلب مستعجل";
+"Urgent request service fee"                                            = "رسوم خدمة طلب مستعجل";
+"Accept And Agreement"                                                  = "القبول والموافقة";
+"Please Insert Number"                                                  = "من فضلك ادخل الرقم";
+"An amount of"                                                          = "سوف يتم خصم نقاطك بقيمة";
+"points will be deducted, equivalent to"                                = "بقيمة";
+"Complete Verification Code"                                            = "اكمل كود التفعيل";
+    
+"Payment Successfully"  = "تم الدفع بنجاح";
+"Payment Failed" = "فشل الدفع";
+"Payment"  = "الدفع";
+"Choose payment method" = "اختر طريقة الدفع";
+"If you use your wallet as a payment method and the balance is insufficient, you can complete the remaining amount with a payment card." = "في حالة استخدام محفظتك في طريقة الدفع وكان الرصيد غير كافي ، يمكنك اكمال باقي المبلغ ببطاقة الدفع";
+"Payment card" = "بطاقة الدفع";
+"Payment by prepaid card" = "الدفع عن طريق بطاقة الدفع المسبق";
+"My wallet"                             = "محفظتي";
+"You Current Balance :"                 = "رصيدك الحالي";
+"Explanatory files"                                                                                                                  = "الملفات التوضيحية";
+
+"Please Choose Car"                     = "من فضلك اختر السيارة";
+"View Bill"                             = "عرض الفاتورة";
+"Message Title"                         = "نص الرسالة";
+"Enter Message Title"                   = "ادخل نص الرسالة";
+
+
+// Chasse send code vc
+"Choose how to receive the code"        = "اختر طريقة استلام الرمز";
+"SMS Message"                           = "رسالة نصيبة SMS";
+"WhatsApp message"                      = "رسالة واتساب";
+"All Items"                             = "كل العناصر";
+"Videos"                                = "فيديوهات";
+"Images"                                = "صور";
+"SAR"                                   = "ر.س";
+"today"                                 = "اليوم";
+"Refund"                                = "سياسة الإسترجاع";
+"Privacy And Policy"                    = "سياسة الخصوصية";
+"Last Updated"                          = "آخر تحديث";
+"Screen"                                = "الشاشة العالمية";
+"Dollar prices"                         = "أسعار الدولار";
+"News"                                  = "الأخبار";
+"More"                                  = "المزيد";
+"Gold value calculator"                 = "حاسبة قيمة الدهب";
+"Common Questions"                      = "الأسئلة الشائعه";
+"Gold"                                  = "ذهب";
+"Silver"                                = "فضة";
+"Karat"                                 = "عيار";
+"Sale"                                  = "البيع";
+"Buy"                                   = "الشراء";
+"Gold pound"                            = "جنيه دهب";
+"One kilo of gold"                      = "كيلو دهب";
+"One kilo of silver"                    = "كيلو الفضة";
+"Silver pound"                          = "جنيه الفضة";
+"The ounce"                             = "الأونصة";
+"Buy Price"                             = "سعر الشراء";
+"Selling price"                         = "سعر الشراد";
+"Now"                                   = "الآن";
+"One minute ago"                        = "منذ دقيقة واحدة";
+"Two minutes ago"                       = "منذ دقيقتين";
+"One hour ago"                          = "منذ ساعة واحدة";
+"Two hours ago"                         = "منذ ساعتين";
+"One day ago"                           = "منذ يوم واحد";
+"Two days ago"                          = "منذ يومين";
+"Calculator"                            = "الحاسبة";
+"Share App"                             = "مشاركة التطبيق";
+"Rate App"                              = "تقييم التطبيق";
+"Gram"                                 = "جم";
+"Silver value calculator"               = "حاسبة قيمة الفضة";
+"Join Us"                               = "انضم الينا";
+"Calculate Zakat On Silver"             = "حاسبة زكاة الفضة";
+"Calculate Zakat on gold"               = "حاسبة زكاة الذهب";
+"Ounce"                                 = "الشاشة العالمية";
+"Developed By Mohab Mowafy"             = "تم التطوير بواسطة مهاب موافي";
+"Version"                               = "اصدار";
+"Bullions"                              = "سبائك";
+"Manufacturer"                          = "الشركة المصنعة";
+"Calculate Zakat"                       = "حساب الزكاة";
+"Karat 24" = "عيار 24";
+"Karat 22" = "عيار 22";
+"Karat 21" = "عيار 21";
+"Karat 18" = "عيار 18";
+
+"zakat_input_title" = "أدخل أصولك لحساب الزكاة";
+
+"zakat_info_1" = "زكاة الذهب تُحسب على أساس عيار 24 فقط، ويتم تحويل باقي العيارات تلقائياً إلى ما يعادلها من الذهب الخالص لحساب الزكاة بدقة.";
+
+"zakat_info_2" = "الزكاة تجب فقط على الذهب المُدخر أو المُعد للتجارة، وليست على حلي الزينة.";
+
+"zakat_info_3" = "يشترط مرور عام هجري كامل حتى تصبح الزكاة واجبة.";
+
+"zakat_info_4" = "تجب الزكاة إذا بلغ الذهب 85 جراماً من عيار 24 أو ما يعادله.";
+"Pound" = "جنيه";
+"gold_price_info" = "علماً بأن سعر البيع لجرام الذهب عيار 21 هو %d جنيه\nمن فضلك قم بإدخال وزن ذهبك الصافي بالجرام";
+"zakat_not_reached_nisab" = "لم يبلغ النصاب";
+"zakat_below_nisab_message" = "الذهب أقل من 85 جرام، لا توجد زكاة";
+"gold_result_format" = "عيار %d: %.2f جنيه";
+"silver_price_info" = "علماً بأن سعر البيع لجرام الفضة عيار 800 هو %.2f جنيه";
+"calculate_silver_zakat" = "احسب زكاة الفضة";
+"Gold Calculator" = "حساب قيمة الذهب";
+"Silver Calculator" = "حساب قيمة الفضة";
+"Zakat Gold" = "حساب زكاة الذهب";
+"Silver Calculator" = "حساب قيمة الفضة";
+"Zakat Silver" = "حساب زكاة الفضة";
+"zakat_amount" = "الزكاة: %@ جنيه";
+"zakat_assets_input_title" = "أدخل أصولك لحساب الزكاة";
+"silver_nisab_info" = "نصاب الفضة 595 جراماً من عيار 999 أو ما يعادله.";
+"silver_zakat_condition" = "الزكاة تجب فقط على الفضة المدخرة أو المعدة للتجارة.";
+"zakat_haul_condition" = "يشترط مرور عام هجري كامل حتى تصبح الزكاة واجبة.";
+"total_pure_silver" = "إجمالي الفضة الخالصة: %@ جم";
+"zakat_weight" = "الزكاة: %@ جم";
+"Price per gram" = "سعر الجرام";
+"Manufacturing" = "المصنعية";
+"Minute"        = "دقيقة";
+"Hour"          = "ساعة";
+"Day"           = "يوم";
+"Mounth"        = "شهر";
+"Resale"        = "إعادة البيع";
+"Billions"      = "السبائك";
+"Important note: The manufacturing costs listed are the lowest according to the latest update from the producing company. The price per gram of gold is updated according to the latest price in the gold market and is not derived from the producing company." = "ملحوظة هامة أسعار المصنعيات بالأدني حسب أخر تحديث معلن من الشركة المنتجة ، سعر جرام الدهب محدث حسب اخر سعر بسوق الصاغة و ليس مستمد من الشركة المنتجة نفسها وغير ملزم بها";
+"Cash Back" = "استرداد نقدي";
+"Bank Name" = "اسم البنك";
+"Currency prices" = "أسعار العملات";
+"Sale Price" = "سعر البيع";
+"The Bank" = "البنك";
+"Average prices in the Egyptian gold market (indicative price list)" = "متوسط أسعار سوق الدهب الاسترشادي المصري";
+"The retailer deducts a commission when purchasing fractional items, starting from 1%." = "يخصم محل التجزئة عمولة عند شراء الكسر بداية من ١٪";
+"Dollar" = "دولار الصاغة";
+"Dollar_Bank" = "دولار البنك";
+"Change Currency" = "تغيير العملة";
+"Our Mind" = "رأينا";
+"MSA's MSA" = "أخبار MSA";
+"The News" = "الأخبار";
+
+"maintenance_screen_title" = "في شغل صيانة دلوقتي";
+"maintenance_screen_message" = "الشاشة دي بنشتغل عليها دلوقتي وهترجع تاني قريب.\nمعلش على الإزعاج 🙏";
+
+/* الإعدادات وتحكّم الإشعارات */
+"Settings" = "الإعدادات";
+"notifications_section" = "الإشعارات";
+"notif_gold" = "إشعارات الذهب";
+"notif_gold_desc" = "تنبيه عند تغيّر أسعار الذهب";
+"notif_silver" = "إشعارات الفضة";
+"notif_silver_desc" = "تنبيه عند تغيّر أسعار الفضة";
+"notif_dollar" = "أسعار الدولار";
+"notif_dollar_desc" = "تنبيه عند تغيّر سعر الدولار";
+"notif_news" = "الأخبار";
+"notif_news_desc" = "أخبار السوق وأخبار MSA";
+"notif_general" = "الإشعارات العامة";
+"notif_general_desc" = "إعلانات وتحديثات التطبيق";
+"notif_system_hint" = "لو قافل الإشعارات من إعدادات الموبايل، مش هيوصلك حاجة حتى لو مفعّلة هنا.";
+
+/* الحساب */
+"auth_login_title" = "تسجيل الدخول";
+"auth_login_hint" = "ادخل برقم موبايلك وكلمة السر";
+"auth_login_action" = "دخول";
+"auth_register_title" = "حساب جديد";
+"auth_register_hint" = "سجّل بياناتك، وهنبعتلك كود تفعيل على موبايلك";
+"auth_register_action" = "إنشاء الحساب";
+"auth_go_register" = "مامعاكش حساب؟ اعمل واحد";
+"auth_go_login" = "عندي حساب بالفعل";
+"auth_name" = "الاسم بالكامل";
+"auth_email" = "البريد الإلكتروني";
+"auth_phone" = "رقم الموبايل";
+"auth_password" = "كلمة السر";
+"auth_confirm_password" = "تأكيد كلمة السر";
+"auth_verify_title" = "تأكيد الرقم";
+"auth_verify_hint" = "بعتنا كود على %@";
+"auth_verify_action" = "تأكيد";
+"auth_resend" = "إعادة إرسال الكود";
+"auth_resend_in" = "إعادة الإرسال بعد %d ثانية";
+"auth_err_name" = "اكتب الاسم بالكامل";
+"auth_err_email" = "البريد الإلكتروني غير صحيح";
+"auth_err_phone" = "رقم الموبايل غير صحيح (مثال: 01012345678)";
+"auth_err_password" = "كلمة السر لازم تبقى 6 حروف أو أرقام على الأقل";
+"auth_err_confirm" = "تأكيد كلمة السر غير مطابق";
+"auth_account" = "حسابي";
+"auth_logout" = "تسجيل الخروج";
+"auth_login_prompt" = "سجّل دخولك";
+"auth_logged_in_as" = "مسجّل باسم %@";
+
+/* المحفظة والبروفايل */
+"wallet_title" = "محفظتي";
+"wallet_current_value" = "القيمة الحالية";
+"wallet_total_paid" = "إجمالي المدفوع";
+"wallet_total_weight" = "إجمالي الوزن";
+"wallet_shop_price" = "سعر البيع في المحل";
+"wallet_cashback" = "كاش باك محصّل";
+"wallet_items" = "القطع (%d)";
+"wallet_pieces" = "%d قطعة";
+"wallet_no_items" = "مفيش قطع";
+"wallet_avg_buy" = "متوسط سعر الشرا %@ /جرام";
+"wallet_empty_title" = "لسه مفيش قطع في محفظتك";
+"wallet_empty_hint" = "ضيف أول سبيكة أو جنيه ذهب، وهنحسبلك قيمته بسعر النهاردة";
+"wallet_login_title" = "سجّل دخولك الأول";
+"wallet_login_hint" = "محفظتك محفوظة على حسابك، فتقدر توصلها من أي جهاز";
+"wallet_add" = "إضافة قطعة";
+"wallet_edit" = "تعديل القطعة";
+"wallet_save" = "حفظ القطعة";
+"wallet_metal" = "المعدن";
+"wallet_karat" = "العيار";
+"wallet_karat_chip" = "عيار %@";
+"wallet_type" = "النوع";
+"wallet_type_bullion" = "سبائك";
+"wallet_type_coin" = "عملات";
+"wallet_type_jewellery" = "مشغولات";
+"wallet_type_scrap" = "كسر";
+"wallet_weight" = "الوزن (جرام)";
+"wallet_gram_price" = "سعر الجرام";
+"wallet_manufacturing" = "المصنعية للجرام";
+"wallet_cashback_per_gram" = "كاش باك للجرام";
+"wallet_total_hint" = "محسوب من الوزن × سعر الجرام + المصنعية — تقدر تعدّله";
+"wallet_note" = "ملاحظة";
+"wallet_bought_at" = "اشتريت بـ %@";
+"wallet_zakat_title" = "احسب زكاة الذهب";
+"wallet_zakat_hint" = "على القطع اللي في محفظتك";
+"wallet_zakat_of" = "زكاة %@";
+"wallet_zakat_pure" = "الخالص في محفظتك";
+"wallet_zakat_nisab" = "النصاب";
+"wallet_zakat_grams" = "مقدار الزكاة";
+"wallet_zakat_due" = "الزكاة واجبة";
+"wallet_zakat_not_due" = "لسه مبلغتش النصاب، فالزكاة مش واجبة";
+"wallet_zakat_remaining" = "فاضل %@ جرام توصل للنصاب";
+"gram" = "جرام";
+"egp" = "جنيه";
+"cancel" = "إلغاء";
+"profile_title" = "حسابي";
+"profile_save" = "حفظ التعديلات";
+"profile_saved" = "تم حفظ البيانات";
+"profile_phone_locked" = "رقم الموبايل مربوط بتفعيل الحساب، فتغييره بيحتاج كود تأكيد";
+"profile_change_password" = "تغيير كلمة السر";
+"profile_current_password" = "كلمة السر الحالية";
+"profile_new_password" = "كلمة السر الجديدة";
+"profile_logout_confirm" = "متأكد إنك عايز تسجّل خروج؟";
+"profile_delete_account" = "حذف الحساب";
+"profile_delete_hint" = "الحذف بيشيل حسابك وكل القطع اللي في محفظتك، ومش هينفع ترجعهم.";
+"profile_delete_confirm" = "الحذف نهائي — حسابك وكل قطع محفظتك هيتمسحوا ومش هينفع ترجعهم. متأكد؟";
+
+/* المؤشرات والتحليل */
+"market_global_note" = "الرسم للأونصة العالمية بالدولار (XAU/USD) — مرجع السوق اللي بتتحرك عليه الأسعار المحلية.";
+"ta_disclaimer" = "التحليل ده قراءة فنية آلية للسوق العالمي، مش نصيحة استثمارية. القرار قرارك.";
+"gold" = "ذهب";
+"silver" = "فضة";
+"indicators" = "المؤشرات";
+"technical_analysis" = "التحليل الفني";
+
+
+/* ── اجتماعات الفيدرالي (FOMC) ─────────────────────────────── */
+"fomc_title" = "اجتماعات الفيدرالي";
+"fomc_details_title" = "تفاصيل الاجتماع";
+"fomc_next_meeting" = "الاجتماع القادم للفيدرالي";
+"fomc_time_remaining" = "باقي على القرار";
+"fomc_tab_upcoming" = "القادمة";
+"fomc_tab_past" = "السابقة";
+"fomc_empty" = "مفيش اجتماعات تتعرض";
+"fomc_load_failed" = "مقدرناش نحمّل الاجتماعات";
+"fomc_status_upcoming" = "قادم";
+"fomc_status_in_progress" = "جارٍ الآن";
+"fomc_status_completed" = "منتهي";
+"fomc_section_schedule" = "المواعيد";
+"fomc_section_rate" = "قرار الفائدة";
+"fomc_section_links" = "المصادر الرسمية";
+"fomc_meeting_start" = "يبدأ";
+"fomc_meeting_end" = "ينتهي";
+"fomc_decision_at" = "قرار الفائدة";
+"fomc_decision_at_value" = "قرار الفائدة: %@";
+"fomc_press_conference" = "المؤتمر الصحفي";
+"fomc_minutes_at" = "صدور المحضر";
+"fomc_target_range" = "النطاق المستهدف";
+"fomc_previous_rate" = "الفائدة السابقة";
+"fomc_rate_change" = "التغيير";
+"fomc_rate_percent" = "%@%%";
+"fomc_has_projections" = "فيه توقعات اقتصادية";
+"fomc_projections_note" = "الاجتماع ده بيصدر معاه ملخّص التوقعات الاقتصادية (مخطط النقاط).";
+"fomc_open_statement" = "البيان الرسمي";
+"fomc_open_minutes" = "محضر الاجتماع";
+"fomc_open_source" = "تقويم الفيدرالي";
+"fomc_official_timezone" = "التوقيت الرسمي: %@";
+"fomc_local_time_note" = "الأوقات معروضة بتوقيت جهازك. التوقيت الرسمي للحدث: %@";
+"fomc_source_note" = "المصدر: الاحتياطي الفيدرالي / FRED — بيانات رسمية";
+"fomc_countdown_dhm" = "%@ ي %@ س %@ د";
+"fomc_countdown_hms" = "%@ س %@ د %@ ث";
+"fomc_countdown_ms" = "%@ د %@ ث";
+"notif_fomc" = "اجتماعات الفيدرالي";
+"notif_fomc_desc" = "تنبيه قبل الاجتماع وعند صدور قرار الفائدة";
+
+/* ── الفروع ────────────────────────────────────────────────── */
+"branches_title" = "فروعنا";
+"branch_details_title" = "تفاصيل الفرع";
+"branches_empty" = "مفيش فروع مضافة لسه";
+"branches_load_failed" = "مقدرناش نحمّل الفروع";
+"branches_sorted_by_distance" = "مرتّبة بالأقرب ليك";
+"branches_location_hint" = "فعّل الموقع عشان نرتّب الفروع بالأقرب ليك.";
+"branches_location_off" = "خدمة الموقع مقفولة في جهازك، فالفروع مش مرتّبة بالمسافة.";
+"branches_enable_location" = "فعّل الموقع";
+"branches_open_settings" = "افتح الإعدادات";
+"branch_directions" = "الاتجاهات";
+"branch_call" = "اتصال";
+"branch_whatsapp" = "واتساب";
+"branch_contact" = "التواصل";
+"branch_distance_km" = "%@ كم";
+"branch_distance_m" = "%@ م";
+"branch_distance_from_you" = "يبعد عنك %@";
+"retry" = "إعادة المحاولة";
+
+
+/* ── المتجر: سبائك ومشغولات ──────────────────────────────────────
+   النصوص دي بتوصف حاجة واحدة مهمة للعميل: السعر مين حسبه وإمتى.
+   «تقديري» مقابل «متثبّت» فرق جوهري في الطلب. */
+"shop_title" = "سبائك ومشغولات";
+"shop_product_details" = "تفاصيل المنتج";
+"shop_kind_all" = "الكل";
+"shop_kind_bullion" = "سبائك";
+"shop_kind_jewellery" = "مشغولات";
+"shop_empty" = "مفيش منتجات متاحة دلوقتي.";
+"shop_load_failed" = "مش قادرين نحمّل المنتجات دلوقتي.";
+"shop_disabled" = "الطلبات متوقفة مؤقتاً — تقدر تتصفّح المنتجات.";
+"shop_price_loading" = "جاري تحميل السعر…";
+"shop_price_stale" = "السعر المعروض من آخر تحديث محفوظ. ممكن ما نقدرش نثبّتله سعر دلوقتي.";
+"shop_gram_price" = "%@ للجرام";
+"shop_gram_price_label" = "سعر الجرام";
+"shop_spec_line" = "%@ جرام · عيار %@ · %@";
+"shop_manufacturing_per_gram" = "مصنعية %@ للجرام";
+"shop_metal_value" = "قيمة المعدن";
+"shop_manufacturing" = "المصنعية";
+"shop_tax" = "الضريبة";
+"shop_total" = "الإجمالي";
+"shop_quantity" = "الكمية";
+"shop_add_to_cart" = "أضف للسلة";
+"shop_added_to_cart" = "تمت الإضافة للسلة";
+"shop_out_of_stock" = "خلص من المخزون";
+"shop_stock_left" = "متاح %@ بس";
+"shop_view_cart" = "السلة (%@)";
+"shop_order_methods" = "طرق الطلب المتاحة";
+"shop_mode_deposit" = "بعربون — السعر بيتثبّت";
+"shop_mode_deposit_hint" = "بتدفع جزء من الإجمالي والسعر بيتثبّت، والباقي عند الاستلام بنفس السعر.";
+"shop_mode_on_arrival" = "من غير عربون — التسعير عند الاستلام";
+"shop_mode_on_arrival_hint" = "بتحجز المنتج والسعر بيتحسب بسعر الجرام وقت ما توصل الفرع.";
+"metal_gold" = "ذهب";
+"metal_silver" = "فضة";
+"currency_egp" = "ج.م";
+
+/* ── السلة وإتمام الطلب ───────────────────────────────────────── */
+"cart_title" = "السلة";
+"cart_empty" = "السلة فاضية.";
+"cart_browse_products" = "تصفّح المنتجات";
+"cart_remove" = "حذف";
+"cart_how_to_order" = "طريقة الطلب";
+"cart_deposit_detail" = "عربون %@ (%@%%) — السعر بيفضل متثبّت %@ ساعة.";
+"cart_estimate_note" = "الرقم ده تقديري — السعر النهائي بيتحسب وقت استلامك من الفرع.";
+"cart_pickup_branch" = "فرع الاستلام";
+"cart_pick_branch_first" = "اختار فرع الاستلام الأول.";
+"cart_note" = "ملاحظة (اختياري)";
+"cart_note_hint" = "أي حاجة عايز الفرع يعرفها";
+"cart_place_with_deposit" = "اطلب وادفع العربون";
+"cart_place_on_arrival" = "اطلب — التسعير عند الاستلام";
+
+/* ── الطلبات ──────────────────────────────────────────────────── */
+"orders_title" = "طلباتي";
+"orders_empty" = "مفيش طلبات لسه.";
+"orders_estimate_label" = "سعر تقديري — بيتحسب عند الاستلام";
+"orders_locked_label" = "سعر متثبّت";
+"orders_deposit" = "العربون";
+"orders_lock_expired" = "مدة تثبيت السعر خلصت — السعر هيتحسب من جديد وقت الاستلام.";
+"orders_cancel" = "إلغاء الطلب";
+"orders_cancel_confirm" = "تأكيد الإلغاء";
+"orders_cancel_keep" = "تراجع";
+"موافق" = "موافق";
+
+/* ── التقويم الاقتصادي ─────────────────────────────────────────── */
+"calendar_tab" = "التقويم";
+"calendar_title" = "التقويم الاقتصادي";
+
+/* تبويبات المدى الزمني */
+"calendar_yesterday" = "امبارح";
+"calendar_today" = "النهاردة";
+"calendar_tomorrow" = "بكرة";
+"calendar_this_week" = "الأسبوع ده";
+
+/* أعمدة الصف — مختصرة عشان تلات أعمدة تترص على عرض الموبايل */
+"calendar_actual" = "فعلي";
+"calendar_consensus" = "متوقّع";
+"calendar_previous" = "سابق";
+
+"calendar_impact_high" = "عالي";
+"calendar_impact_medium" = "متوسط";
+"calendar_impact_low" = "منخفض";
+"calendar_impact_holiday" = "عطلة";
+
+"calendar_all_day" = "طول اليوم";
+"calendar_empty" = "مفيش أحداث في الفترة دي";
+"calendar_empty_filtered" = "مفيش أحداث مطابقة للفلتر";
+"calendar_failed" = "مش قادرين نحمّل التقويم";
+
+/* شاشة التفاصيل */
+"calendar_country" = "الدولة";
+"calendar_impact" = "الأهمية";
+"calendar_symbol" = "العملة";
+"calendar_latest_release" = "آخر إصدار";
+"calendar_next_release" = "الإصدار القادم";
+"calendar_date" = "التاريخ";
+"calendar_time_left" = "الوقت المتبقي";
+"calendar_no_next_release" = "لسه ما اتحددش";
+"calendar_category" = "التصنيف";
+"calendar_unit" = "الوحدة";
+"calendar_show_more" = "اعرض المزيد";
+"calendar_show_less" = "اعرض أقل";
+"calendar_chart" = "الرسم البياني";
+"calendar_history" = "التاريخ";
+"calendar_no_history" = "مفيش تاريخ لسه";
+"calendar_history_building" = "التاريخ بيتكوّن من كل إصدار أول ما ينزل، فالرسم بيمتلي مع الوقت.";
+"calendar_not_released" = "لسه ما صدرش";
+
+/* العدّاد التنازلي */
+"calendar_left_days" = "%d ي %d س";
+"calendar_left_hours" = "%d س %d د";
+"calendar_left_minutes" = "%d د";
+
+/* الفلتر */
+"calendar_filter" = "فلتر";
+"calendar_filter_impact" = "الأهمية";
+"calendar_filter_currency" = "العملة";
+"calendar_filter_reset" = "إعادة ضبط";
+"calendar_filter_apply" = "تطبيق";
+
+"calendar_source_note" = "بيانات التقويم بتتجمع تلقائياً وممكن تتعدّل. اتأكد منها قبل أي قرار بيع أو شرا.";
+
+
+/* ── التحقّق من سبيكة بكود QR ───────────────────── */
+"bullion_scan_title" = "التحقّق من سبيكة";
+"bullion_scan_hint" = "صوّب الكاميرا على كود الـQR اللي على السبيكة. هنقولك على طول هي مسجّلة عندنا ولا لأ.";
+"bullion_scan_checking" = "بنتأكد…";
+"bullion_scan_again" = "امسح سبيكة تانية";
+"bullion_scan_code" = "الكود";
+"bullion_scan_karat" = "العيار";
+"bullion_scan_weight" = "الوزن";
+"bullion_scan_grams" = "جرام";
+"bullion_scan_serial" = "الرقم التسلسلي";
+"bullion_scan_offline_title" = "ما قدرناش نتأكد دلوقتي";
+"bullion_scan_offline_message" = "ما وصلناش لسيرفراتنا. ده مالوش علاقة بالسبيكة — اتأكد من النت وجرّب تاني.";
+"bullion_scan_camera_denied" = "التطبيق محتاج إذن الكاميرا عشان يقرا الكود.";
+"bullion_scan_open_settings" = "افتح الإعدادات";
+"bullion_scan_camera_unavailable" = "الكاميرا مش متاحة دلوقتي. اقفل أي تطبيق تاني بيستخدمها وجرّب تاني.";
