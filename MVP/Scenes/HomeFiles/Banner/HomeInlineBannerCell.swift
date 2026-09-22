@@ -58,10 +58,9 @@ final class HomeInlineBannerCell: UITableViewCell {
         contentView.addSubview(slider)
 
         NSLayoutConstraint.activate([
-            slider.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 20),
-            slider.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -20),
-            // أندرويد بيحط 12dp فوق البانر، ومن غير مساحة إضافية تحته.
-            slider.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 12),
+            slider.leadingAnchor.constraint(equalTo: contentView.leadingAnchor),
+            slider.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
+            slider.topAnchor.constraint(equalTo: contentView.topAnchor),
             slider.bottomAnchor.constraint(equalTo: contentView.bottomAnchor),
             slider.heightAnchor.constraint(equalToConstant: Self.bannerHeight)
         ])

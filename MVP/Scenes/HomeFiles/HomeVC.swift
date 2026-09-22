@@ -138,7 +138,8 @@ class HomeVC: BaseControllerVC {
         installFomcCard()
        
         getPrices()
-      
+
+        configureMetalToggle()
         ChangeGold()
         listenToOuncePrice()
       
@@ -241,21 +242,64 @@ class HomeVC: BaseControllerVC {
      لو ما اتلقتش، التبديل بيتجاهل بهدوء والخلفية بتفضل زي ما هي.
      */
     private var brandBackground: BGView? {
-        view.subviews.compactMap { $0 as? BGView }.first
+        func findBackground(in parent: UIView) -> BGView? {
+            if let background = parent as? BGView { return background }
+            for child in parent.subviews {
+                if let background = findBackground(in: child) { return background }
+            }
+            return nil
+        }
+
+        return findBackground(in: view)
+    }
+
+    /// Android-style segmented pill: one dark container with a single
+    /// gold-filled selected segment and no gap between the two options.
+    private func configureMetalToggle() {
+        guard let container = GoldView?.superview as? UIStackView else { return }
+
+        container.backgroundColor = UIColor(red: 0x1A / 255.0,
+                                            green: 0x1A / 255.0,
+                                            blue: 0x1A / 255.0,
+                                            alpha: 1)
+        container.layer.cornerRadius = 27
+        container.clipsToBounds = true
+        container.spacing = 0
+        container.isLayoutMarginsRelativeArrangement = true
+        container.directionalLayoutMargins = NSDirectionalEdgeInsets(top: 4, leading: 4, bottom: 4, trailing: 4)
+
+        [GoldView, silverView].forEach { segment in
+            segment?.layer.cornerRadius = 24
+            segment?.layer.masksToBounds = true
+            segment?.layer.borderWidth = 0
+            segment?.subviews
+                .flatMap { $0.subviews }
+                .compactMap { $0 as? UILabel }
+                .forEach {
+                    $0.font = UIFont(name: "IBMPlexSansArabic-Bold", size: 16)
+                        ?? UIFont.boldSystemFont(ofSize: 16)
+                }
+        }
+    }
+
+    private func setMetalSegment(_ segment: UIView, selected: Bool) {
+        segment.backgroundColor = selected
+            ? UIColor(red: 0xB5 / 255.0, green: 0x89 / 255.0, blue: 0x34 / 255.0, alpha: 1)
+            : .clear
+
+        segment.subviews
+            .flatMap { $0.subviews }
+            .compactMap { $0 as? UILabel }
+            .forEach { $0.textColor = selected ? .black : .white }
     }
 
     func ChangeGold(){
 
+        // Gold always restores the original branded background.
         brandBackground?.setTexture(named: BGView.goldTexture)
 
-        GoldView.borderColor = UIColor.selectionBorder
-       // GoldView.borderWidth = 1
-       // GoldCheckImg.image = #imageLiteral(resourceName: "check")
-        GoldView.backgroundColor = UIColor.MainColor
-
-        
-        silverView.borderColor = UIColor.clear
-        silverView.backgroundColor = UIColor.selectionBackGround?.withAlphaComponent(1)
+        setMetalSegment(GoldView, selected: true)
+        setMetalSegment(silverView, selected: false)
       //  silverView.borderWidth = 1
        // SilverCheckImg.image = nil
        
@@ -265,16 +309,14 @@ class HomeVC: BaseControllerVC {
     
     func ChangeSilver(){
 
+        // Silver uses the black geometric texture copied from Android.
         brandBackground?.setTexture(named: BGView.silverTexture)
 
-        silverView.borderColor = UIColor.selectionBorder
-        silverView.backgroundColor = UIColor.MainColor
+        setMetalSegment(silverView, selected: true)
+        setMetalSegment(GoldView, selected: false)
       //  silverView.borderWidth = 1
        // SilverCheckImg.image = #imageLiteral(resourceName: "check")
      
-        
-        GoldView.borderColor = UIColor.clear
-        GoldView.backgroundColor = UIColor.selectionBackGround?.withAlphaComponent(1)
        // GoldView.borderWidth = 1
        // GoldCheckImg.image = nil
     }

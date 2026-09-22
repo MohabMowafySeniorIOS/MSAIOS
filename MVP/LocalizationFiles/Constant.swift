@@ -10,14 +10,14 @@ import UIKit
 let arabicLang = "ar"
 let englishLang = "en"
 let urdoLang = "ur"
-//"https://sinback.bb4itdev.com/api/v1/provider/"
+
 var OpenAppForFirstTime = 0
 /// بدّل `current` إلى `.staging` لبناء نسخة الاختبار.
 enum APIEnvironment {
     case production
     case staging
 
-    static let current: APIEnvironment = .production
+    static let current: APIEnvironment = .staging
 
     var baseURL: String {
         switch self {
