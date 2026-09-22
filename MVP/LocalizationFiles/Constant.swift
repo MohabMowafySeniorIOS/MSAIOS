@@ -12,18 +12,28 @@ let englishLang = "en"
 let urdoLang = "ur"
 //"https://sinback.bb4itdev.com/api/v1/provider/"
 var OpenAppForFirstTime = 0
-var Production_link = "https://shinesa.co/api/v1/"
-var Dev_Link = "https://dev.shinesa.co/api/v1/"
-var staging_Link = "https://staging.shinesa.co/api/v1/"
+/// بدّل `current` إلى `.staging` لبناء نسخة الاختبار.
+enum APIEnvironment {
+    case production
+    case staging
 
-var is_production = false
-var is_staging = false
+    static let current: APIEnvironment = .production
+
+    var baseURL: String {
+        switch self {
+        case .production:
+            return "https://backend.msagold.com/api/v1/"
+        case .staging:
+            return "https://staging.backend.msagold.com/api/v1/"
+        }
+    }
+}
 var is_provder = false
 
 var AppleId = "6767865490"
 var tail_link = is_provder ? "driver" : "client"
-// API base URL (the /admin path is only for the administration dashboard).
-let hostName = "https://backend.msagold.com/api/v1/" //is_production ? Production_link : (is_staging ? staging_Link : Dev_Link)
+// مصدر واحد لكل طلبات التطبيق، بما فيها المحتوى والبانرات.
+let hostName = APIEnvironment.current.baseURL
 
 
 let FontfamilyName = "IBMPlexSansArabic"
