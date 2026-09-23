@@ -68,6 +68,7 @@ class ApiServices : NSObject {
         
        // print("url: -> \(url) Token: -> \(AuthService.userData?.token ?? "") Header: -> \(headers) Param :-> \(parameters ?? [:])")
 
+        APIActivityOverlay.shared.begin()
         AF.request(
             encodedURL,
             method: methodType,
@@ -77,6 +78,7 @@ class ApiServices : NSObject {
         )
      //   .validate()
         .responseData { response in
+            APIActivityOverlay.shared.end()
             switch response.result {
             case .success(let data):
                 do {

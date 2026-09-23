@@ -6,8 +6,59 @@
 //
 
 import Foundation
+import UIKit
 import Alamofire
 import Combine
+
+/// Shared loading overlay for requests made through the Alamofire API clients.
+final class APIActivityOverlay {
+    static let shared = APIActivityOverlay()
+    private var requests = 0
+    private weak var overlayView: UIView?
+    private init() {}
+
+    func begin() {
+        DispatchQueue.main.async { [weak self] in
+            guard let self else { return }
+            self.requests += 1
+            guard self.requests == 1 else { return }
+            guard let window = UIApplication.shared.connectedScenes
+                .compactMap({ $0 as? UIWindowScene })
+                .flatMap(\.windows)
+                .first(where: { $0.isKeyWindow }) else { return }
+
+            let overlay = UIView(frame: .zero)
+            overlay.backgroundColor = UIColor.black.withAlphaComponent(0.28)
+            overlay.translatesAutoresizingMaskIntoConstraints = false
+            let spinner = UIActivityIndicatorView(style: .large)
+            spinner.color = UIColor.MainColor
+            spinner.translatesAutoresizingMaskIntoConstraints = false
+            spinner.startAnimating()
+            overlay.addSubview(spinner)
+            window.addSubview(overlay)
+            NSLayoutConstraint.activate([
+                overlay.leadingAnchor.constraint(equalTo: window.leadingAnchor),
+                overlay.trailingAnchor.constraint(equalTo: window.trailingAnchor),
+                overlay.topAnchor.constraint(equalTo: window.topAnchor),
+                overlay.bottomAnchor.constraint(equalTo: window.bottomAnchor),
+                spinner.centerXAnchor.constraint(equalTo: overlay.centerXAnchor),
+                spinner.centerYAnchor.constraint(equalTo: overlay.centerYAnchor)
+            ])
+            self.overlayView = overlay
+        }
+    }
+
+    func end() {
+        DispatchQueue.main.async { [weak self] in
+            guard let self else { return }
+            self.requests = max(0, self.requests - 1)
+            guard self.requests == 0 else { return }
+            self.overlayView?.removeFromSuperview()
+            self.overlayView = nil
+        }
+    }
+}
+
 var counter = 1
 
 final class SessionEvents {
@@ -40,6 +91,7 @@ struct APIClient {
             print("method-------->\(method)")
             print("urlString-------->\(urlString)")
           
+            APIActivityOverlay.shared.begin()
             AF.request(
                 urlString,
                 method: HTTPMethod(rawValue: method.rawValue),
@@ -49,6 +101,7 @@ struct APIClient {
             )
             .validate(statusCode: 200...300)
             .responseData { response in
+                APIActivityOverlay.shared.end()
                 
                
                 switch response.result {
@@ -112,6 +165,7 @@ struct APIClient {
        
         print("urlString-------->\(urlString)")
 
+        APIActivityOverlay.shared.begin()
         AF.upload(
             multipartFormData: { multipartFormData in
                 // Append images
@@ -152,6 +206,7 @@ struct APIClient {
             headers: headers
         )
         .responseData { response in
+            APIActivityOverlay.shared.end()
             switch response.result {
             case .success(let data):
                 do {
