@@ -21,11 +21,16 @@ final class APIActivityOverlay {
         DispatchQueue.main.async { [weak self] in
             guard let self else { return }
             self.requests += 1
-            guard self.requests == 1 else { return }
+            guard self.overlayView == nil else { return }
             guard let window = UIApplication.shared.connectedScenes
                 .compactMap({ $0 as? UIWindowScene })
+                .filter({ $0.activationState == .foregroundActive })
                 .flatMap(\.windows)
-                .first(where: { $0.isKeyWindow }) else { return }
+                .first(where: { $0.isKeyWindow })
+                ?? UIApplication.shared.connectedScenes
+                    .compactMap({ $0 as? UIWindowScene })
+                    .flatMap(\.windows)
+                    .first(where: { !$0.isHidden && $0.alpha > 0 }) else { return }
 
             let overlay = UIView(frame: .zero)
             overlay.backgroundColor = UIColor.black.withAlphaComponent(0.28)
@@ -56,6 +61,12 @@ final class APIActivityOverlay {
             self.overlayView?.removeFromSuperview()
             self.overlayView = nil
         }
+    }
+
+    func withLoading<T>(_ operation: () async throws -> T) async rethrows -> T {
+        begin()
+        defer { end() }
+        return try await operation()
     }
 }
 

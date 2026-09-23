@@ -137,7 +137,9 @@ final class ContentStore: ObservableObject {
     func loadPage(_ slug: String) async -> APIPage? {
         guard let url = URL(string: hostName + "pages/\(slug)") else { return nil }
         do {
-            let (data, _) = try await URLSession.shared.data(from: url)
+            let (data, _) = try await APIActivityOverlay.shared.withLoading {
+                try await URLSession.shared.data(from: url)
+            }
             return try JSONDecoder()
                 .decode(ContentEnvelope<APIPage>.self, from: data).data
         } catch {
@@ -150,7 +152,9 @@ final class ContentStore: ObservableObject {
         if contentLoaded && !force { return }
         guard let url = URL(string: hostName + "content") else { return }
         do {
-            let (data, _) = try await URLSession.shared.data(from: url)
+            let (data, _) = try await APIActivityOverlay.shared.withLoading {
+                try await URLSession.shared.data(from: url)
+            }
             let bundle = try JSONDecoder().decode(ContentEnvelope<ContentBundle>.self, from: data).data
             pages = bundle.pages ?? [:]
             faqs = bundle.faqs ?? []
@@ -166,7 +170,9 @@ final class ContentStore: ObservableObject {
         if !force && !faqs.isEmpty { return }
         guard let url = URL(string: hostName + "faqs") else { return }
         do {
-            let (data, _) = try await URLSession.shared.data(from: url)
+            let (data, _) = try await APIActivityOverlay.shared.withLoading {
+                try await URLSession.shared.data(from: url)
+            }
             faqs = try JSONDecoder()
                 .decode(ContentEnvelope<[APIFaq]>.self, from: data).data
         } catch {
@@ -178,7 +184,9 @@ final class ContentStore: ObservableObject {
         if bullionsLoaded && !force { return }
         guard let url = URL(string: hostName + "bullions") else { return }
         do {
-            let (data, _) = try await URLSession.shared.data(from: url)
+            let (data, _) = try await APIActivityOverlay.shared.withLoading {
+                try await URLSession.shared.data(from: url)
+            }
             bullions = try JSONDecoder()
                 .decode(ContentEnvelope<[APIBullionMetal]>.self, from: data).data
             bullionsLoaded = true

@@ -97,7 +97,9 @@ enum AuthAPI {
     private static func send<T: Decodable>(_ request: URLRequest, as: T.Type) async throws -> T {
         let (data, response): (Data, URLResponse)
         do {
-            (data, response) = try await URLSession.shared.data(for: request)
+            (data, response) = try await APIActivityOverlay.shared.withLoading {
+                try await URLSession.shared.data(for: request)
+            }
         } catch {
             throw AuthAPIError.network
         }
