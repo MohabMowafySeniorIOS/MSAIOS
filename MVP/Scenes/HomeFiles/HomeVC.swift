@@ -74,6 +74,7 @@ class HomeVC: BaseControllerVC {
     /// نشط في المكان ده — وساعتها الصف مبيتضافش أصلاً.
     /// التفاصيل في `HomeVC+InlineBanner.swift`.
     var inlineBanners: [Banner] = []
+    private var pullRefresh: MSAPullToRefreshControl!
     
     
     override func viewDidLoad() {
@@ -81,6 +82,9 @@ class HomeVC: BaseControllerVC {
 
         tableView.showsVerticalScrollIndicator = false
         tableView.showsHorizontalScrollIndicator = false
+        pullRefresh = addMSAPullToRefresh(to: tableView) { [weak self] in
+            self?.refreshHomeData()
+        }
         getAppVersion()
 
         // Home-only maintenance switch (`ioshomeMaintain` in the appVersion doc).
@@ -144,6 +148,17 @@ class HomeVC: BaseControllerVC {
         listenToOuncePrice()
       
         
+    }
+
+    private func refreshHomeData() {
+        // Firestore listeners are already realtime. Re-registering them here
+        // would create duplicate listeners, so refresh the API-backed banners
+        // and redraw the current snapshot instead.
+        loadInlineBanner()
+        tableView.reloadData()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) { [weak self] in
+            self?.pullRefresh?.endRefreshing()
+        }
     }
     
 //  func getGoldPrice(){

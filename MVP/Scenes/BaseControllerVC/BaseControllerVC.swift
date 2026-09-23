@@ -14,6 +14,29 @@ import Alamofire
 var Picker_Color = UIColor.SecondarColor
 var Picker_font = AppFont.Regular.size(18)
 
+final class MSAPullToRefreshControl: UIRefreshControl {
+    var onRefresh: (() -> Void)?
+
+    @objc func triggerRefresh() {
+        onRefresh?()
+    }
+}
+
+extension UIViewController {
+    @discardableResult
+    func addMSAPullToRefresh(
+        to scrollView: UIScrollView,
+        action: @escaping () -> Void
+    ) -> MSAPullToRefreshControl {
+        let refresh = MSAPullToRefreshControl()
+        refresh.tintColor = UIColor.MainColor
+        refresh.onRefresh = action
+        refresh.addTarget(refresh, action: #selector(MSAPullToRefreshControl.triggerRefresh), for: .valueChanged)
+        scrollView.refreshControl = refresh
+        return refresh
+    }
+}
+
 class BaseControllerVC: UIViewController {
     
   //  let normalRefresh = NormalHeaderAnimator()
@@ -340,5 +363,3 @@ extension UIApplication {
         return base
     }
 }
-
-

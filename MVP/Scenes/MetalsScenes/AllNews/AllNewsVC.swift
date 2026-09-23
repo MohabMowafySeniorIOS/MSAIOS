@@ -25,8 +25,10 @@ class AllNewsVC: BaseControllerVC {
 
     /// التحميل بيحصل مرة واحدة حتى لو العلم اتقلب أكتر من مرة
     private var didLoadNews = false
+    private var newsListener: ListenerRegistration?
 
     @IBOutlet weak var tableView: UITableView!
+    private var pullRefresh: MSAPullToRefreshControl!
 
     override func viewDidLoad() {
 
@@ -43,6 +45,9 @@ class AllNewsVC: BaseControllerVC {
         tableView.RegisterNib(
             cell: NewsCell.self
         )
+        pullRefresh = addMSAPullToRefresh(to: tableView) { [weak self] in
+            self?.refreshNews()
+        }
 
         /*
          مفتاح صيانة تبويب الأخبار (`NewsMaintain` في مستند
@@ -65,6 +70,7 @@ class AllNewsVC: BaseControllerVC {
             self?.loadNewsIfNeeded()
         }
 
+        configureNewsToggle()
         ChangeNews()
     }
 
@@ -77,7 +83,17 @@ class AllNewsVC: BaseControllerVC {
         getManualNews()
     }
 
+    private func refreshNews() {
+        didLoadNews = true
+        getNews()
+        getManualNews()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) { [weak self] in
+            self?.pullRefresh?.endRefreshing()
+        }
+    }
+
     deinit {
+        newsListener?.remove()
         ScreenMaintenanceService.shared.stopObserving(owner: self)
     }
     
@@ -95,35 +111,53 @@ class AllNewsVC: BaseControllerVC {
     
   
     
-    func ChangeNews(){
-    
-        newView.borderColor = UIColor.selectionBorder
-       // newView.borderWidth = 1
-       // checkNews.image = #imageLiteral(resourceName: "check")
-        newView.backgroundColor = UIColor.MainColor
+    /// Matches the Home screen's Android-style segmented pill.
+    private func configureNewsToggle() {
+        guard let container = newView?.superview as? UIStackView else { return }
 
-        
-        MindView.borderColor = UIColor.clear
-        MindView.backgroundColor = UIColor.selectionBackGround?.withAlphaComponent(1)
-       // MindView.borderWidth = 1
-      //  checkMind.image = nil
-       
-        
-        
+        container.backgroundColor = UIColor(red: 0x1A / 255.0,
+                                            green: 0x1A / 255.0,
+                                            blue: 0x1A / 255.0,
+                                            alpha: 1)
+        container.layer.cornerRadius = 27
+        container.clipsToBounds = true
+        container.spacing = 0
+        container.isLayoutMarginsRelativeArrangement = true
+        container.directionalLayoutMargins = NSDirectionalEdgeInsets(top: 4, leading: 4, bottom: 4, trailing: 4)
+
+        [newView, MindView].forEach { segment in
+            segment?.layer.cornerRadius = 24
+            segment?.layer.masksToBounds = true
+            segment?.layer.borderWidth = 0
+            segment?.subviews
+                .flatMap { $0.subviews }
+                .compactMap { $0 as? UILabel }
+                .forEach {
+                    $0.font = UIFont(name: "IBMPlexSansArabic-Bold", size: 16)
+                        ?? UIFont.boldSystemFont(ofSize: 16)
+                }
+        }
+    }
+
+    private func setNewsSegment(_ segment: UIView?, selected: Bool) {
+        segment?.backgroundColor = selected
+            ? UIColor(red: 0xB5 / 255.0, green: 0x89 / 255.0, blue: 0x34 / 255.0, alpha: 1)
+            : .clear
+
+        segment?.subviews
+            .flatMap { $0.subviews }
+            .compactMap { $0 as? UILabel }
+            .forEach { $0.textColor = selected ? .black : .white }
+    }
+
+    func ChangeNews(){
+        setNewsSegment(newView, selected: true)
+        setNewsSegment(MindView, selected: false)
     }
     
     func ChangeMind(){
-      
-        MindView.borderColor = UIColor.selectionBorder
-        MindView.backgroundColor = UIColor.MainColor
-//        MindView.borderWidth = 1
-//        checkMind.image = #imageLiteral(resourceName: "check")
-//     
-        
-        newView.borderColor = UIColor.clear
-        newView.backgroundColor = UIColor.selectionBackGround?.withAlphaComponent(1)
-//        newView.borderWidth = 1
-//        checkNews.image = nil
+        setNewsSegment(MindView, selected: true)
+        setNewsSegment(newView, selected: false)
     }
     
 }
@@ -199,7 +233,8 @@ extension AllNewsVC {
         // Keep the Firestore request in the same loading cycle as the API feed.
         APIActivityOverlay.shared.begin()
 
-        Firestore.firestore()
+        newsListener?.remove()
+        newsListener = Firestore.firestore()
             .collection("news")
             .order(by: "publishedAt", descending: true)
             .addSnapshotListener {
@@ -283,6 +318,7 @@ extension AllNewsVC {
     
     func getManualNews() {
         let url = "\(hostName)news"
+        MAnualarticles.removeAll()
         APIClient.shared.performRequestWithAlamofire(urlString: url, method: .get, parameters:nil) { [weak self] (Model: NewsModel? , err : String? )in
             guard let self = self else { return }
             
@@ -397,4 +433,3 @@ struct Source: Codable {
     
     let name: String?
 }
-

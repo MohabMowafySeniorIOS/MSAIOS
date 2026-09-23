@@ -207,6 +207,7 @@ struct ShopView: View {
             .padding(.horizontal, 16)
             .padding(.bottom, 110)
         }
+        .refreshable { await store.load() }
     }
 
     private var kindFilter: some View {

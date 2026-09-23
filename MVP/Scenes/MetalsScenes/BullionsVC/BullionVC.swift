@@ -14,6 +14,7 @@ class BullionVC: BaseControllerVC {
     var bullionTypesArr: [String] = []
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var tableView2: UITableView!
+    private var pullRefresh: MSAPullToRefreshControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +25,13 @@ class BullionVC: BaseControllerVC {
         tableView2.dataSource = self
         tableView2.delegate = self
         tableView2.RegisterNib(cell: BullionCell.self)
+
+        pullRefresh = addMSAPullToRefresh(to: tableView) { [weak self] in
+            self?.getBrands()
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+                self?.pullRefresh?.endRefreshing()
+            }
+        }
         
         getBrands()
     }

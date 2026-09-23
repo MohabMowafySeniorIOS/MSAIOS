@@ -25,6 +25,7 @@ class DollarPricesOnBankVC: BaseControllerVC {
     @IBOutlet weak var currencyLabel: UILabel!
     var bankRates: [CurrencyBankModel] = []
     @IBOutlet weak var tableView: UITableView!
+    private var pullRefresh: MSAPullToRefreshControl!
     override func viewDidLoad() {
         super.viewDidLoad()
         headerView.pressShare = { [weak self] in
@@ -37,6 +38,12 @@ class DollarPricesOnBankVC: BaseControllerVC {
         tableView.dataSource = self
         tableView.delegate = self
         tableView.RegisterNib(cell: DollarCell.self)
+        pullRefresh = addMSAPullToRefresh(to: tableView) { [weak self] in
+            self?.fetchCurrency()
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+                self?.pullRefresh?.endRefreshing()
+            }
+        }
 
         // Dollar-prices-only maintenance switch (`iosdollarMaintain` in the
         // appVersion doc). Covers just this screen's content; the tab bar keeps

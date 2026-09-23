@@ -565,6 +565,7 @@ struct OrdersView: View {
             .padding(.horizontal, 16)
             .padding(.vertical, 8)
         }
+        .refreshable { await load() }
     }
 
     private func orderCard(_ order: APIOrder) -> some View {

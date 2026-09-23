@@ -17,7 +17,7 @@ enum APIEnvironment {
     case production
     case staging
 
-    static let current: APIEnvironment = .staging
+    static let current: APIEnvironment = .production
 
     var baseURL: String {
         switch self {
