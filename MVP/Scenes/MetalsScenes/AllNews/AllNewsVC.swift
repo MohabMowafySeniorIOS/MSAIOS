@@ -195,8 +195,9 @@ UITableViewDelegate {
 extension AllNewsVC {
 
     func getNews() {
-
-        self.lock()
+        // The app-wide APIActivityOverlay is the single loader for this screen.
+        // Keep the Firestore request in the same loading cycle as the API feed.
+        APIActivityOverlay.shared.begin()
 
         Firestore.firestore()
             .collection("news")
@@ -209,7 +210,7 @@ extension AllNewsVC {
                     return
                 }
 
-                self.unlock()
+                APIActivityOverlay.shared.end()
 
                 if let error {
 
@@ -282,9 +283,7 @@ extension AllNewsVC {
     
     func getManualNews() {
         let url = "\(hostName)news"
-        self.lock()
         APIClient.shared.performRequestWithAlamofire(urlString: url, method: .get, parameters:nil) { [weak self] (Model: NewsModel? , err : String? )in
-            self?.unlock()
             guard let self = self else { return }
             
             for item in Model?.data ?? [] {
@@ -398,5 +397,4 @@ struct Source: Codable {
     
     let name: String?
 }
-
 
